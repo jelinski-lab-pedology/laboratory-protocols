@@ -1,0 +1,46 @@
+---
+title: "Electrical conductivity and Soluble Salts"
+format: html
+editor: visual
+---
+
+::: callout-note
+Last edited: 06NOV2023 NP
+
+We are testing 3 methods in one: an initial reading after 30 mins, one before the end of the day (\~ 6 hrs), and one that stands overnight. Modified from NRCS KSSL Laboratory Methods Manual; see references.
+:::
+
+## Materials
+
+-   EC reader
+-   D.D.I water (double deionized water, filtered campus DI water)
+-   Squeeze bottle of DDI
+-   Falcon Tubes, 50mL
+
+## Procedure
+
+-   Test calibration; see EC protocol.
+-   Put soil in Falcon Tube to the 10 mL line.
+-   Add 10 mL of D.D.I water to sample using a squeeze bottle.
+-   Vortex for roughly 30s and let sit for 30 mins. Record time, take a reading.
+    -   Reading technique should be similar as pH, probe in at the same depth every time. Be mindful of the notation on the reader when recording
+-   Add 10 mL of DDI water, let sit for approximately 6 hrs, swirl/agitate/hand shake, record time, take a reading.
+-   Let sit for 24 hours (from the initial start time), swirl/agitate/handshake, and take a reading.
+
+## Calculations
+
+-   No calculations are required for this procedure.
+
+-   Use the following relationship to estimate the total soluble cation or anion concentration (meq L−1) in the soil. EC (mmhos cm−1)x10=Cation or Anion (meq L−1)
+
+-   Use the following relationship to estimate the total soluble cation or anion concentration (meq g−1 oven-dry soil) in the soil. EC (mmhos cm−1)x20=Cation (meq g−1 soil) EC (mmhos cm−1)x20=Anion (meq g−1 soil)
+
+-   Report prediction conductance to the nearest 0.01 mmhos cm−1 (dS m−1).
+
+## References and Notes
+
+U.S. Salinity Laboratory Staff. 1954. L.A. Richards (ed.) Diagnosis and improvement of saline and alkali soils. 160 p. USDA Handb. 60. U.S. Govt. Print. Office, Washington, DC.
+
+Kellogg Soil Survey Laboratory Methods Manual. (2022). Current Methods - Electrical Conductivity and Soluble Salts. p.550
+
+![KSSL Methods Manual](https://www.nrcs.usda.gov/sites/default/files/2022-10/SSIR42-v6-pt1.pdf)

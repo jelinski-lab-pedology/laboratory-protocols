@@ -1,5 +1,4 @@
 ---
-06NOV---
 title: "Protocol Title"
 format: html
 editor: visual
@@ -22,7 +21,6 @@ Description of protocol, sources (modified from NRCS protocol, for example), las
 If applicable
 
 # Helpful Formatting Code
-
 ::: callout-note
 xxx
 :::
@@ -31,7 +29,9 @@ xxx
 xxx
 :::
 
-Inserting a figure ![Water Retention Curve](water-retention-curve-Picture1.png){#fig-waterretention}
+Inserting a figure
+![Water Retention
+Curve](water-retention-curve-Picture1.png){#fig-waterretention}
 
 **Bold text**
 
@@ -39,12 +39,11 @@ Inserting a figure ![Water Retention Curve](water-retention-curve-Picture1.png){
 
 ~~Strikethrough text~~
 
-\[ \] Checklist
+[ ] Checklist
 
 # Title case (1-5 pound signs, more = smaller)
 
 Table, if necessary (example taken from Basic Soils Lab Manual)
-
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 library(huxtable)
 library(dplyr)

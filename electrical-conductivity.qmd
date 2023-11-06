@@ -1,0 +1,55 @@
+---
+title: "Electrical Conductivity"
+format: html
+editor: visual
+---
+
+::: callout-note
+Last edited: 06NOV2023 NP
+
+Written for use with an Oakton Con 100/200 EC Meter.
+:::
+
+## Materials
+
+-   Oakton EC reader
+-   DDI water in squeeze bottle
+-   Falcon tubes, 50mL
+
+## Procedure
+
+#### Preparing samples
+
+-   Put soil in the falcon tube up to the 10mL line.
+-   Add DDI water up to 30mL line. If doing EC after pH, just add an additional 10mL of DDI water, unless pH was run with a 2:1 ratio already.
+-   Vortex for 30 seconds and let sit overnight (24 hours). If prepping samples in the morning, shake them in the afternoon if possible. If prepping samples in the afternoon, shake them the following morning before running them in the afternoon, if possible.
+
+#### Calibrating the EC Reader
+
+-   Remove the cap from the EC probe.
+
+-   Dip probe in 84µS solution. Allow value to stabilize.
+
+-   Press cal/meas to enter calibration mode. Use the up/down arrows to calibrate to correct value. Press enter to save the calibration.
+
+-   After a moment the top right corner should stop flashing "CAL" and should switch to "MEAS" when ready to measure again. *Rinse the probe with DDI water and dry with a Kim wipe*.
+
+-   Repeat with the other 4 solutions, rinsing and drying the probe between each.
+
+#### Measuring EC
+
+-   Vortex the sample for 30-60 seconds, shake upside down to disperse the sample from the bottom. 
+
+-   Take reading and record. Allow 60 seconds for the meter to stabilize.
+
+-   Repeat for each sample. Vortex one at a time, then take the reading.
+
+::: callout-tip
+-   Pay attention to units! The reader may switch to ms but report value in µS. If the value is under 10.0, it's probably reading in ms.
+
+-   The stock bottles of calibration solution are located in the dry chemicals cabinet. Rinsing the probe in between each calibration is critical for ensuring that the calibration solutions do not mix and continue reading the same values. However, the calibration solutions do have to be switched out occasionally.
+:::
+
+## References and Notes
+
+![User manual for Oakton Con 100/200 EC meter](https://pim-resources.coleparmer.com/instruction-manual/con-100-200mnl.pdf)

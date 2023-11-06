@@ -1,0 +1,38 @@
+---
+title: "Dry Sieving"
+format: html
+editor: visual
+---
+
+::: callout-note
+Last edited: 06NOV2023 NP
+
+Dry sieving is a method used to determine sand size fractions in a soil sample.
+
+The sample should go through the wet sieve procedure first. Before beginning, the sand should have been separated and dried in the oven.
+:::
+
+## Materials
+
+-   Sieve
+-   Large hexagon weigh boats
+-   Brush
+-   Kimwipes
+-   Spatula
+-   2x3 bags
+-   Vortexer
+
+## Procedure
+
+-   Pre weigh the sieves and weigh tins/boats; record masses.
+-   Weigh the dried sand sample.
+-   Make sure the sieves are in the correct order from 1000 μm to 50 μm.
+-   Place stack of sieves on the vortex, moving them in a circle-like motion for about 20 seconds.
+-   Take the top sieve off and tamp it down over a weigh boat, then pour whatever is in the weigh boat into the next layer sieve.
+
+::: callout-tip
+This step may need to be repeated a few times if there is a lot of sample in that size screen sieve. Keep the area and boats clean in between layers. As the fragment size gets smaller the shorter the sieve collection gets, make sure that your hand is covering the sample so that nothing gets dispersed into the air.
+:::
+
+-   Once each size has been sorted through, weight each size. Use the weigh boats again to pour the weighed sample in to allow easy transportation into a labeled 2x3 bag.
+-   Clean the sieves by using a sonicator (ultrasonic cleaner) to allow sound energy to agitate particles out of the screens. The sieves can be placed in an oven for a brief drying period. Do not leave the sieves unattended for more than 10 mins!
