@@ -1,0 +1,87 @@
+---
+title: "Moisture Content and Bulk Density"
+format: html
+editor: visual
+---
+
+::: callout-note
+Last edited: 08NOV2023 NP
+
+Bulk density is the weight of soil in a given volume. Soils with a bulk density higher than 1.6 g/cm3 tend to restrict root growth. Bulk density tends to increase with compaction and tends to increase with depth. Sandy soils are more prone to high bulk density.
+:::
+
+## Materials
+
+-   Plastic sample tubes and caps OR sealable plastic sample bags
+-   Pre-weighed paper sample bags
+-   Bulk density tool - either from Jelinski lab or Cates lab (2023-24, using Cates lab)
+
+## Procedure
+
+#### In Field
+
+-   Assemble the bulk density tool. Directions below are for the Cates lab tool.
+    -   Unscrew the sample chamber.
+    -   Insert the plastic tube so that the open end faces the bottom (narrower end) of the sampler.
+    -   Screw the sample chamber back into the handle.
+-   Remove any debris (e.g., mulch) from the soil surface.
+-   Set the bottom of the sample chamber on the soil surface so the tool is perpendicular to the ground.
+-   Slide the hammer up and release. Repeat until the sample chamber is completely immersed in the soil and the soil surface is even with the bottom of the wider metal circle.
+-   Carefully remove the sample chamber from the soil. For sandy soils, it's a good idea to do this while kneeling and with your hand close to the hole to quickly cover the open end of the sample chamber if needed.
+-   Flip the tool upside down and unscrew the sample chamber.
+-   Remove the plastic sleeve from the chamber.
+-   Use a flat edge to remove soil above the top of the tube. Be careful to not compress the soil in the tub while doing this.
+-   Cap the tube and either use tape to label with sample information or place in a pre-weighed and labeled paper bag.
+
+#### In Lab
+
+-   Prepare laboratory notebook with the following data columns:
+    -   Date, sample name, time into oven, field moist weight with plastic bag (g), weight of plastic (field) bag (g)^1^, net field moist weight (g), oven dry weight with paper bag (g), weight of paper bag (g)^2^, net oven dry soil weight (g)^2^
+        -   1 - not needed if using plastic sample tubes
+        -   2 - if the paper bag weight is negligible -- omit the last two measurements noted with "^2^" and use Oven Dry weight with paper bag (g) in the calculation instead of net Oven Dry weight.
+    -   Regarding both net weights (field moist and oven dry) - this can be calculated in Excel or R. Not necessary to have a column in the paper data sheet
+-   As soon as possible, measure the field moist weight of each sample.
+    -   If the sample is in a plastic tube, transfer it to a pre-weighed and labeled paper bag. Before transferring, check that there are no holes in the corners of the bags (which occasionally happens when the bags are manufactured)
+    -   Weigh the sample and paper bag. This is the gross weight.
+-   Place the samples in the drying oven at 50ºC. The exact temperature is not critical; if the temperature is lower, the samples will take longer to dry - that is fine.
+-   Dry the sample for at least 48 hours. Be consistent in dry time for all samples.
+-   When the samples are completely dry, measure the oven dried weight of each sample. The weight of each sample should be taken as soon as possible after the sample is removed from the oven because moisture will be absorbed from the air immediately.
+    -   You will realize this when you see the weight on the scale ticking up and up each second. Only remove a few samples from the oven at a time to weigh.
+
+## Calculations
+
+(field moist weight w/ sample bag) - (weight of sample bag) = *net field moist weight (g)*
+
+(oven dry weight w/ paper bag) - (weight of paper bag) = *net oven dry soil weight (g)*
+
+**Moisture Content**
+
+$$
+net\:field\:moist\:weight - net\:oven\:dry\:soil\:weight \over net\:oven\:dry\:soil\:weight
+$$
+
+Multiply this value by 100%.
+
+**Db**
+
+$$
+net\:oven\:dry\:soil\:weight\:(g) \over volume\:of\:sampler\:(cm^3)
+$$
+
+If using oven dry weight with paper bag, not subtracting weight of paper bag:
+
+**Moisture Content**
+
+$$
+net\:field\:moist\:weight - oven\:dry\:weight\:w/\:paper\:bag\:(g) \over oven\:dry\:weight\:w/\:paper\:bag\:(g) 
+$$
+
+Multiply this value by 100%.
+
+**Db**
+
+$$
+oven\:dry\:weight\:w/\:paper\:bag\:(g)  \over volume\:of\:sampler\:(cm^3)
+$$
+
+## References and Notes

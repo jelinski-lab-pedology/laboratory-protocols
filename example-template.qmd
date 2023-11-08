@@ -1,5 +1,4 @@
 ---
-06NOV---
 title: "Protocol Title"
 format: html
 editor: visual

@@ -1,0 +1,40 @@
+---
+title: "Mixing SHMP"
+format: html
+editor: visual
+---
+
+::: callout-note
+Last edited: 08NOV2023 NP
+
+This protocol contains directions for mixing 5% sodium hexametaphosphate (SHMP) for use in texture analysis via hydrometer or laser particle size analysis.
+:::
+
+## Materials
+
+-   Lab coat
+-   Eye protection
+-   50g SHMP per 1L DI water
+-   Volumetric flask (2L is a good size = 100g SHMP needed)
+-   Heating plate
+-   Stir bar (1.5") and magnetic wand to remove stir bar
+-   Lab tape for label
+
+## Procedure
+
+-   Add some DI water to fill the volumetric flask ¼ full, and begin to warm it on the heating plate (between 6-8 minutes). Keep the temp at medium to begin to reduce condensation on the neck of the flask.
+    -   Condensation in the neck can become a real pain because the SHMP granules get caught while being poured in and stick together in the neck, then block the full sample from easily being poured in. If that happens, start over.
+-   With the DI water warmed and the stir bar rotating, add the SHMP in two or three parts. Adding all 50g at once can bury and trap the stir bar.
+-   Add more DI water rinsing off the granules caught in the neck, so the flask is ¾ full. Leave some room for the solution to swirl.Feel free to turn the heat to medium-high and the speed of the stir bar up near high. A nice strong eddy should form due to the spinning bar.
+-   After the second part of SHMP has been added and all of the SHMP has fully dissolved and been mixed, turn off the heat and stir bar.
+-   Allow the solution to cool to room temperature. Remove the stir bar with the magnetic wand, and then finally bring the volume to the measurement line. **The fluid should be room temperature before filling it to 1L to allow for the contraction of molecules.**
+
+::: callout-warning
+Never hold a volumetric flask by the neck alone, as it could break. Provide support at the bottom as well.
+:::
+
+-   Add the solution to an empty and rinsed carboy/container. Be sure the nozzle is screwed on and is in the closed position.
+-   Write a label with type of solution, the date, and your initials.
+-   Add a similar label to the SHMP squirt bottle when you fill it with this solution.
+
+## References and Notes

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Particle Density with Pycnometers</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="particle-density-pycnometers_files/libs/clipboard/clipboard.min.js"></script>
+<script src="particle-density-pycnometers_files/libs/quarto-html/quarto.js"></script>
+<script src="particle-density-pycnometers_files/libs/quarto-html/popper.min.js"></script>
+<script src="particle-density-pycnometers_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="particle-density-pycnometers_files/libs/quarto-html/anchor.min.js"></script>
+<link href="particle-density-pycnometers_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="particle-density-pycnometers_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="particle-density-pycnometers_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="particle-density-pycnometers_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="particle-density-pycnometers_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Particle Density with Pycnometers</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Last edited: 08NOV2023 NP</p>
+</div>
+</div>
+<section id="materials" class="level2">
+<h2 class="anchored" data-anchor-id="materials">Materials</h2>
+<ul>
+<li><p>Lab coat</p></li>
+<li><p>Safety glasses</p></li>
+<li><p>Oven gloves</p></li>
+<li><p>Tongs for hot objects</p></li>
+<li><p>Dessicator filled with Anhydrite</p></li>
+<li><p>10ml Pycnometers</p></li>
+<li><p>~2 g of soil (could be more, but this seemed like a good amount - filling the pycnometer too high risks losing soil while boiling)</p></li>
+<li><p>Measuring scoop</p></li>
+<li><p>Small metal weigh tins (for moisture correction in the oven)</p></li>
+<li><p>Oven set at 105C</p></li>
+<li><p>4-digit analytical balance</p></li>
+<li><p>Hot/Stir Plate</p></li>
+<li><p>DI Water</p></li>
+<li><p>Degassed Water (see instructions below)</p></li>
+<li><p>Need a flask connected to a vacuum via tygon tubing + rubber stopper</p></li>
+<li><p>Small stir rod (for use in pyc. while boiling - I found a straightened paper clip worked well)</p></li>
+<li><p>KimWipes</p></li>
+</ul>
+</section>
+<section id="preparation" class="level2">
+<h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
+<ul>
+<li><p>For accurate calculations, the soil (and pycnometers!) should be oven-dried; otherwise a moisture correction will need to be applied to the weight of the soil. I found that it was time efficient to measure out the soil samples at the same time that you are degassing the water.</p></li>
+<li><p>Put a large flask (½ full with DI water) on a hot/stir plate and connect it to the lab bench vacuum with tygon tubing. The size of the flask can vary depending on how many samples you are running. A <strong>XXX</strong> ml flask worked well for me for ~60 samples - you don’t end up using too much of it.</p></li>
+<li><p>Put a stir rod in the flask and turn the stir setting to 5 while also turning the heat setting on 5. Turn the vacuum on and put a rubber stopper over the opening of the flask (this will become pressurized, so don’t put it on too tight).</p></li>
+<li><p>Monitor the bubbles in the water of the flask - the water is degassed when NO bubbles can be seen.</p></li>
+</ul>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Note, the water may not come to a complete boil, and that’s okay. The heat speeds up the process regardless. This process usually takes 2.5-3 hours. Once no bubbles can be seen in the water or on the stir rod, turn off the hot plate and let the flask cool overnight. Turn off the vacuum, but don’t take the tubing or rubber stopper off - this should help to keep air out overnight.</p>
+</div>
+</div>
+<ul>
+<li><p>While waiting for the water, you can measure out ~2 g of soil from each sample into a small metal weighing tin. Since there are only 30 pycnometers, it’s only possible to run 30 samples in a day; and I found that 15 at a time is a good number to have on the hot plate.</p></li>
+<li><p>Record the sample ID and weigh tin number (see the blank data sheet folder for a template) for each sample and put them in the oven (at 105C) at least overnight.</p></li>
+<li><p>In summary, the night before you plan on running the samples, degassed water should be cooling to room temp, and you should have all your soil samples AND pycnometers drying in the oven.</p></li>
+</ul>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Key Points</strong> - Water should always be de-gassed the same day you are running the samples. Letting it sit for even a few hours adds oxygen back in. - Always double check you are using the correct stopper with the matching pycnometer (they will have the same number on them). The exact weight and volume of each pyc. differs, and the final particle density numbers are super sensitive to these values. -Each time you record the weight of the pycnometer, the stopper should be included.</p>
+</div>
+</div>
+</section>
+<section id="procedure" class="level2">
+<h2 class="anchored" data-anchor-id="procedure">Procedure</h2>
+<ul>
+<li>Returning to your now-room temp, degassed water, turn the stir setting back on 5 to get rid of any oxygen that has entered the flask overnight. It usually takes ~40 minutes to get rid of all the bubbles again. Do NOT turn the heat back on, you need this water to remain at room temperature. Once the bubbles are gone, remove the flask from the stir plate and pour (carefully, so as to not create more bubbles) into a squeezable water container with a small dispenser.</li>
+<li>While this happens, take your soil samples and pycnometers out of the oven and place in a desiccator til they are cool to the touch (about 10 minutes). Measuring them while too hot will mess with the analytical balance.</li>
+<li>For each sample, weigh the dry pycnometer by itself, and then again with the 2 g of soil. Record both of these weights, along with the pycnometer number (this will be very important later). The metal weigh tins come in handy here, since you can fold them to pour the soil in the pyc. without making too much of a mess.</li>
+<li>Once each pyc has soil in it, use DI water to fill the pyc halfway to its neck. Filling the pyc much higher risks bubbling over while boiling. Stir each sample to make sure all of the soil is saturated.</li>
+</ul>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A note for different textures: coarse textures/sands will pop when heated, put less water in these samples to prevent loss of soil; for organics - 2 g of soil hardly fits in the 10 ml pyc, the most important thing is to not fill the pyc more than ½ way full (regardless if this amounts to &lt;1 g of soil). The organics will also soak up a lot of the water (after mixing - which you will have to do a lot of for these samples) and you may need to add more before placing on the hot plate. Just make sure there is standing water in these samples that is able to boil.</p>
+</div>
+</div>
+<ul>
+<li>Arrange 15 pyc on the hot plate so that they can be rearranged. Remove all the stoppers. There will probably be a hotter part of the plate that makes some samples boil faster, make sure each sample gets a chance to heat in this spot. Turn the hot plate to heat setting 4.</li>
+<li>Make sure each sample comes to a rolling boil for 1-2 minutes, and continue to rearrange accordingly. Stir frequently to release air bubbles trapped in soil and to reduce some boiling. A straightened paper clip works well for stirring and moving the pycnometers around.</li>
+<li>Total boiling time takes ~20-30 minutes, including 10+ minutes for the first sample to start boiling. After all the samples have boiled, turn off the hot plate and move the pycnometers to the desiccator. Let cool for approximately 40 minutes or until room temp. If possible, try to weigh the samples when the solution is ~26C (this is the temp that the pyc volumes were weighed at).</li>
+<li>Each pycnometer needs to be filled completely with degassed water after cooling. Remove the stopper and slowly fill the pyc to ~¾ of the way up the neck. Then, place the stopper back on and make sure the water reaches the very top of the capillary. Water can spill over the top and come out the space between the pyc and stopper - this nearly unavoidable. Use kimwipes to clean up any water that spilled out (soak up the water at the top of the pyc first, this will draw down the water in the capillary). Make sure the outside of the pycnometer is totally dry before weighing.</li>
+<li>Record the weight of the pycnometer with soil and water, along with the temperature at time of weighing.</li>
+</ul>
+</section>
+<section id="calculation" class="level2">
+<h2 class="anchored" data-anchor-id="calculation">Calculation</h2>
+<p><span class="math display">\[
+PD = (M_{dry\:pyc} - M_{pyc\:+\:soil}) \over [V_{pyc} - (M_{pyc\:+\:soil\:+\:water} - M_{dry\:pyc} - (M_{pyc\:+\:soil} - M_{dry\:pyc}) / D_{water@temp})]
+\]</span></p>
+<p>Where:</p>
+<ul>
+<li><p>D<sub>water@temp</sub> is the is the specific density of water at the recorded temperature (use the chart below)</p></li>
+<li><p>V<sub>pyc</sub> is the volume of each pycnometer that has previously been measured (see values below)</p></li>
+<li><p>M_____ is the respective recorded masses</p></li>
+</ul>
+</section>
+<section id="references-and-notes" class="level2">
+<h2 class="anchored" data-anchor-id="references-and-notes">References and Notes</h2>
+<div id="fig-waterdensity" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="particledensity1.png" width="409" height="545" class="figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: Density of Water at Different Temperatures</figcaption><p></p>
+</figure>
+</div>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
