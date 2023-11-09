@@ -1,0 +1,42 @@
+---
+title: "Pb Bio-Accessibility"
+format: html
+editor: visual
+---
+
+::: callout-note
+Last edited: 09NOV2023 NP
+
+This protocol is still under development.
+:::
+
+## Materials
+
+-   Dried soil, sieved to \<250um
+-   30mL Nalgene bottles
+-   Analytical balance
+-   Pinch scoop or other small scoop
+-   Kim wipes
+-   0.4M glycine solution
+-   6M HCl
+-   Stir/hot plate
+-   1L beaker
+-   pH meter
+-   Syringe - one per simple
+-   100mL volumetric flask
+-   Incubator
+-   ICP tubes
+
+## Procedure
+
+-   Incubator/shaker should be prepped and set to 39ºC upstairs in Borlaug Hall prior to starting bio-prep.
+-   Making 0.4M glycine solution: Triple rinse with DDI water a 1000mL volumetric flask, stir bar and extractor, 1000mL container with lid, and funnel (if preferred). Weigh 30.028 grams of Glycine. Fill flask about 60% full with DDI water, then place onto a stir/hot plate. Slightly warm the water before pouring the weighed out glycine into a flask. Once the solution has dissolved into the water, turn off heat. Once the solution has cooled down, take off of the plate, remove the stir bar, and fill the volumetric to 1000mL container.
+-   After preheating and adjusting glycine, **prep all soil samples** in new, acid washed, or DI triple rinsed Nalgene bottles. Use roughly 1g of \<250um sieved soil. Weigh on analytic scale and record exact soil weight used (will be used later to calc bio-percentage). Use a small scoop to put soil in bottles and start with the lowest lead content sample and move up to the highest lead content sample. Wipe the scoop with a kim wipe.
+-   Glycine prep: Glycine solution should be prepared to 0.4M and adjusted to roughly 2.55 pH and 37ºC before bio run (adjust pH initially a little high just in case temp adjustment changes it.) I normally use at least 800mL glycine for bio runs so it is less volatile to change; \~100ml per sample. I normally use a stir bar and hot plate along with pH meter to determine pH and temp. Be sure not to overheat. Use oven if required. The 0.4M glycine solution starts roughly at pH 6, so when adjusting, start with \~75 mL of 6M HCl and then add drops as needed.
+-   After prepping all the soil in bottles, heat up the glycine solution to 37ºC on a stir/hot plate. Check pH before adding to soil bottles. Add exactly 100mL of preheated pH 2.5 glycine to each bottle and cap. Bottles should already be labeled. I would use one new syringe for all samples and inject into a 100mL volumetric to make sure the amount of glycine is as close to 100mL as possible. Record times of exactly when the glycine went into the bottles with soil. Place bottle in a cooler to help sustain the warm temp in transportation.
+-   Bring samples upstairs and secure them in the incubator. Shake for 60 minutes. You can remove a couple samples halfway and check their pHs and temps with the pH meter to ensure things are staying within parameters but I've never noticed a significant change.
+-   After 60 min, use a new syringe for each sample to extract enough solution to fill an ICP tube. Collect the sample in the syringe, place a new filter on the tip and then inject the solution into the ICP tube and filter soil. Place in the fridge if they can't be immediately dropped off at the lab for analysis. Test the pH of \~2 samples at the end to ensure that the samples stayed within the parameters (2.45-2.55).
+-   When dropping off at the lab for analysis, they are considered Special (white labeled). On the sheet, make sure to include samples for Pb analysis (ICP), 0.4M glycine matrix, and let them know that it is the same as submitted Special #018 FY 17/18. Provided Nic's information and your own email for the results.
+-   Trace HCl plasma pure to 6M HCl: The trace HCl plasma pure is 12M, so this is just a 50/50 ratio with DDI water. Make sure all tools used are triple rinsed with DDI water. Take precautions for HCl/acid handling. A funnel is HIGHLY recommended.
+
+## References and Notes

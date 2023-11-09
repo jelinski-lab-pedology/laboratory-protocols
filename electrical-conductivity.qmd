@@ -8,6 +8,8 @@ editor: visual
 Last edited: 06NOV2023 NP
 
 Written for use with an Oakton Con 100/200 EC Meter.
+
+Here is a link to a [blank data sheet](https://docs.google.com/spreadsheets/d/1P5PqFcmzgwddXPfyeM5ysjDcvJ56EupvhaIyWBJo1t8/edit?usp=sharing) for pH/EC.
 :::
 
 ## Materials

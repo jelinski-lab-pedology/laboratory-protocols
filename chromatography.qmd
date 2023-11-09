@@ -26,7 +26,9 @@ Link to [full protocol](https://drive.google.com/file/d/1b1qVL2BmtHHxatD9wqjuA22
 
     -   Hole should be 1/16 inches in diameter; Gaby has a good tool for this
 
-    -   Make one small pencil mark ~~1.5~~ inches from the center and one ~~2 ⅜~~ inches from the center of each filter paper \[edit: update these measurements for 18.5 cm\]
+    -   Make one small pencil mark ~~1.5~~ inches from the center and one ~~2 ⅜~~ inches from the center of each filter paper \[edit: update these measurements for 18.5cm; 15cm filters should be used\]
+
+![Making holes in filter paper](chroma1.jpg){#fig-chromaholes}
 
 -   Make **0.5% AgNO3** solution. Should be stored in a brown bottle and not exposed to light
 
@@ -46,6 +48,8 @@ Link to [full protocol](https://drive.google.com/file/d/1b1qVL2BmtHHxatD9wqjuA22
 
 -   Set out one large petri dish and one small one for each sample
 
+![Small petri dish in large petri dish (same height)](chroma2.jpg){#fig-petridish}
+
     ::: callout-warning
     Are you processing foreign soils? Tape off a counter and have plenty of ethanol/bleach spray. Trash should go in an autoclave waste bag, not in a trash can
     :::
@@ -57,7 +61,31 @@ Link to [full protocol](https://drive.google.com/file/d/1b1qVL2BmtHHxatD9wqjuA22
 -   Let flasks stand undisturbed for 15 minutes. Repeat the swirling process.
 -   Let flasks stand for 1 hour. Repeat the swirling process.
 -   After samples are swirled, let sit for 5 more hours. After the 6th hour (including hour in step above; 6 total hours), then chromatography can begin.
-    -   Do not disturb the flasks at all during the resting period. 
+    -   Do not disturb the flasks at all during the resting period.
+-   Saturate filter papers with AgNO3 to first line, using the large/small petri dish and wick setup.
+-   Once saturated, they must dry completely with no light exposure. Consider making a sandwich with 1 piece printer paper, 1 paper towel, 1 filter paper, 1 paper towel, and 1 piece printer paper. See photo below. Store in a closed box.
+
+![Saturated filter papers in sandwich to dry](chroma3.jpg){#fig-chromasandwich}
+
+The following photos were taken during a chromatography run as examples of setup and workflow.
+
+![Beakers for rinsing pipette between samples](chroma4.jpg){#fig-rinsebeakers}
+
+![Counter setup - petri dishes spaced out](chroma5.jpg){#fig-countersetup}
+
+![Running - flasks next to filters to keep track of codes](chroma6.jpg){#fig-flasks}
+
+![Running - plenty of empty small petri dishes to swap out](chroma7.jpg){#fig-smallpetri}
+
+![Running - finished chroma; at second line](chroma8.jpg){#fig-finishedchroma}
+
+![Full counter setup](chroma9.jpg){#fig-fullcounter}
+
+![Full counter setup - note red tape (foreign soil)](chroma10.jpg){#fig-fullcounter2}
+
+![Completed chromas drying on counter - with paper](chroma11.jpg){#fig-chromadrying}
+
+![Completed chromas curing on window](chroma12.jpeg){#fig-chromacuring}
 
 ## Post-Procedure
 
