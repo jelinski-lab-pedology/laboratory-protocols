@@ -1,0 +1,45 @@
+project:
+  type: book
+  # change output-dir to "docs" to publish to gh pages
+  output-dir: docs
+
+book:
+  title: "Jelinski Lab Protocols"
+  author: "N.B. Pearson, N.A. Jelinski, and all other lab members"
+  date: "10-November-2023"
+## cover-image: "aksdb-badge-02.png"
+  
+  chapters:
+    - index.qmd
+    - amm-ox-copy.qmd
+    - ammonium-oxalate-extraction.qmd
+    - cec-extraction.qmd
+    - chromatography.qmd
+    - cleaning-earthworms.qmd
+    - dry-sieving.qmd
+    - ec-soluble-salts.qmd
+    - electrical-conductivity.qmd
+    - hydrometer.qmd
+    - laser-particle-size-analysis.qmd
+    - loss-on-ignition.qmd
+    - mir.qmd
+    - mixing-SHMP.qmd
+    - moisture-content-bulk-density.qmd
+    - particle-density-pycnometers.qmd
+#    - summary.qmd
+#    - references.qmd
+#  appendices:
+#    - co-authorship-template.qmd
+#    - data-use-and-sharing.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
+

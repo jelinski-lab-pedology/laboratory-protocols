@@ -1,0 +1,226 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jelinski Lab Protocols",
+    "section": "",
+    "text": "Preface\nThis Quarto book contains protocols developed and utilized in the Jelinski laboratory at the University of Minnesota."
+  },
+  {
+    "objectID": "index.html#key-personnel",
+    "href": "index.html#key-personnel",
+    "title": "Jelinski Lab Protocols",
+    "section": "Key Personnel",
+    "text": "Key Personnel\n\nNora Pearson; Primary Editor and Compiler\nNic Jelinski; Lab PI\nMANY Graduate and Undergraduate Students"
+  },
+  {
+    "objectID": "amm-ox-copy.html#materials",
+    "href": "amm-ox-copy.html#materials",
+    "title": "1  Ammonium Oxalate Extraction for Amorphous Iron",
+    "section": "1.1 Materials",
+    "text": "1.1 Materials\n\nHot plate/stirrer and stir bar (will only use stirrer function)\nAnalytical balance, ± 1.0 mg sensitivity\nWeigh boats, small\nScoopula\nAlcohol and Kimwipes\nPipette/dispenser, electronic digital, 50 mL\nContainers, polyethylene (1 L Nalgene)\nTest tubes, 15 mL, 16 mm x 100 mm\nCuvettes, plastic, 4.5 mL, 1 cm light path (for optical density)\nExtractor stand"
+  },
+  {
+    "objectID": "amm-ox-copy.html#equipment-preparation",
+    "href": "amm-ox-copy.html#equipment-preparation",
+    "title": "1  Ammonium Oxalate Extraction for Amorphous Iron",
+    "section": "1.2 Equipment Preparation",
+    "text": "1.2 Equipment Preparation\nAll glassware/plastics must be acid washed. This includes the flasks, graduated cylinders, and new Nalgenes. Use acid wash in Toner lab; email Brandy Toner or Cole Stenberg to coordinate. If you have never used the acid wash before, have someone explain it. Cold/room temperature acid wash is enough for this procedure.\nWhile using the acid bath, you must use PPE. This includes long cuff gloves (green), a lab coat (buttoned), clear sleeve gloves over the lab coat, and eye protection. See photo for PPE location in Toner Lab. Gloves can be disposed of in the white trash can to the left of the lab coats. \nLeave each piece of equipment soaking in the acid bath for two minutes. Fully submerge everything in the bath, so the interior gets cleaned also. Let everything drip dry into the acid bath, then transfer into the rinse solution. One rinse is enough for this procedure. Once rinsed, the equipment is safe to touch with bare hands and can be placed on a tray. \nThe two photos below show the setup in the Toner Lab. The acid bath is in a 5 gallon bucket in the fume hood. Nora moved the rinse bucket to the counter next to the Nalgenes, so equipment could be easily transferred from the bath to the rinse to the plastic tray.\n\n\n\nFigure 1.1: Acid bath in fume hood\n\n\n\n\n\nFigure 1.2: Supplies to be acid washed\n\n\nThe RODI water is at the sink in the counter in the middle of the Toner Lab, at the end closest to the windows. They use an e-pure system which produces Type I Ultrapure, which is a higher purity than Type III RO. The overhead switch on the left turns it on. The screen must be reading higher than 15.5 to use the water. I took 5L."
+  },
+  {
+    "objectID": "amm-ox-copy.html#reagent-preparation",
+    "href": "amm-ox-copy.html#reagent-preparation",
+    "title": "1  Ammonium Oxalate Extraction for Amorphous Iron",
+    "section": "1.3 Reagent Preparation",
+    "text": "1.3 Reagent Preparation\n\nAmmonium oxalate ((NH4)2C2O4•2H2O) (CAS# 6009-70-7)\nOxalic acid (H2C2O4•H2O) (CAS # 6153-56-6)\nReverse osmosis deionized (RODI) water (from the Toner lab)\n2L flask for Solution A\n1L flask for Solution B\n2 250mL graduated cylinders\n1 100mL graduated cylinder\n9 or 10 1L Nalgenes, must be brand new (4 for DI water, 2 for ammonium oxalate, 1 for oxalic acid, 2 for prepared mixed solution)\n\nThe following instructions yield 2L of ammonium oxalate buffer solution. This solution is prepared in two parts. Divide everything here by 5 to only make 2L of this. Solution A: need 1,143mL, make ~1.5L. Solution B: need 857mL, so make ~1L.\n\nSolution A (base): To a 2 L erlenmeyer flask, add the following in order: 1.5 L of RODI water, 42.6 g of ammonium oxalate. Place on stirrer, insert stir bar into solution, and mix until dissolved. \nSolution B (acid): To a 1 L erlenmeyer flask, add the following in order: 1 L of RODI water, 25.2 g of oxalic acid. Place on stirrer, insert stir bar into solution, and mix until dissolved.\nMix 4 parts Solution A with 3 parts Solution B. This requires 1,143 mL of Solution A and 857 mL of Solution B. Math at bottom of document.\n\nI transferred Solution A out of the 2 L erlenmeyer flask into 1 L Nalgenes, then mixed the two solutions in the 2 L flask. \n\nThe resulting ammonium oxalate solution should be pH 3. If not, adjust the pH by adding either more solution A (base) or solution B (acid). Test using pH strips. \nTransfer into and store in polypropylene bottles (Nalgenes).\nDispose of any unused ammonium oxalate solution or oxalic acid in an acid neutralization bucket. It is fine if there is soil in it. \n\nUse pH strips to test the pH of the solution until it reaches 7. To raise the pH, slowly add sodium bicarbonate (powder, in the dry chemicals cabinet). To lower the pH, slowly add an acid, preferably an old one, such as a miscellaneous bottle of 1M HCl. Continually test the pH until it is 7. After that, the solution is safe to put down the drain."
+  },
+  {
+    "objectID": "amm-ox-copy.html#procedure",
+    "href": "amm-ox-copy.html#procedure",
+    "title": "1  Ammonium Oxalate Extraction for Amorphous Iron",
+    "section": "1.4 Procedure",
+    "text": "1.4 Procedure\n\nWeigh out 0.5000 g of <2 mm, air-dry or fine-grind soil in a small weigh boat. Record to the nearest milligram. If the sample is moist, weigh enough soil to achieve ≈0.5 g.\n\nSamples can be weighed out a day or two in advance if you’re able to store them in a safe place. I highly recommend weighing them the day before. Cover them.\nSee photo; I labeled a tray with spots for each weigh boat and covered it overnight.\n\n\n\n\n\nFigure 1.3: Labeled tray\n\n\n\n\n\nFigure 1.4: Analytical balance setup\n\n\n\nWeigh 0.5 g of <2-mm, air-dry or fine-grind soil the nearest mg and place in a sample tube. If the sample is moist, weigh enough soil to achieve ≈0.5 g. Prepare one reagent blank (no sample in tube) per run. \nWeigh TET tubes- stand upside down in scale so they don’t roll\nPlace labeled extraction tube (ET) on extractor and connect to corresponding tared extraction tube (TETOxalate) with rubber tubing. \nNora added 4 layers of 37mm filter paper circles (cut to size) to each tube in practice run.\nUse a dispenser to add 15.00 mL of ammonium oxalate buffer to the ET. Make sure that the sample is thoroughly wetted. During the addition, wash sides of the tube and wet the sample. Shaking, swirling, or stirring may be required to wet organic samples. Allow the sample to stand for at least 30 min. Cover samples with black plastic bag to exclude light. \n\nNora added the filter paper, 5mL ammonium oxalate buffer, the sample, then the last 10mL of ammonium oxalate. I rinsed the sides of the ET with the rest of the ammonium oxalate.  \n\nSecure reservoir tube (RT) to top of ET tube. Set extractor for 30-min extraction rate and extract until the ammonium oxalate buffer solution is at a 0.5 to 1.0-cm height above sample. Turn off the extractor. \nAdd 35 mL of ammonium oxalate buffer to the RT. \nCover the extractor with a black plastic bag to exclude light. Adjust the extraction rate for a 12-h extraction. \nAfter the extraction, shut off the extractor. Carefully remove TETOxalate. Leave the rubber tubing on the ET. \nWeigh each syringe containing ammonium oxalate extract to the nearest mg. \nMix extract in each TETOxalate by manually shaking. Fill a disposable tube with the extract solution. This solution is reserved for determinations of Fe, Mn, Al, Si, and P. If optical density is to be measured, fill a disposable cuvette with the extract solution. Discard excess solution properly. If extracts are not to be determined immediately after collection, then store samples at 4 °C.\n\n\n\n\nFigure 1.5: Extraction setup\n\n\n\n\n\nFigure 1.6: Extraction rates"
+  },
+  {
+    "objectID": "amm-ox-copy.html#references-and-notes",
+    "href": "amm-ox-copy.html#references-and-notes",
+    "title": "1  Ammonium Oxalate Extraction for Amorphous Iron",
+    "section": "1.5 References and Notes",
+    "text": "1.5 References and Notes\n\n\n\n\n\n\nNote\n\n\n\nMathematical explanation for mixing Solutions A and B. Divide the 2,000 mL total into 7 parts because we want 4 parts of Solution A and 3 parts of Solution B. 2,000 mL / 7 parts = 285.71 mL. \n\nSolution A: (2,000 mL / 7 parts) x 4 parts = 1,143 mL\nSolution B: (2,000 mL / 7 parts) x 3 parts = 857 mL\n1,143 mL + 857 mL = 2,000 mL"
+  },
+  {
+    "objectID": "ammonium-oxalate-extraction.html#materials",
+    "href": "ammonium-oxalate-extraction.html#materials",
+    "title": "2  Ammonium Oxalate Extraction for Amorphous Iron",
+    "section": "2.1 Materials",
+    "text": "2.1 Materials\n\nHot plate/stirrer and stir bar (will only use stirrer function)\nAnalytical balance, ± 1.0 mg sensitivity\nWeigh boats, small\nScoopula\nAlcohol and Kimwipes\nPipette/dispenser, electronic digital, 50 mL\nContainers, polyethylene (1 L Nalgene)\nTest tubes, 15 mL, 16 mm x 100 mm\nCuvettes, plastic, 4.5 mL, 1 cm light path (for optical density)\nExtractor stand"
+  },
+  {
+    "objectID": "ammonium-oxalate-extraction.html#equipment-preparation",
+    "href": "ammonium-oxalate-extraction.html#equipment-preparation",
+    "title": "2  Ammonium Oxalate Extraction for Amorphous Iron",
+    "section": "2.2 Equipment Preparation",
+    "text": "2.2 Equipment Preparation\nAll glassware/plastics must be acid washed. This includes the flasks, graduated cylinders, and new Nalgenes. Use acid wash in Toner lab; email Brandy Toner or Cole Stenberg to coordinate. If you have never used the acid wash before, have someone explain it. Cold/room temperature acid wash is enough for this procedure.\nWhile using the acid bath, you must use PPE. This includes long cuff gloves (green), a lab coat (buttoned), clear sleeve gloves over the lab coat, and eye protection. See photo for PPE location in Toner Lab. Gloves can be disposed of in the white trash can to the left of the lab coats. \nLeave each piece of equipment soaking in the acid bath for two minutes. Fully submerge everything in the bath, so the interior gets cleaned also. Let everything drip dry into the acid bath, then transfer into the rinse solution. One rinse is enough for this procedure. Once rinsed, the equipment is safe to touch with bare hands and can be placed on a tray. \nThe two photos below show the setup in the Toner Lab. The acid bath is in a 5 gallon bucket in the fume hood. Nora moved the rinse bucket to the counter next to the Nalgenes, so equipment could be easily transferred from the bath to the rinse to the plastic tray.\n\n\n\nFigure 2.1: Acid bath in fume hood\n\n\n\n\n\nFigure 2.2: Supplies to be acid washed\n\n\nThe RODI water is at the sink in the counter in the middle of the Toner Lab, at the end closest to the windows. They use an e-pure system which produces Type I Ultrapure, which is a higher purity than Type III RO. The overhead switch on the left turns it on. The screen must be reading higher than 15.5 to use the water. I took 5L."
+  },
+  {
+    "objectID": "ammonium-oxalate-extraction.html#reagent-preparation",
+    "href": "ammonium-oxalate-extraction.html#reagent-preparation",
+    "title": "2  Ammonium Oxalate Extraction for Amorphous Iron",
+    "section": "2.3 Reagent Preparation",
+    "text": "2.3 Reagent Preparation\n\nAmmonium oxalate ((NH4)2C2O4•2H2O) (CAS# 6009-70-7)\nOxalic acid (H2C2O4•H2O) (CAS # 6153-56-6)\nReverse osmosis deionized (RODI) water (from the Toner lab)\n2L flask for Solution A\n1L flask for Solution B\n2 250mL graduated cylinders\n1 100mL graduated cylinder\n9 or 10 1L Nalgenes, must be brand new (4 for DI water, 2 for ammonium oxalate, 1 for oxalic acid, 2 for prepared mixed solution)\n\nThe following instructions yield 2L of ammonium oxalate buffer solution. This solution is prepared in two parts. Divide everything here by 5 to only make 2L of this. Solution A: need 1,143mL, make ~1.5L. Solution B: need 857mL, so make ~1L.\n\nSolution A (base): To a 2 L erlenmeyer flask, add the following in order: 1.5 L of RODI water, 42.6 g of ammonium oxalate. Place on stirrer, insert stir bar into solution, and mix until dissolved. \nSolution B (acid): To a 1 L erlenmeyer flask, add the following in order: 1 L of RODI water, 25.2 g of oxalic acid. Place on stirrer, insert stir bar into solution, and mix until dissolved.\nMix 4 parts Solution A with 3 parts Solution B. This requires 1,143 mL of Solution A and 857 mL of Solution B. Math at bottom of document.\n\nI transferred Solution A out of the 2 L erlenmeyer flask into 1 L Nalgenes, then mixed the two solutions in the 2 L flask. \n\nThe resulting ammonium oxalate solution should be pH 3. If not, adjust the pH by adding either more solution A (base) or solution B (acid). Test using pH strips. \nTransfer into and store in polypropylene bottles (Nalgenes).\nDispose of any unused ammonium oxalate solution or oxalic acid in an acid neutralization bucket. It is fine if there is soil in it. \n\nUse pH strips to test the pH of the solution until it reaches 7. To raise the pH, slowly add sodium bicarbonate (powder, in the dry chemicals cabinet). To lower the pH, slowly add an acid, preferably an old one, such as a miscellaneous bottle of 1M HCl. Continually test the pH until it is 7. After that, the solution is safe to put down the drain."
+  },
+  {
+    "objectID": "ammonium-oxalate-extraction.html#procedure",
+    "href": "ammonium-oxalate-extraction.html#procedure",
+    "title": "2  Ammonium Oxalate Extraction for Amorphous Iron",
+    "section": "2.4 Procedure",
+    "text": "2.4 Procedure\n\nWeigh out 0.5000 g of <2 mm, air-dry or fine-grind soil in a small weigh boat. Record to the nearest milligram. If the sample is moist, weigh enough soil to achieve ≈0.5 g.\n\nSamples can be weighed out a day or two in advance if you’re able to store them in a safe place. I highly recommend weighing them the day before. Cover them.\nSee photo; I labeled a tray with spots for each weigh boat and covered it overnight.\n\n\n\n\n\nFigure 2.3: Labeled tray\n\n\n\n\n\nFigure 2.4: Analytical balance setup\n\n\n\nWeigh 0.5 g of <2-mm, air-dry or fine-grind soil the nearest mg and place in a sample tube. If the sample is moist, weigh enough soil to achieve ≈0.5 g. Prepare one reagent blank (no sample in tube) per run. \nWeigh TET tubes- stand upside down in scale so they don’t roll\nPlace labeled extraction tube (ET) on extractor and connect to corresponding tared extraction tube (TETOxalate) with rubber tubing. \nNora added 4 layers of 37mm filter paper circles (cut to size) to each tube in practice run.\nUse a dispenser to add 15.00 mL of ammonium oxalate buffer to the ET. Make sure that the sample is thoroughly wetted. During the addition, wash sides of the tube and wet the sample. Shaking, swirling, or stirring may be required to wet organic samples. Allow the sample to stand for at least 30 min. Cover samples with black plastic bag to exclude light. \n\nNora added the filter paper, 5mL ammonium oxalate buffer, the sample, then the last 10mL of ammonium oxalate. I rinsed the sides of the ET with the rest of the ammonium oxalate.  \n\nSecure reservoir tube (RT) to top of ET tube. Set extractor for 30-min extraction rate and extract until the ammonium oxalate buffer solution is at a 0.5 to 1.0-cm height above sample. Turn off the extractor. \nAdd 35 mL of ammonium oxalate buffer to the RT. \nCover the extractor with a black plastic bag to exclude light. Adjust the extraction rate for a 12-h extraction. \nAfter the extraction, shut off the extractor. Carefully remove TETOxalate. Leave the rubber tubing on the ET. \nWeigh each syringe containing ammonium oxalate extract to the nearest mg. \nMix extract in each TETOxalate by manually shaking. Fill a disposable tube with the extract solution. This solution is reserved for determinations of Fe, Mn, Al, Si, and P. If optical density is to be measured, fill a disposable cuvette with the extract solution. Discard excess solution properly. If extracts are not to be determined immediately after collection, then store samples at 4 °C.\n\n\n\n\nFigure 2.5: Extraction setup\n\n\n\n\n\nFigure 2.6: Extraction rates"
+  },
+  {
+    "objectID": "ammonium-oxalate-extraction.html#references-and-notes",
+    "href": "ammonium-oxalate-extraction.html#references-and-notes",
+    "title": "2  Ammonium Oxalate Extraction for Amorphous Iron",
+    "section": "2.5 References and Notes",
+    "text": "2.5 References and Notes\n\n\n\n\n\n\nNote\n\n\n\nMathematical explanation for mixing Solutions A and B. Divide the 2,000 mL total into 7 parts because we want 4 parts of Solution A and 3 parts of Solution B. 2,000 mL / 7 parts = 285.71 mL. \n\nSolution A: (2,000 mL / 7 parts) x 4 parts = 1,143 mL\nSolution B: (2,000 mL / 7 parts) x 3 parts = 857 mL\n1,143 mL + 857 mL = 2,000 mL"
+  },
+  {
+    "objectID": "ec-soluble-salts.html#materials",
+    "href": "ec-soluble-salts.html#materials",
+    "title": "7  Electrical conductivity and Soluble Salts",
+    "section": "7.1 Materials",
+    "text": "7.1 Materials\n\nEC reader\nD.D.I water (double deionized water, filtered campus DI water)\nSqueeze bottle of DDI\nFalcon Tubes, 50mL"
+  },
+  {
+    "objectID": "ec-soluble-salts.html#procedure",
+    "href": "ec-soluble-salts.html#procedure",
+    "title": "7  Electrical conductivity and Soluble Salts",
+    "section": "7.2 Procedure",
+    "text": "7.2 Procedure\n\nTest calibration; see EC protocol.\nPut soil in Falcon Tube to the 10 mL line.\nAdd 10 mL of D.D.I water to sample using a squeeze bottle.\nVortex for roughly 30s and let sit for 30 mins. Record time, take a reading.\n\nReading technique should be similar as pH, probe in at the same depth every time. Be mindful of the notation on the reader when recording\n\nAdd 10 mL of DDI water, let sit for approximately 6 hrs, swirl/agitate/hand shake, record time, take a reading.\nLet sit for 24 hours (from the initial start time), swirl/agitate/handshake, and take a reading."
+  },
+  {
+    "objectID": "ec-soluble-salts.html#calculations",
+    "href": "ec-soluble-salts.html#calculations",
+    "title": "7  Electrical conductivity and Soluble Salts",
+    "section": "7.3 Calculations",
+    "text": "7.3 Calculations\n\nNo calculations are required for this procedure.\nUse the following relationship to estimate the total soluble cation or anion concentration (meq L−1) in the soil. EC (mmhos cm−1)x10=Cation or Anion (meq L−1)\nUse the following relationship to estimate the total soluble cation or anion concentration (meq g−1 oven-dry soil) in the soil. EC (mmhos cm−1)x20=Cation (meq g−1 soil) EC (mmhos cm−1)x20=Anion (meq g−1 soil)\nReport prediction conductance to the nearest 0.01 mmhos cm−1 (dS m−1)."
+  },
+  {
+    "objectID": "ec-soluble-salts.html#references-and-notes",
+    "href": "ec-soluble-salts.html#references-and-notes",
+    "title": "7  Electrical conductivity and Soluble Salts",
+    "section": "7.4 References and Notes",
+    "text": "7.4 References and Notes\nU.S. Salinity Laboratory Staff. 1954. L.A. Richards (ed.) Diagnosis and improvement of saline and alkali soils. 160 p. USDA Handb. 60. U.S. Govt. Print. Office, Washington, DC.\nKellogg Soil Survey Laboratory Methods Manual. (2022). Current Methods - Electrical Conductivity and Soluble Salts. p.550\n\n\n\nKSSL Methods Manual"
+  },
+  {
+    "objectID": "electrical-conductivity.html#materials",
+    "href": "electrical-conductivity.html#materials",
+    "title": "8  Electrical Conductivity",
+    "section": "8.1 Materials",
+    "text": "8.1 Materials\n\nOakton EC reader\nDDI water in squeeze bottle\nFalcon tubes, 50mL"
+  },
+  {
+    "objectID": "electrical-conductivity.html#procedure",
+    "href": "electrical-conductivity.html#procedure",
+    "title": "8  Electrical Conductivity",
+    "section": "8.2 Procedure",
+    "text": "8.2 Procedure\n\n8.2.0.1 Preparing samples\n\nPut soil in the falcon tube up to the 10mL line.\nAdd DDI water up to 30mL line. If doing EC after pH, just add an additional 10mL of DDI water, unless pH was run with a 2:1 ratio already.\nVortex for 30 seconds and let sit overnight (24 hours). If prepping samples in the morning, shake them in the afternoon if possible. If prepping samples in the afternoon, shake them the following morning before running them in the afternoon, if possible.\n\n\n\n8.2.0.2 Calibrating the EC Reader\n\nRemove the cap from the EC probe.\nDip probe in 84µS solution. Allow value to stabilize.\nPress cal/meas to enter calibration mode. Use the up/down arrows to calibrate to correct value. Press enter to save the calibration.\nAfter a moment the top right corner should stop flashing “CAL” and should switch to “MEAS” when ready to measure again. Rinse the probe with DDI water and dry with a Kim wipe.\nRepeat with the other 4 solutions, rinsing and drying the probe between each.\n\n\n\n8.2.0.3 Measuring EC\n\nVortex the sample for 30-60 seconds, shake upside down to disperse the sample from the bottom. \nTake reading and record. Allow 60 seconds for the meter to stabilize.\nRepeat for each sample. Vortex one at a time, then take the reading.\n\n\n\n\n\n\n\nTip\n\n\n\n\nPay attention to units! The reader may switch to ms but report value in µS. If the value is under 10.0, it’s probably reading in ms.\nThe stock bottles of calibration solution are located in the dry chemicals cabinet. Rinsing the probe in between each calibration is critical for ensuring that the calibration solutions do not mix and continue reading the same values. However, the calibration solutions do have to be switched out occasionally."
+  },
+  {
+    "objectID": "electrical-conductivity.html#references-and-notes",
+    "href": "electrical-conductivity.html#references-and-notes",
+    "title": "8  Electrical Conductivity",
+    "section": "8.3 References and Notes",
+    "text": "8.3 References and Notes\n\n\n\nUser manual for Oakton Con 100/200 EC meter"
+  },
+  {
+    "objectID": "hydrometer.html#materials",
+    "href": "hydrometer.html#materials",
+    "title": "9  Protocol Title",
+    "section": "9.1 Materials",
+    "text": "9.1 Materials\n\nPestle & mortar\nDust mask\n#4 Sieve, 2mm\nAnalytical balance (two digit)\n250ml wide mouth Nalgene bottles with lids\n\nNot the narrower neck bottles, as particles get stuck on the longer shoulder of the bottle when tipping it upside down\n\n5% SHMP (Sodium hexametaphosphate)\nMixer - set at ~30 RMP\nSedimentation columns (1L)\nBlank sedimentation column with 100ml 5% SHMP\n\nPrepared at the same time as samples – same batch of SHMP\n\nDI water – room temperature from the carboy, not faucet\nAmyl alcohol in a dropper bottle\nAdding a drop or two of amyl alcohol after mixing will help eliminate foam on the surface in the sedimentation column. The foam makes it difficult to read the liquid level on the hydrometer.\nPlunger (stirring rod with rubber disk on one end) for mixing in the columns\nBouyoucos hydrometer (measures g/L)\nThermometer\nTimer"
+  },
+  {
+    "objectID": "hydrometer.html#sample-preparation-procedure",
+    "href": "hydrometer.html#sample-preparation-procedure",
+    "title": "9  Protocol Title",
+    "section": "9.2 Sample Preparation Procedure",
+    "text": "9.2 Sample Preparation Procedure\n\nPulverize air dried sample with a pestle and mortr and pass through a 2mm sieve.\nAlso acceptable to pulverize oven dried samples, but they left out to likely absorbed moisture from the air.\n\n\n\n\n\n\n\nTip\n\n\n\nWearing a face mask while pulverizing is recommended. Note that all of the sample may not pass through the sieve, do not crush the coarse fragments to force them through. You can hear the pestle hitting coarse fragments – it makes a different sound (louder and sharper). Stop pulverizing when you hear this and sieve the soil that is pulverized.\n\n\n\nCollect and remove the coarse fragments that do not pass the 2mm sieve as they are not used in the texture analysis.\n\nYou may note what percentage of coarse fragments is in the sample, their size, shape, hardness and mineralogy. This is data that can be useful, though is not necessary for this texture analysis.\n\nPrepare to measure 30-50g of the dried and pulverized soil sample by gently mixing the closed bag of soil so that it is as homogenous as possible. Gravity fractionates the particles, with smaller particles settling out to the bottom of the bag. Do your best to obtain a representative sample.\n\n\n\n\n\n\n\nTip\n\n\n\nOne way to mix the sample is to hold the closed side of the bag in one hand and the bottom in the other, and mix it upside down, roll it side to side, rolling it around.\n\n\n\nWeigh 30-50g using the 2-digit analytical balance. Tare the weight of the Nalgene bottle, add and measure the weight of the dry soil. Document the weight of the soil and the sample name on the bottle as well as in your lab book just in case the mixing process wears some of that information off the bottle.\nAdd precisely 100 ml 5% SHMP to each bottle then add ~70ml DI water or until the bottle is no more than ¾ full.\n\nThere needs to be enough room for the slurry to slosh back and forth while laying on the side of the bottle in the mixer.\n\nPrepare a blank mixture in another Nalgene with 100ml 5% SMHP and DI water at the same time as you are prepping the other samples to ensure you will use the same mixture of SHMP that you prepared the soil slurries with. Prepare a blank each time you prepare a set of samples.\nTighten the lids of the bottles and vigorously shake each so that all soil comes free from the bottom of the bottle.\n\nThis is a good time to ensure that the lids are secure.\n\nLay the bottles on their sides in the basket on the mixer and set it at ~30 RMP.\n\nSmaller bottles may need to be mixed at a higher rate to get the necessary sloshing action. This sloshing action with the SHMP is what disaggregates the aggregated particles.\nMix for at least 8 hours (or overnight). Longer is no problem."
+  },
+  {
+    "objectID": "hydrometer.html#column-preparation-procedure",
+    "href": "hydrometer.html#column-preparation-procedure",
+    "title": "9  Protocol Title",
+    "section": "9.3 Column Preparation Procedure",
+    "text": "9.3 Column Preparation Procedure\n\nRinse the sedimentation columns with DI water.\nPour each bottle of soil slurry into a labeled sedimentation column. It can be a challenge to get all of the soil particles out of the bottle. Spray and rinse with the DI squirt bottle. Remember to also rinse the sediment on the Nalgene lid into the column.\n\n\n\n\n\n\n\nTip\n\n\n\nOne technique to get the last bits out of the bottle is to hold the Nalgene bottle upside down above the column and spray the DI up into and onto the sides of the bottle. While doing this, rotate the Nalgene around. The particles stuck on the shoulder of the bottle should be flushed out by the water flowing down and out of the upside down bottle.\n\n\n\nFill all columns precisely to 1L with DI water.\n\nRoom temp DI water should be used from a carboy. I find the building DI water from the faucet is a warmer temp. If DI water is taken from the faucet to fill the columns, provide time to let it acclimate to room temp (a day).\n\nPrepare the blank column with the blank from the Nalgene bottle. Give a rinse to the bottle as well and fill the column to 1L."
+  },
+  {
+    "objectID": "hydrometer.html#hydrometer-run-procedure",
+    "href": "hydrometer.html#hydrometer-run-procedure",
+    "title": "9  Protocol Title",
+    "section": "9.4 Hydrometer Run Procedure",
+    "text": "9.4 Hydrometer Run Procedure\n\n\n\n\n\n\nNote\n\n\n\n3 readings are taken for this complete texture analysis. 40 seconds, 4 hours, and 8 hours. Plan accordingly!\n\n\n\n\n\n\n\n\nNote\n\n\n\nBe sure to document the time that each sample is begun at. Keeping a running stopwatch (on a phone) is one method. Document the start time of each sample (0 min, 4 min, 8 min, etc). 3 or 4 minutes between each sample is good spacing. - 40 Second: The first reading measures the total of silt and clay, combined. At 40 seconds, the sands will have fallen and dropped out of the solution. - 4 Hour: This is an additional reading – verify if this reading is needed or not. - 8 Hours: This reading measures suspended clay. Sands and silts will have fallen out.\n\n\n\nRecord the temperature of the mixed blank solution. Mixing instructions follow:\nWhile holding the column with one hand to stabilize it, vigorously mix with the plunger. Settled silt and clay particles may form a cake on the bottom, so look closely that there is not a layer of sediment still stuck at the bottom as you plunge.\n\nBe sure to gently lift and mix the sample all the way to the upper half of the column too; don’t just mix in the lower portion of the column. Try to get the sediment in column as homogenized as possible.\n\nAt the moment you remove the plunger from the surface of the sample, time begins at 0 seconds. Start a stopwatch and keep a record of the time started. Soon thereafter, gently lower the hydrometer into the sample, and gradually release your grip until you find where bobbing is minimal. At the time of 40 seconds your hydrometer should be floating steady. Take the reading from the top-most level of the liquid where it rises up and onto the hydrometer – read the liquid level.\n\nRead where the top of the water line rises up on the side of the hydrometer. Read to the nearest whole number or round to a half if need be. Not less than a half number.\n\n\n\n\n\nFigure 9.1: Reading a Hydrometer\n\n\n\nGently take the hydrometer out and rinse it and the plunger with DI water before beginning the next sample.\n\nConsider laying down a towel next to your columns so you can rinse onto that instead of going back and forth to the sink.\n\nA reading should also be taken from the blank at the respective time, after mixing. The blank should read 5, meaning 5 g/L (100 ml of 5% SHMP was used in the blank from the 1 L mixture you made having 50 g SHMP added.)\n\nIf this reading is off, know that room temperature is a variable that can affect this. When and if adjustment is needed, add 0.4 g/L for each degree above 20 degrees Celsius or subtract 0.4 g/L for each degree below 20 degrees C.\n\nThe second/third reading will occur 4.0 and/or 8.0 hours after the start. No mixing or plunging will be done as this measurement will measure the total clay suspended, or how much silt has dropped out during the settling period. Again, gently insert the hydrometer as to not drop it, minimizing how much it bobs. Read from the top of the liquid level and document."
+  },
+  {
+    "objectID": "hydrometer.html#calculations",
+    "href": "hydrometer.html#calculations",
+    "title": "9  Protocol Title",
+    "section": "9.5 Calculations",
+    "text": "9.5 Calculations\n(Total sample) – (reading at 40 seconds) = total sand\n(Total sample) – (total clay) – (total sand) = total silt\nReading at 8 hour = total clay\nUnits: grams / grams total sample - as in, grams of given texture class per grams total sample"
+  },
+  {
+    "objectID": "hydrometer.html#references-and-notes",
+    "href": "hydrometer.html#references-and-notes",
+    "title": "9  Protocol Title",
+    "section": "9.6 References and Notes",
+    "text": "9.6 References and Notes"
+  },
+  {
+    "objectID": "loss-on-ignition.html#materials",
+    "href": "loss-on-ignition.html#materials",
+    "title": "11  Loss on Ignition",
+    "section": "11.1 Materials",
+    "text": "11.1 Materials\n\nLab coat\nSafety goggles\nOven safe gloves\nTongs to lift and move hot crucibles\nMuffle furnace at 550º Celsius\n4-digit analytical balance\n~5 g air-dried soil of each sample\nMeasuring scoop\nKim wipes\n2-3g air-dried soil sample (to use for moisture correction measurement)\nDesiccator filled with Anhydrite\n\nShould be blue in color; if it is purple or pink, see directions below\n\nCeramic crucible (oven-dried and numbered on exterior base)"
+  },
+  {
+    "objectID": "loss-on-ignition.html#procedure",
+    "href": "loss-on-ignition.html#procedure",
+    "title": "11  Loss on Ignition",
+    "section": "11.2 Procedure",
+    "text": "11.2 Procedure\n\nPrepare laboratory notebook with the following data columns:\n\nSample number, crucible number, oven dry (OD) crucible (g), pre-muffle crucible+soil (g), post-muffle crucible+soil (g)\n\nA few samples will be used for calculating a moisture correction. See below. Data columns:\n\nCrucible number, OD crucible (g), air dry moisture correction soil +OD crucible (g), OD moisture correction soil + OD crucible\n\nRinse the crucibles with DI water and place them in drying oven at 105 degrees Celsius overnight (or 6-8 hours).\nTake the crucibles out of the oven and place them into the desiccator where they can cool for a couple minutes. Your cooling time (such as 5 minutes) should become a standard for all samples in your set.\n\n\n\n\n\n\n\nNote\n\n\n\nThe 4-digit analytical balance does not like hot items, so the crucibles must cool down before weighing. Cool to the touch is fine. When hot items are placed onto the scale, the air and metals in the scale expand and the scale gets wonky. It ends up reading a negative value when the items are removed from the scale. So, I placed the crucibles from the oven into a desiccator because I felt that the oven dry crucibles gained water weight from the moisture in the air while sitting out in the lab. I wanted to keep them as dry as possible to reduce the chance that such gained moisture weight wouldn’t be inaccurately counted as soil weight.\n\n\n\nWeigh each crucible on the 4-digit analytical balance; record the OD weight and the number of the crucible.\nDo not tear the weight of the crucible. Gently mix the soil around in the bag so that you have a homogenous sample, and add ~5 g soil into the crucible with a small scoop.\nDocument OD crucible + soil weight (g).\nPlace the crucible and soil onto the ceramic plate that will be slid into the muffle furnace.\n\n\n\n\n\n\n\nNote\n\n\n\nSome folks make a map of which crucibles are on the plate, but I chose to document the number of the crucible and which sample was placed into that numbered crucible in my lab book. I did have to lift the crucible up high to see the number on the bottom when I went to weigh it. Perhaps a combination of both listing the crucible number and using a layout map would be useful for identifying the samples when they are taken out of the furnace to weigh.\n\n\n\nWipe off the scoop and repeat the weighing procedure. Complete this soil measurement and weighing process for the chosen number of samples you will do.\n\n\n\n\n\n\n\nNote\n\n\n\nI recommend 12-18 samples at a time. More of the smaller crucibles can fit into the muffle furnace on the ceramic plate, but the small crucibles are more challenging to pick up (you should use the tongs, trying to grab it with oven mitts on is probably not possible to do). Also, 5 g of an organic sample will not fit into a small crucible. If you fill the ceramic plate that slides into the muffle furnace with too many crucibles, you risk having crucibles sliding/falling off the edge –which means a loss of your sample and its data.\n\n\n\nNote that the temperature of the muffle furnace has warmed to 550º C. Load the ceramic plate and slide it into the muffle furnace. Close and latch the door and let the samples bake for exactly 5 hours.\nAfter 5 hours, turn the furnace off and crack the door open to allow some heat to escape for 5-10 minutes.\nCarefully remove the samples from the muffle furnace. Be careful. Either place them in the drying oven or into the desiccator to cool some before weighing them. Don’t let them sit out at room temperature because they will absorb moisture from the air. If you leave them in the desiccator, be sure to crack the lid or rubber stopper to avoid a pressure inconsistency.\n\n\n\n\n\n\n\nNote\n\n\n\nIf you don’t crack the lid, the desiccator will suck in air when you open it and sample will fly everywhere.\n\n\n\nTaking one sample out of the desiccator at a time, weigh each sample shortly after it has cooled to the touch (5 minutes, or same amount of time afterward as before when you let the crucibles sit after being in the drying oven).\n\n\n\n\n\n\n\nWarning\n\n\n\nWatch out - the weight of the sample will increase the longer it is exposed to the air as the soil particles are absorbing moisture. Take the first reading you see, that is, when you feel that scale is balanced after the sample is set onto it."
+  },
+  {
+    "objectID": "loss-on-ignition.html#moisture-correction",
+    "href": "loss-on-ignition.html#moisture-correction",
+    "title": "11  Loss on Ignition",
+    "section": "11.3 Moisture Correction",
+    "text": "11.3 Moisture Correction\n\n11.3.0.1 Procedure\n\nUse a 2-3g air-dried soil sample, weigh the oven-dried crucible (do not tear the weight after), then add the soil sample.\nPlace into the drying oven at 105º C for 24 hours.\nAfter taking the sample out of the oven, place it into the desiccator for a couple of minutes to cool.\nWeigh it on the 4-digit analytical balance.\n\nMineral soil samples will hold different percentages of moisture than organic samples, so you should take a moisture correction for each category of soil sample (i.e. mostly mineral, mineral-organic combination, mostly organic), not one for every sample. Moisture corrections should be run at the same time/day as the LOI procedure. Run a moisture correction at each time you run an LOI set.\n\n\n11.3.0.2 Calculation\n\\[ [M(air dry soil + crucible) - M(oven dry crucible) * moisture correction] - [M(oven dry soil + crucible) - M(oven dry crucible)] \\over [M(air dry soil + crucible) - M(oven dry crucible) * moisture correction] \\]\nMultiply this value by 100%.\n\n\n11.3.0.3 Recharging Anhydrite\nAnhydrite should be blue. If it is purple/pink, place the Anhydrite into a metal pan (9x13” cake pan) and oven dry at 105 degrees Celsius until the blue color has come back indicating that the material has lost all moisture. This should take less than 24 hours."
+  },
+  {
+    "objectID": "loss-on-ignition.html#references-and-notes",
+    "href": "loss-on-ignition.html#references-and-notes",
+    "title": "11  Loss on Ignition",
+    "section": "11.4 References and Notes",
+    "text": "11.4 References and Notes"
+  },
+  {
+    "objectID": "cleaning-earthworms.html#collection",
+    "href": "cleaning-earthworms.html#collection",
+    "title": "5  Earthworm Collection and Cleaning",
+    "section": "5.1 Collection",
+    "text": "5.1 Collection\n\n5.1.0.1 Materials\n\nSample rings (1-3)\nShovels: trowel and hand shovel\nTarp\n50mL Falcon tubes\nAcetate\n70% Ethanol\nPowder mustard\nGallon jugs of water +1 extra\nTweezers\nSmall containers\nMarker\nField gloves/lab gloves\nAcetate waste container (1L Nalgene)\nFunnel\nMeasuring cup\n\n\n\n5.1.0.2 Procedure\n\nFor each plot, you will need a jug of water mixed with ⅓ cup of the mustard powder. Take the small container and put some acetate in it, this will be referred to as the kill jar.\nTo start, clear the sampling area from loose debris such as leaves and sticks. Place the sample ring in the soil deep enough that liquid would not go out from its sides. Once the ring has been secured, pour about ⅓ to ½ of the mustard water in a circular motion within the ring. Record the time started with mustard. We would like to keep a consistent timeline. Once the liquid all goes down into the soil, add more. The pouring should take 2-3 rounds.\nCollect any worms that may come up and transfer them into the kill jar. When they stop moving they can be transferred into a tube labeled for the site/plot/date and that they came up from mustard. Tweezers are helpful so your fingers don’t have to touch the acetate. When in the tube, fill until it is over the worms to ~10mL of the 70% ethanol.\nWhen the mustard water has been fully drained, record the time, lay down the tarp next the the ring, and start digging within the ring. Try to keep the soil layers organized like top soil further from the ring and the bottom closer to the ring. That way, the hand sorting can be brought back to its original layer at the end. Dig to 12 inches in depth. Worms that are half in the hold and half out count as in.\n\n\n\n\n\n\n\nTip\n\n\n\nScrape the sides to make sure we get the full area. Worms really like clumps and root masses.\n\n\n\nHand sort the soil to pull any worms that appear. As collecting put them into the kill jar. This gets really muddy. Slowly put the soil back into the hole. Try to clean the worms in the kill jar to get as much of the soil off as you can. Place them into a tube labeled site/plot/date and hand sort. When in the tube, fill until it is over the worms to ~10mL of the 70% ethanol. Dump the waste acetate soil into the waste container. Use the extra water to do a quick rinse of the soil off of the tray/container so it’s ready for the next plot."
+  },
+  {
+    "objectID": "cleaning-earthworms.html#cleaning",
+    "href": "cleaning-earthworms.html#cleaning",
+    "title": "5  Earthworm Collection and Cleaning",
+    "section": "5.2 Cleaning",
+    "text": "5.2 Cleaning\n\n5.2.0.1 Materials\n\nLab gloves\nWorm samples (50 mL Falcon tubes)\nFume hood\nPaper towels\nDI water\nMarker\n95% Ethanol\nBeaker for ethanol (~100mL)\nBeaker for waste (2L)\nWaste container for ethanol and funnel\nTweezer\nSecondary containment tray/small tray\n\n\n\n5.2.0.2 Procedure\n\nPrep includes filling the smaller beaker with ethanol for easier pouring, setting up the final waste stage (container and funnel if needed), and have a wash bottle of DI water filled.\nIn the fume hood, take the tube with the worm sample that needs to be cleaned and dump the contents in the small tray. Use the DI bottle to wash the inside of the tube, sometimes soil collects in the bottom or the outside is dirty from collection. Set the tube aside temporarily. Clean the worms with a combination of light rubbing with gloves on and washing with DI water. As they get clean, place the worm back into the original container until they are all in there.\nFill the tube with the ethanol ~5-10mL over the worms. If any ethanol hits the side of the tube the label may smear off. Take the paper towel to dry off the tube and relabel when it’s dry, which is almost instantly. Once sample is cleaned put it off to the side with the other clean samples.\nThe waste from that sample can go into the bigger beaker. Sometimes in this movement smaller worms are easier to see (especially if there is another of soil/mud in the tube). Moving the waste twice allows to ensure each worm is going back into the sample and not getting dumped. Once the beaker fills up, discard into the final waste container."
+  },
+  {
+    "objectID": "cleaning-earthworms.html#references-and-notes",
+    "href": "cleaning-earthworms.html#references-and-notes",
+    "title": "5  Earthworm Collection and Cleaning",
+    "section": "5.3 References and Notes",
+    "text": "5.3 References and Notes"
+  }
+]

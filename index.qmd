@@ -1,0 +1,9 @@
+# Preface {.unnumbered}
+
+This Quarto book contains protocols developed and utilized in the Jelinski laboratory at the University of Minnesota.
+
+## Key Personnel
+
+-   Nora Pearson; Primary Editor and Compiler
+-   Nic Jelinski; Lab PI
+-   MANY Graduate and Undergraduate Students
