@@ -1,8 +1,4 @@
----
-title: "Dithionite Citrate Extraction"
-format: html
-editor: visual
----
+# Dithionite Citrate Extraction
 
 ::: callout-note
 Last edited: 03NOV2023 NP

@@ -1,8 +1,4 @@
----
-title: "Moisture Content and Bulk Density"
-format: html
-editor: visual
----
+# Moisture Content and Bulk Density
 
 ::: callout-note
 Last edited: 08NOV2023 NP

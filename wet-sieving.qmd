@@ -1,8 +1,4 @@
----
-title: "Wet Sieving"
-format: html
-editor: visual
----
+# Wet Sieving
 
 ::: callout-note
 Last edited: 09NOV2023 NP
@@ -10,26 +6,25 @@ Last edited: 09NOV2023 NP
 
 ## Materials
 
-- 250mL Nalgenes, one per sample
-- 5% SHMP (50g/L)
-- Shaker
-- 1L sedimentation columns, one per sample
-- Complete set of sieves, starting with 4 or 2mm
-- Plastic funnel
-- Weigh boats
-- DI rinse bottle with fine nozzle
-
+-   250mL Nalgenes, one per sample
+-   5% SHMP (50g/L)
+-   Shaker
+-   1L sedimentation columns, one per sample
+-   Complete set of sieves, starting with 4 or 2mm
+-   Plastic funnel
+-   Weigh boats
+-   DI rinse bottle with fine nozzle
 
 ## Procedure
 
-- The day before sieving, weigh a well represented soil sample to ~ 50 grams. Does not need to be precise, more important to get a mixture of the sample. Weigh the sample into a 250mL nalgene bottle with 100mL SHMP.
-- Make sure all the caps are closed and put them in the shaker overnight (~6-12 hrs).
+-   The day before sieving, weigh a well represented soil sample to \~ 50 grams. Does not need to be precise, more important to get a mixture of the sample. Weigh the sample into a 250mL nalgene bottle with 100mL SHMP.
+-   Make sure all the caps are closed and put them in the shaker overnight (\~6-12 hrs).
 
 Your soil sample will be wet sieved and all sand can be oven dried in one tin, the silt and clay will be in the sedimentation column. The sands need to be clean, so that no silt and clay is dried with the sands or the drying process can leave you with a puck as opposed to single grain sands. Sands can then be dry sieved and weighed in individual fractions.
 
-- An efficient wet sieving technique is necessary so that less than 1L of water is used, as that is all that will fit into the sedimentation column. One technique is to run the shaken soil sample through the finest sieve while it sits in a plastic funnel that sits atop the sedimentation column.
-- Another technique is to start in a weighboat. The finest sieve will be useful, completely saturated with DI water prior to starting the sieving. Pour the sample through the sieve in 2-4 parts. Use a DI rinse bottle (with a fine nozzle, to conserve DI water) to help rinse the silt & clay through the sieve and rinse the sands. Some tapping or shaking the sieve is also helpful to get things to move through.
-- The sand left in the sieve can be carefully emptied into a weigh boat so that the sands don't clog the sieve for the next part you pour through. You may want to back rinse (rinse from the back side of the sieve) and rotate it while rinsing.
-- So, after the Nalgene you mixed your soil sample with the 100mL SHMP is emptied through the sieve (remember to rinse the lid into the sieve too!), rinse all sands from the weigh boat back into the sieve and finish rinsing with DI water. You really want the rinse water coming through the sieve to run as clear as possible. This is tricky to achieve without using more than 1L DI water, so use it sparingly at first. Good luck.
+-   An efficient wet sieving technique is necessary so that less than 1L of water is used, as that is all that will fit into the sedimentation column. One technique is to run the shaken soil sample through the finest sieve while it sits in a plastic funnel that sits atop the sedimentation column.
+-   Another technique is to start in a weighboat. The finest sieve will be useful, completely saturated with DI water prior to starting the sieving. Pour the sample through the sieve in 2-4 parts. Use a DI rinse bottle (with a fine nozzle, to conserve DI water) to help rinse the silt & clay through the sieve and rinse the sands. Some tapping or shaking the sieve is also helpful to get things to move through.
+-   The sand left in the sieve can be carefully emptied into a weigh boat so that the sands don't clog the sieve for the next part you pour through. You may want to back rinse (rinse from the back side of the sieve) and rotate it while rinsing.
+-   So, after the Nalgene you mixed your soil sample with the 100mL SHMP is emptied through the sieve (remember to rinse the lid into the sieve too!), rinse all sands from the weigh boat back into the sieve and finish rinsing with DI water. You really want the rinse water coming through the sieve to run as clear as possible. This is tricky to achieve without using more than 1L DI water, so use it sparingly at first. Good luck.
 
 ## References and Notes

@@ -1,8 +1,4 @@
----
-title: "Laser Particle Size Analysis"
-format: html
-editor: visual
----
+# Laser Particle Size Analysis
 
 ::: callout-note
 Last edited: 08NOV2023 NP

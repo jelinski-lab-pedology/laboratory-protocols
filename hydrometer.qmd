@@ -1,8 +1,4 @@
----
-title: "Protocol Title"
-format: html
-editor: visual
----
+# Hydrometer
 
 ::: callout-note
 Last edited: 06NOV2023 NP

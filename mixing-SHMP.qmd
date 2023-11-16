@@ -1,8 +1,4 @@
----
-title: "Mixing SHMP"
-format: html
-editor: visual
----
+# Mixing SHMP
 
 ::: callout-note
 Last edited: 08NOV2023 NP

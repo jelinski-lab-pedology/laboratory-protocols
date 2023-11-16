@@ -1,8 +1,4 @@
----
-title: "Ammonium Oxalate Extraction for Amorphous Iron"
-format: html
-editor: visual
----
+# Ammonium Oxalate Extraction for Amorphous Iron
 
 ::: callout-note
 Last edited: 03NOV2023 NP

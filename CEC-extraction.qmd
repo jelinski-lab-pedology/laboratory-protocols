@@ -1,8 +1,4 @@
----
-title: "CEC Extraction"
-format: html
-editor: visual
----
+# CEC Extraction
 
 ::: callout-note
 Last edited 03NOV2023 NP

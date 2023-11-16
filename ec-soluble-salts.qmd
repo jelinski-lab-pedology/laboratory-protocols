@@ -1,8 +1,4 @@
----
-title: "Electrical conductivity and Soluble Salts"
-format: html
-editor: visual
----
+# Electrical Conductivity and Soluble Salts
 
 ::: callout-note
 Last edited: 06NOV2023 NP

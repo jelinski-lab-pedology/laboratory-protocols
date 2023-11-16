@@ -1,8 +1,4 @@
----
-title: "Pb Bio-Accessibility"
-format: html
-editor: visual
----
+# Pb Bio-Accessibility
 
 ::: callout-note
 Last edited: 09NOV2023 NP

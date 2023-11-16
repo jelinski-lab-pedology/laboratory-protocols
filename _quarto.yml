@@ -16,6 +16,7 @@ book:
     - cec-extraction.qmd
     - chromatography.qmd
     - cleaning-earthworms.qmd
+    - dithionite-citrate-extraction.qmd
     - dry-sieving.qmd
     - ec-soluble-salts.qmd
     - electrical-conductivity.qmd
@@ -26,6 +27,12 @@ book:
     - mixing-SHMP.qmd
     - moisture-content-bulk-density.qmd
     - particle-density-pycnometers.qmd
+    - pb-bioaccessibility.qmd
+    - permafrost-soil-processing.qmd
+    - pH.qmd
+    - pipette-texture.qmd
+    - pXRF.qmd
+    - wet-sieving.qmd
 #    - summary.qmd
 #    - references.qmd
 #  appendices:

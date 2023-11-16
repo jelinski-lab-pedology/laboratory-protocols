@@ -1,8 +1,4 @@
----
-title: "Dry Sieving"
-format: html
-editor: visual
----
+# Dry Sieving
 
 ::: callout-note
 Last edited: 06NOV2023 NP

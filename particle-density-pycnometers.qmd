@@ -1,8 +1,4 @@
----
-title: "Particle Density with Pycnometers"
-format: html
-editor: visual
----
+# Particle Density with Pycnometers
 
 ::: callout-note
 Last edited: 08NOV2023 NP

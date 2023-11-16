@@ -1,8 +1,4 @@
----
-title: "Pipette (Texture)"
-format: html
-editor: visual
----
+# Pipette (Texture)
 
 ::: callout-note
 Last edited: 09NOV2023 NP

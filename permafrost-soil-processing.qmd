@@ -1,8 +1,4 @@
----
-title: "Permafrost Soil Processing"
-format: html
-editor: visual
----
+# Permafrost Soil Processing
 
 ::: callout-note
 Last edited: 09NOV2023 NP

@@ -1,8 +1,4 @@
----
-title: "Chromatography"
-format: html
-editor: visual
----
+# Chromatography
 
 ::: callout-note
 Last edited: 03NOV2023 NP

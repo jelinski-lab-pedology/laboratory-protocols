@@ -1,8 +1,4 @@
----
-title: "Mid-infrared Spectroscopy (MIR)"
-format: html
-editor: visual
----
+# Mid-infrared Spectroscopy (MIR)
 
 ::: callout-note
 Last edited: 08NOV2023 NP

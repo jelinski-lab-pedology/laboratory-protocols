@@ -1,8 +1,4 @@
----
-title: "Earthworm Collection and Cleaning"
-format: html
-editor: visual
----
+# Earthworm Collection and Cleaning
 
 ::: callout-note
 Last edited: 06NOV2023 NP

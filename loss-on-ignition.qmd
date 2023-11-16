@@ -1,8 +1,4 @@
----
-title: "Loss on Ignition"
-format: html
-editor: visual
----
+# Loss on Ignition
 
 ::: callout-note
 Last edited: 08NOV2023 NP
