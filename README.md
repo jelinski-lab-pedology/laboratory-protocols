@@ -8,7 +8,7 @@ Each protocol was created using the example-template.qmd. Each has a 2-4 word ti
 As of 08NOV2023, there is one video (amm-ox-setup, both in .mov and .mp4 format) that I haven't been able to embed in its protocol. 
 
 ## Acknowledgements
-Thank you to the original writers of the protocols included here, including Nic Jelinski, Kat LaBine, Megan Andersen, Jennifer Nicklay, and Nora Pearson.
+Thank you to the original writers of the protocols included here, including Nic Jelinski, Kat LaBine, Megan Andersen, Jennifer Nicklay, Nora Pearson, and all graduate and undergraduate students.
 
 ## Resources
 [Subscripts and Superscripts in LaTeX](https://www.overleaf.com/learn/latex/Subscripts_and_superscripts)
