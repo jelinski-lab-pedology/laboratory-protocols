@@ -6,8 +6,8 @@ project:
 book:
   title: "Jelinski Lab Protocols"
   author: "N.B. Pearson, N.A. Jelinski, and all other lab members"
-  date: "10-November-2023"
-## cover-image: "aksdb-badge-02.png"
+  date: "16-November-2023"
+  cover-image: "laboratory-protocols-badge.png"
   
   chapters:
     - index.qmd
