@@ -98,3 +98,29 @@ Nora's note: I couldn't successfully change the sample name after running it. Un
 -   If you close and latch the stand, but the text box still says, "Test Stand/door is opened," the only solution I've found is to restart the computer. Same as above, I export the data to be safe, but the software saved my data.
 -   "Error measuring spectra" or something along those lines: happened to me when the sample wasn't over the scanning area. It got moved when I shut the stand door. If the scan is still running but the text box displays that error, stop the test, open the door, move the sample, and rerun. Note in your document or spreadsheet that run numbers x and y are the same sample.
     -   When that error comes up, the scan will continue to run but the software recognizes that no data is coming back - it's shooting into the lid of the stand.
+    
+##Use in field
+
+#### Physical Setup
+- Ensure that batteries are charged and dosimeters for each operating individual are in case; remember, the pXRF may only be operated by those who have been trained and have a dosimeter.
+- Have a printed data sheet or lab notebook to write down results.
+
+#### Operation
+- While operating, ensure that others are a minimum of 3 feet away from the operator - this is an effort to avoid radiation exposure.
+- Unlock the trigger by pressing the lock icon in the top right corner of the screen.
+- Calibrate the pXRF by pointing it at the sky, placing the coin on the end, and pressing the trigger once.
+- The flashing red light on the top of the pXRF indicates that exposure is occurring.
+- Select duration of scan (beam) in setup menu. 
+- Length of the scan depends on how much time is available, how many samples need to be scanned, et cetera. In the past, we have scanned for a total of 20-120 seconds, so 10-60 seconds for each beam.
+- If scanning the soil surface, clear away any plant matter or debris using hands or a trowel. 
+- If scanning a soil profile, collect or create the profile by coring with a push probe or coring with a probe/slide hammer and transferring the samples to a gutter. Lay a tape measure parallel to the profile and scan at regular intervals.
+- Tear a Ziploc sandwich bag in half so there are two sheets of plastic. Place one sheet over the soil surface as a film between the soil and pXRF. 
+- Hold the pXRF to the soil and press the trigger to scan. Hold the pXRF still while scanning. 
+- Once the scan is complete, write down the results for all elements of interest.
+- The pXRF will save the data, so it is possible to go back and look at the results for previous samples, but it can be difficult to match up which reading # to a certain sample. 
+- It is good practice to write down reading numbers for each scan along with the results. This can be written on a data sheet or recorded in Survey123. Also record any special notes, especially if samples are taken close to one another, such as “inside raised bed,” and “adjacent to raised bed.” 
+
+::: callout-note
+For a larger sampling effort, it is helpful to have one person work ahead to lay out a tape measure, clear off the soil surface, potentially flag the sampling location, and/or take a GPS coordinate reading using a Garmin or Survey123. If there is enough support, it is also helpful to have one person writing down the results, so the pXRF operator is just scanning.
+We have not had success exporting data from the pXRF onto a flash drive or computer. There is a cord in the pXRF supplies drawer in S434. Theoretically, exporting from the pXRF is similar to that on the computer; in the results section, choose export today, and the software creates a .csv. However, we cannot find the file on devices. For this reason, we recommend writing down the results during operation (especially if lead, for example, is the only element of interest), or taking a photo of the results screen for each sample.
+:::
