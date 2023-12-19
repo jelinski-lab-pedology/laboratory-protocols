@@ -22,7 +22,7 @@ This protocol contains directions for reagent preparation, the extraction protoc
 -   100 mL graduated cylinder
 -   2 - 1 L Nalgene bottles
 -   2 L beaker
--   Large stir bar and retrieving wand 
+-   Large stir bar and retrieving wand
 
 #### Procedure
 
