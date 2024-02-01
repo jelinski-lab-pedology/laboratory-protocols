@@ -11,7 +11,7 @@
     "href": "index.html#key-personnel",
     "title": "Jelinski Lab Protocols",
     "section": "Key Personnel",
-    "text": "Key Personnel\n\nNora Pearson; Primary Editor and Compiler\nNic Jelinski; Lab PI\nMANY Graduate and Undergraduate Students"
+    "text": "Key Personnel\n\nNic Jelinski; Lab PI\nNora Pearson; Primary Editor and Compiler\nMANY Graduate and Undergraduate Students"
   },
   {
     "objectID": "amm-ox-copy.html#materials",
@@ -319,14 +319,28 @@
     "href": "loss-on-ignition.html#moisture-correction",
     "title": "12  Loss on Ignition",
     "section": "12.3 Moisture Correction",
-    "text": "12.3 Moisture Correction\n\n12.3.0.1 Procedure\n\nUse a 2-3g air-dried soil sample, weigh the oven-dried crucible (do not tear the weight after), then add the soil sample.\nPlace into the drying oven at 105º C for 24 hours.\nAfter taking the sample out of the oven, place it into the desiccator for a couple of minutes to cool.\nWeigh it on the 4-digit analytical balance.\n\nMineral soil samples will hold different percentages of moisture than organic samples, so you should take a moisture correction for each category of soil sample (i.e. mostly mineral, mineral-organic combination, mostly organic), not one for every sample. Moisture corrections should be run at the same time/day as the LOI procedure. Run a moisture correction at each time you run an LOI set.\n\n\n12.3.0.2 Calculation\n\\[ [M(air dry soil + crucible) - M(oven dry crucible) * moisture correction] - [M(oven dry soil + crucible) - M(oven dry crucible)] \\over [M(air dry soil + crucible) - M(oven dry crucible) * moisture correction] \\]\nMultiply this value by 100%.\n\n\n12.3.0.3 Recharging Anhydrite\nAnhydrite should be blue. If it is purple/pink, place the Anhydrite into a metal pan (9x13” cake pan) and oven dry at 105 degrees Celsius until the blue color has come back indicating that the material has lost all moisture. This should take less than 24 hours."
+    "text": "12.3 Moisture Correction\n\n12.3.0.1 Procedure\n\nUse a 2-3g air-dried soil sample, weigh the oven-dried crucible (do not tear the weight after), then add the soil sample.\nPlace into the drying oven at 105º C for 24 hours.\nAfter taking the sample out of the oven, place it into the desiccator for a couple of minutes to cool.\nWeigh it on the 4-digit analytical balance.\n\nMineral soil samples will hold different percentages of moisture than organic samples, so you should take a moisture correction for each category of soil sample (i.e. mostly mineral, mineral-organic combination, mostly organic), not one for every sample. Moisture corrections should be run at the same time/day as the LOI procedure. Run a moisture correction at each time you run an LOI set."
+  },
+  {
+    "objectID": "loss-on-ignition.html#calculation",
+    "href": "loss-on-ignition.html#calculation",
+    "title": "12  Loss on Ignition",
+    "section": "12.4 Calculation",
+    "text": "12.4 Calculation\nCapital M indicates mass.\n\n12.4.0.1 Moisture Correction\n\\[\n[M(oven\\ dry\\ moisture\\ correction\\ soil\\ +\\ oven\\ dry\\ crucible) - M(oven\\ dry\\ crucible)] \\over [M(air\\ dry\\ moisture\\ correction\\ soil\\ +\\ oven\\ dry\\ crucible) - M(oven\\ dry\\ crucible)]\n\\]\nAlternatively, if the mass of the oven dry crucibles are subtracted from the oven and air dry soil mass (isolating the soil masses), the equation is as follows.\n\\[\nM(oven\\ dry\\ moisture\\ correction\\ soil) \\over M(air\\ dry\\ moisture\\ correction\\ soil)\n\\]\n\n\n12.4.0.2 Organic Matter %\n\\[\n[M(air dry soil + crucible) - M(oven dry crucible) * moisture correction] - [M(oven dry soil + crucible) - M(oven dry crucible)] \\over [M(air dry soil + crucible) - M(oven dry crucible) * moisture correction]\n\\] Multiply this value by 100%.\nAlternatively, if the mass of the oven dry crucibles are subtracted from the post-muffle furnace (written in equation as oven dry) and air dry soil masses (isolating the soil masses), the equation is as follows.\n\\[\n(M(air\\ dry\\ soil)\\ *\\ moisture\\ correction) - M(oven\\ dry\\ soil) \\over (M(air\\ dry\\ soil)\\ *\\ moisture\\ correction)\n\\]\nMultiply this value by 100%."
+  },
+  {
+    "objectID": "loss-on-ignition.html#recharging-anhydrite",
+    "href": "loss-on-ignition.html#recharging-anhydrite",
+    "title": "12  Loss on Ignition",
+    "section": "12.5 Recharging Anhydrite",
+    "text": "12.5 Recharging Anhydrite\nAnhydrite should be blue. If it is purple/pink, place the Anhydrite into a metal pan (9x13” cake pan) and oven dry at 105 degrees Celsius until the blue color has come back indicating that the material has lost all moisture. This should take less than 24 hours."
   },
   {
     "objectID": "loss-on-ignition.html#references-and-notes",
     "href": "loss-on-ignition.html#references-and-notes",
     "title": "12  Loss on Ignition",
-    "section": "12.4 References and Notes",
-    "text": "12.4 References and Notes"
+    "section": "12.6 References and Notes",
+    "text": "12.6 References and Notes"
   },
   {
     "objectID": "mir.html#setup",

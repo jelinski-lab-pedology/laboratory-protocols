@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -252,7 +252,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#materials" id="toc-materials" class="nav-link active" data-scroll-target="#materials"><span class="header-section-number">12.1</span> Materials</a></li>
   <li><a href="#procedure" id="toc-procedure" class="nav-link" data-scroll-target="#procedure"><span class="header-section-number">12.2</span> Procedure</a></li>
   <li><a href="#moisture-correction" id="toc-moisture-correction" class="nav-link" data-scroll-target="#moisture-correction"><span class="header-section-number">12.3</span> Moisture Correction</a></li>
-  <li><a href="#references-and-notes" id="toc-references-and-notes" class="nav-link" data-scroll-target="#references-and-notes"><span class="header-section-number">12.4</span> References and Notes</a></li>
+  <li><a href="#calculation" id="toc-calculation" class="nav-link" data-scroll-target="#calculation"><span class="header-section-number">12.4</span> Calculation</a></li>
+  <li><a href="#recharging-anhydrite" id="toc-recharging-anhydrite" class="nav-link" data-scroll-target="#recharging-anhydrite"><span class="header-section-number">12.5</span> Recharging Anhydrite</a></li>
+  <li><a href="#references-and-notes" id="toc-references-and-notes" class="nav-link" data-scroll-target="#references-and-notes"><span class="header-section-number">12.6</span> References and Notes</a></li>
   </ul>
 </nav>
     </div>
@@ -420,18 +422,38 @@ Warning
 </ul>
 <p>Mineral soil samples will hold different percentages of moisture than organic samples, so you should take a moisture correction for each category of soil sample (i.e.&nbsp;mostly mineral, mineral-organic combination, mostly organic), not one for every sample. Moisture corrections should be run at the same time/day as the LOI procedure. Run a moisture correction at each time you run an LOI set.</p>
 </section>
-<section id="calculation" class="level4" data-number="12.3.0.2">
-<h4 data-number="12.3.0.2" class="anchored" data-anchor-id="calculation"><span class="header-section-number">12.3.0.2</span> Calculation</h4>
-<p><span class="math display">\[ [M(air dry soil + crucible) - M(oven dry crucible) * moisture correction] - [M(oven dry soil + crucible) - M(oven dry crucible)] \over [M(air dry soil + crucible) - M(oven dry crucible) * moisture correction] \]</span></p>
-<p>Multiply this value by 100%.</p>
 </section>
-<section id="recharging-anhydrite" class="level4" data-number="12.3.0.3">
-<h4 data-number="12.3.0.3" class="anchored" data-anchor-id="recharging-anhydrite"><span class="header-section-number">12.3.0.3</span> Recharging Anhydrite</h4>
+<section id="calculation" class="level2" data-number="12.4">
+<h2 data-number="12.4" class="anchored" data-anchor-id="calculation"><span class="header-section-number">12.4</span> Calculation</h2>
+<p>Capital M indicates mass.</p>
+<section id="moisture-correction-1" class="level4" data-number="12.4.0.1">
+<h4 data-number="12.4.0.1" class="anchored" data-anchor-id="moisture-correction-1"><span class="header-section-number">12.4.0.1</span> Moisture Correction</h4>
+<p><span class="math display">\[
+[M(oven\ dry\ moisture\ correction\ soil\ +\ oven\ dry\ crucible) - M(oven\ dry\ crucible)] \over [M(air\ dry\ moisture\ correction\ soil\ +\ oven\ dry\ crucible) - M(oven\ dry\ crucible)]
+\]</span></p>
+<p>Alternatively, if the mass of the oven dry crucibles are subtracted from the oven and air dry soil mass (isolating the soil masses), the equation is as follows.</p>
+<p><span class="math display">\[
+M(oven\ dry\ moisture\ correction\ soil) \over M(air\ dry\ moisture\ correction\ soil)
+\]</span></p>
+</section>
+<section id="organic-matter" class="level4" data-number="12.4.0.2">
+<h4 data-number="12.4.0.2" class="anchored" data-anchor-id="organic-matter"><span class="header-section-number">12.4.0.2</span> Organic Matter %</h4>
+<p><span class="math display">\[
+[M(air dry soil + crucible) - M(oven dry crucible) * moisture correction] - [M(oven dry soil + crucible) - M(oven dry crucible)] \over [M(air dry soil + crucible) - M(oven dry crucible) * moisture correction]
+\]</span> <strong>Multiply this value by 100%.</strong></p>
+<p>Alternatively, if the mass of the oven dry crucibles are subtracted from the post-muffle furnace (written in equation as oven dry) and air dry soil masses (isolating the soil masses), the equation is as follows.</p>
+<p><span class="math display">\[
+(M(air\ dry\ soil)\ *\ moisture\ correction) - M(oven\ dry\ soil) \over (M(air\ dry\ soil)\ *\ moisture\ correction)
+\]</span></p>
+<p><strong>Multiply this value by 100%.</strong></p>
+</section>
+</section>
+<section id="recharging-anhydrite" class="level2" data-number="12.5">
+<h2 data-number="12.5" class="anchored" data-anchor-id="recharging-anhydrite"><span class="header-section-number">12.5</span> Recharging Anhydrite</h2>
 <p>Anhydrite should be blue. If it is purple/pink, place the Anhydrite into a metal pan (9x13” cake pan) and oven dry at 105 degrees Celsius until the blue color has come back indicating that the material has lost all moisture. This should take less than 24 hours.</p>
 </section>
-</section>
-<section id="references-and-notes" class="level2" data-number="12.4">
-<h2 data-number="12.4" class="anchored" data-anchor-id="references-and-notes"><span class="header-section-number">12.4</span> References and Notes</h2>
+<section id="references-and-notes" class="level2" data-number="12.6">
+<h2 data-number="12.6" class="anchored" data-anchor-id="references-and-notes"><span class="header-section-number">12.6</span> References and Notes</h2>
 
 
 </section>

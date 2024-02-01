@@ -4,6 +4,6 @@ This Quarto book contains protocols developed and utilized in the Jelinski labor
 
 ## Key Personnel
 
--   Nora Pearson; Primary Editor and Compiler
 -   Nic Jelinski; Lab PI
+-   Nora Pearson; Primary Editor and Compiler
 -   MANY Graduate and Undergraduate Students
