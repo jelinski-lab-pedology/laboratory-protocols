@@ -1,7 +1,7 @@
 # Loss on Ignition
 
 ::: callout-note
-Last edited: 08NOV2023 NP
+Last edited: 01FEB2024 NP
 
 Loss on ignition (LOI) is used to determine the organic matter (OM) percentage of a soil sample.
 
@@ -83,9 +83,11 @@ Watch out - the weight of the sample will increase the longer it is exposed to t
 Mineral soil samples will hold different percentages of moisture than organic samples, so you should take a moisture correction for each category of soil sample (i.e. mostly mineral, mineral-organic combination, mostly organic), not one for every sample. Moisture corrections should be run at the same time/day as the LOI procedure. Run a moisture correction at each time you run an LOI set.
 
 ## Calculation
+
 Capital M indicates mass.
 
 #### Moisture Correction
+
 $$
 [M(oven\ dry\ moisture\ correction\ soil\ +\ oven\ dry\ crucible) - M(oven\ dry\ crucible)] \over [M(air\ dry\ moisture\ correction\ soil\ +\ oven\ dry\ crucible) - M(oven\ dry\ crucible)]
 $$
@@ -100,8 +102,7 @@ $$
 
 $$ 
 [M(air dry soil + crucible) - M(oven dry crucible) * moisture correction] - [M(oven dry soil + crucible) - M(oven dry crucible)] \over [M(air dry soil + crucible) - M(oven dry crucible) * moisture correction]
-$$
-**Multiply this value by 100%.**
+$$ **Multiply this value by 100%.**
 
 Alternatively, if the mass of the oven dry crucibles are subtracted from the post-muffle furnace (written in equation as oven dry) and air dry soil masses (isolating the soil masses), the equation is as follows.
 

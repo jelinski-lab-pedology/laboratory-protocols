@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Jelinski Lab Protocols - 12&nbsp; Loss on Ignition</title>
+<title>Jelinski Lab Protocols - 15&nbsp; Moisture Content and Bulk Density</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./mir.html" rel="next">
-<link href="./laser-particle-size-analysis.html" rel="prev">
+<link href="./particle-density-pycnometers.html" rel="next">
+<link href="./mixing-SHMP.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./loss-on-ignition.html"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Loss on Ignition</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./moisture-content-bulk-density.html"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Moisture Content and Bulk Density</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -175,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./loss-on-ignition.html" class="sidebar-item-text sidebar-link active">
+  <a href="./loss-on-ignition.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Loss on Ignition</span></span></a>
   </div>
 </li>
@@ -193,7 +193,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./moisture-content-bulk-density.html" class="sidebar-item-text sidebar-link">
+  <a href="./moisture-content-bulk-density.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Moisture Content and Bulk Density</span></span></a>
   </div>
 </li>
@@ -249,12 +249,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#materials" id="toc-materials" class="nav-link active" data-scroll-target="#materials"><span class="header-section-number">12.1</span> Materials</a></li>
-  <li><a href="#procedure" id="toc-procedure" class="nav-link" data-scroll-target="#procedure"><span class="header-section-number">12.2</span> Procedure</a></li>
-  <li><a href="#moisture-correction" id="toc-moisture-correction" class="nav-link" data-scroll-target="#moisture-correction"><span class="header-section-number">12.3</span> Moisture Correction</a></li>
-  <li><a href="#calculation" id="toc-calculation" class="nav-link" data-scroll-target="#calculation"><span class="header-section-number">12.4</span> Calculation</a></li>
-  <li><a href="#recharging-anhydrite" id="toc-recharging-anhydrite" class="nav-link" data-scroll-target="#recharging-anhydrite"><span class="header-section-number">12.5</span> Recharging Anhydrite</a></li>
-  <li><a href="#references-and-notes" id="toc-references-and-notes" class="nav-link" data-scroll-target="#references-and-notes"><span class="header-section-number">12.6</span> References and Notes</a></li>
+  <li><a href="#materials" id="toc-materials" class="nav-link active" data-scroll-target="#materials"><span class="header-section-number">15.1</span> Materials</a></li>
+  <li><a href="#procedure" id="toc-procedure" class="nav-link" data-scroll-target="#procedure"><span class="header-section-number">15.2</span> Procedure</a></li>
+  <li><a href="#calculations" id="toc-calculations" class="nav-link" data-scroll-target="#calculations"><span class="header-section-number">15.3</span> Calculations</a></li>
+  <li><a href="#references-and-notes" id="toc-references-and-notes" class="nav-link" data-scroll-target="#references-and-notes"><span class="header-section-number">15.4</span> References and Notes</a></li>
   </ul>
 </nav>
     </div>
@@ -263,7 +261,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Loss on Ignition</span></h1>
+<h1 class="title"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Moisture Content and Bulk Density</span></h1>
 </div>
 
 
@@ -288,172 +286,91 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Last edited: 01FEB2024 NP</p>
-<p>Loss on ignition (LOI) is used to determine the organic matter (OM) percentage of a soil sample.</p>
-<p><a href="https://docs.google.com/spreadsheets/d/1Z6ijR4D47hjFZBMePrvnEEBT6g56EIJs/edit?usp=sharing&amp;ouid=108934466869932900090&amp;rtpof=true&amp;sd=true">Example data sheet</a></p>
+<p>Last edited: 08NOV2023 NP</p>
+<p>Bulk density is the weight of soil in a given volume. Soils with a bulk density higher than 1.6 g/cm3 tend to restrict root growth. Bulk density tends to increase with compaction and tends to increase with depth. Sandy soils are more prone to high bulk density.</p>
 </div>
 </div>
-<section id="materials" class="level2" data-number="12.1">
-<h2 data-number="12.1" class="anchored" data-anchor-id="materials"><span class="header-section-number">12.1</span> Materials</h2>
+<section id="materials" class="level2" data-number="15.1">
+<h2 data-number="15.1" class="anchored" data-anchor-id="materials"><span class="header-section-number">15.1</span> Materials</h2>
 <ul>
-<li>Lab coat</li>
-<li>Safety goggles</li>
-<li>Oven safe gloves</li>
-<li>Tongs to lift and move hot crucibles</li>
-<li>Muffle furnace at 550º Celsius</li>
-<li>4-digit analytical balance</li>
-<li>~5 g air-dried soil of each sample</li>
-<li>Measuring scoop</li>
-<li>Kim wipes</li>
-<li>2-3g air-dried soil sample (to use for moisture correction measurement)</li>
-<li>Desiccator filled with Anhydrite
-<ul>
-<li>Should be blue in color; if it is purple or pink, see directions below</li>
-</ul></li>
-<li>Ceramic crucible (oven-dried and numbered on exterior base)</li>
+<li>Plastic sample tubes and caps OR sealable plastic sample bags</li>
+<li>Pre-weighed paper sample bags</li>
+<li>Bulk density tool - either from Jelinski lab or Cates lab (2023-24, using Cates lab)</li>
 </ul>
 </section>
-<section id="procedure" class="level2" data-number="12.2">
-<h2 data-number="12.2" class="anchored" data-anchor-id="procedure"><span class="header-section-number">12.2</span> Procedure</h2>
+<section id="procedure" class="level2" data-number="15.2">
+<h2 data-number="15.2" class="anchored" data-anchor-id="procedure"><span class="header-section-number">15.2</span> Procedure</h2>
+<section id="in-field" class="level4" data-number="15.2.0.1">
+<h4 data-number="15.2.0.1" class="anchored" data-anchor-id="in-field"><span class="header-section-number">15.2.0.1</span> In Field</h4>
+<ul>
+<li>Assemble the bulk density tool. Directions below are for the Cates lab tool.
+<ul>
+<li>Unscrew the sample chamber.</li>
+<li>Insert the plastic tube so that the open end faces the bottom (narrower end) of the sampler.</li>
+<li>Screw the sample chamber back into the handle.</li>
+</ul></li>
+<li>Remove any debris (e.g., mulch) from the soil surface.</li>
+<li>Set the bottom of the sample chamber on the soil surface so the tool is perpendicular to the ground.</li>
+<li>Slide the hammer up and release. Repeat until the sample chamber is completely immersed in the soil and the soil surface is even with the bottom of the wider metal circle.</li>
+<li>Carefully remove the sample chamber from the soil. For sandy soils, it’s a good idea to do this while kneeling and with your hand close to the hole to quickly cover the open end of the sample chamber if needed.</li>
+<li>Flip the tool upside down and unscrew the sample chamber.</li>
+<li>Remove the plastic sleeve from the chamber.</li>
+<li>Use a flat edge to remove soil above the top of the tube. Be careful to not compress the soil in the tub while doing this.</li>
+<li>Cap the tube and either use tape to label with sample information or place in a pre-weighed and labeled paper bag.</li>
+</ul>
+</section>
+<section id="in-lab" class="level4" data-number="15.2.0.2">
+<h4 data-number="15.2.0.2" class="anchored" data-anchor-id="in-lab"><span class="header-section-number">15.2.0.2</span> In Lab</h4>
 <ul>
 <li>Prepare laboratory notebook with the following data columns:
 <ul>
-<li>Sample number, crucible number, oven dry (OD) crucible (g), pre-muffle crucible+soil (g), post-muffle crucible+soil (g)</li>
+<li>Date, sample name, time into oven, field moist weight with plastic bag (g), weight of plastic (field) bag (g)<sup>1</sup>, net field moist weight (g), oven dry weight with paper bag (g), weight of paper bag (g)<sup>2</sup>, net oven dry soil weight (g)<sup>2</sup>
+<ul>
+<li>1 - not needed if using plastic sample tubes</li>
+<li>2 - if the paper bag weight is negligible – omit the last two measurements noted with “<sup>2</sup>” and use Oven Dry weight with paper bag (g) in the calculation instead of net Oven Dry weight.</li>
 </ul></li>
-<li>A few samples will be used for calculating a moisture correction. See below. Data columns:
-<ul>
-<li>Crucible number, OD crucible (g), air dry moisture correction soil +OD crucible (g), OD moisture correction soil + OD crucible</li>
+<li>Regarding both net weights (field moist and oven dry) - this can be calculated in Excel or R. Not necessary to have a column in the paper data sheet</li>
 </ul></li>
-<li>Rinse the crucibles with DI water and place them in drying oven at 105 degrees Celsius overnight (or 6-8 hours).</li>
-<li>Take the crucibles out of the oven and place them into the desiccator where they can cool for a couple minutes. Your cooling time (such as 5 minutes) should become a standard for all samples in your set.</li>
-</ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The 4-digit analytical balance does not like hot items, so the crucibles must cool down before weighing. Cool to the touch is fine. When hot items are placed onto the scale, the air and metals in the scale expand and the scale gets wonky. It ends up reading a negative value when the items are removed from the scale. So, I placed the crucibles from the oven into a desiccator because I felt that the oven dry crucibles gained water weight from the moisture in the air while sitting out in the lab. I wanted to keep them as dry as possible to reduce the chance that such gained moisture weight wouldn’t be inaccurately counted as soil weight.</p>
-</div>
-</div>
+<li>As soon as possible, measure the field moist weight of each sample.
 <ul>
-<li><p>Weigh each crucible on the 4-digit analytical balance; record the OD weight and the number of the crucible.</p></li>
-<li><p>Do not tear the weight of the crucible. Gently mix the soil around in the bag so that you have a homogenous sample, and add ~5 g soil into the crucible with a small scoop.</p></li>
-<li><p>Document OD crucible + soil weight (g).</p></li>
-<li><p>Place the crucible and soil onto the ceramic plate that will be slid into the muffle furnace.</p></li>
-</ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Some folks make a map of which crucibles are on the plate, but I chose to document the number of the crucible and which sample was placed into that numbered crucible in my lab book. I did have to lift the crucible up high to see the number on the bottom when I went to weigh it. Perhaps a combination of both listing the crucible number and using a layout map would be useful for identifying the samples when they are taken out of the furnace to weigh.</p>
-</div>
-</div>
+<li>If the sample is in a plastic tube, transfer it to a pre-weighed and labeled paper bag. Before transferring, check that there are no holes in the corners of the bags (which occasionally happens when the bags are manufactured)</li>
+<li>Weigh the sample and paper bag. This is the gross weight.</li>
+</ul></li>
+<li>Place the samples in the drying oven at 50ºC. The exact temperature is not critical; if the temperature is lower, the samples will take longer to dry - that is fine.</li>
+<li>Dry the sample for at least 48 hours. Be consistent in dry time for all samples.</li>
+<li>When the samples are completely dry, measure the oven dried weight of each sample. The weight of each sample should be taken as soon as possible after the sample is removed from the oven because moisture will be absorbed from the air immediately.
 <ul>
-<li>Wipe off the scoop and repeat the weighing procedure. Complete this soil measurement and weighing process for the chosen number of samples you will do.</li>
+<li>You will realize this when you see the weight on the scale ticking up and up each second. Only remove a few samples from the oven at a time to weigh.</li>
+</ul></li>
 </ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>I recommend 12-18 samples at a time. More of the smaller crucibles can fit into the muffle furnace on the ceramic plate, but the small crucibles are more challenging to pick up (you should use the tongs, trying to grab it with oven mitts on is probably not possible to do). Also, 5 g of an organic sample will not fit into a small crucible. If you fill the ceramic plate that slides into the muffle furnace with too many crucibles, you risk having crucibles sliding/falling off the edge –which means a loss of your sample and its data.</p>
-</div>
-</div>
-<ul>
-<li><p>Note that the temperature of the muffle furnace has warmed to 550º C. Load the ceramic plate and slide it into the muffle furnace. Close and latch the door and let the samples bake for exactly 5 hours.</p></li>
-<li><p>After 5 hours, turn the furnace off and crack the door open to allow some heat to escape for 5-10 minutes.</p></li>
-<li><p>Carefully remove the samples from the muffle furnace. Be careful. Either place them in the drying oven or into the desiccator to cool some before weighing them. Don’t let them sit out at room temperature because they will absorb moisture from the air. If you leave them in the desiccator, be sure to crack the lid or rubber stopper to avoid a pressure inconsistency.</p></li>
-</ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>If you don’t crack the lid, the desiccator will suck in air when you open it and sample will fly everywhere.</p>
-</div>
-</div>
-<ul>
-<li>Taking one sample out of the desiccator at a time, weigh each sample shortly after it has cooled to the touch (5 minutes, or same amount of time afterward as before when you let the crucibles sit after being in the drying oven).</li>
-</ul>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Watch out - the weight of the sample will increase the longer it is exposed to the air as the soil particles are absorbing moisture. Take the first reading you see, that is, when you feel that scale is balanced after the sample is set onto it.</p>
-</div>
-</div>
-</section>
-<section id="moisture-correction" class="level2" data-number="12.3">
-<h2 data-number="12.3" class="anchored" data-anchor-id="moisture-correction"><span class="header-section-number">12.3</span> Moisture Correction</h2>
-<section id="procedure-1" class="level4" data-number="12.3.0.1">
-<h4 data-number="12.3.0.1" class="anchored" data-anchor-id="procedure-1"><span class="header-section-number">12.3.0.1</span> Procedure</h4>
-<ul>
-<li>Use a 2-3g air-dried soil sample, weigh the oven-dried crucible (do not tear the weight after), then add the soil sample.</li>
-<li>Place into the drying oven at 105º C for 24 hours.</li>
-<li>After taking the sample out of the oven, place it into the desiccator for a couple of minutes to cool.</li>
-<li>Weigh it on the 4-digit analytical balance.</li>
-</ul>
-<p>Mineral soil samples will hold different percentages of moisture than organic samples, so you should take a moisture correction for each category of soil sample (i.e.&nbsp;mostly mineral, mineral-organic combination, mostly organic), not one for every sample. Moisture corrections should be run at the same time/day as the LOI procedure. Run a moisture correction at each time you run an LOI set.</p>
 </section>
 </section>
-<section id="calculation" class="level2" data-number="12.4">
-<h2 data-number="12.4" class="anchored" data-anchor-id="calculation"><span class="header-section-number">12.4</span> Calculation</h2>
-<p>Capital M indicates mass.</p>
-<section id="moisture-correction-1" class="level4" data-number="12.4.0.1">
-<h4 data-number="12.4.0.1" class="anchored" data-anchor-id="moisture-correction-1"><span class="header-section-number">12.4.0.1</span> Moisture Correction</h4>
+<section id="calculations" class="level2" data-number="15.3">
+<h2 data-number="15.3" class="anchored" data-anchor-id="calculations"><span class="header-section-number">15.3</span> Calculations</h2>
+<p>(field moist weight w/ sample bag) - (weight of sample bag) = <em>net field moist weight (g)</em></p>
+<p>(oven dry weight w/ paper bag) - (weight of paper bag) = <em>net oven dry soil weight (g)</em></p>
+<p><strong>Moisture Content</strong></p>
 <p><span class="math display">\[
-[M(oven\ dry\ moisture\ correction\ soil\ +\ oven\ dry\ crucible) - M(oven\ dry\ crucible)] \over [M(air\ dry\ moisture\ correction\ soil\ +\ oven\ dry\ crucible) - M(oven\ dry\ crucible)]
+net\:field\:moist\:weight - net\:oven\:dry\:soil\:weight \over net\:oven\:dry\:soil\:weight
 \]</span></p>
-<p>Alternatively, if the mass of the oven dry crucibles are subtracted from the oven and air dry soil mass (isolating the soil masses), the equation is as follows.</p>
+<p>Multiply this value by 100%.</p>
+<p><strong>Db</strong></p>
 <p><span class="math display">\[
-M(oven\ dry\ moisture\ correction\ soil) \over M(air\ dry\ moisture\ correction\ soil)
+net\:oven\:dry\:soil\:weight\:(g) \over volume\:of\:sampler\:(cm^3)
+\]</span></p>
+<p>If using oven dry weight with paper bag, not subtracting weight of paper bag:</p>
+<p><strong>Moisture Content</strong></p>
+<p><span class="math display">\[
+net\:field\:moist\:weight - oven\:dry\:weight\:w/\:paper\:bag\:(g) \over oven\:dry\:weight\:w/\:paper\:bag\:(g)
+\]</span></p>
+<p>Multiply this value by 100%.</p>
+<p><strong>Db</strong></p>
+<p><span class="math display">\[
+oven\:dry\:weight\:w/\:paper\:bag\:(g)  \over volume\:of\:sampler\:(cm^3)
 \]</span></p>
 </section>
-<section id="organic-matter" class="level4" data-number="12.4.0.2">
-<h4 data-number="12.4.0.2" class="anchored" data-anchor-id="organic-matter"><span class="header-section-number">12.4.0.2</span> Organic Matter %</h4>
-<p><span class="math display">\[
-[M(air dry soil + crucible) - M(oven dry crucible) * moisture correction] - [M(oven dry soil + crucible) - M(oven dry crucible)] \over [M(air dry soil + crucible) - M(oven dry crucible) * moisture correction]
-\]</span> <strong>Multiply this value by 100%.</strong></p>
-<p>Alternatively, if the mass of the oven dry crucibles are subtracted from the post-muffle furnace (written in equation as oven dry) and air dry soil masses (isolating the soil masses), the equation is as follows.</p>
-<p><span class="math display">\[
-(M(air\ dry\ soil)\ *\ moisture\ correction) - M(oven\ dry\ soil) \over (M(air\ dry\ soil)\ *\ moisture\ correction)
-\]</span></p>
-<p><strong>Multiply this value by 100%.</strong></p>
-</section>
-</section>
-<section id="recharging-anhydrite" class="level2" data-number="12.5">
-<h2 data-number="12.5" class="anchored" data-anchor-id="recharging-anhydrite"><span class="header-section-number">12.5</span> Recharging Anhydrite</h2>
-<p>Anhydrite should be blue. If it is purple/pink, place the Anhydrite into a metal pan (9x13” cake pan) and oven dry at 105 degrees Celsius until the blue color has come back indicating that the material has lost all moisture. This should take less than 24 hours.</p>
-</section>
-<section id="references-and-notes" class="level2" data-number="12.6">
-<h2 data-number="12.6" class="anchored" data-anchor-id="references-and-notes"><span class="header-section-number">12.6</span> References and Notes</h2>
+<section id="references-and-notes" class="level2" data-number="15.4">
+<h2 data-number="15.4" class="anchored" data-anchor-id="references-and-notes"><span class="header-section-number">15.4</span> References and Notes</h2>
 
 
 </section>
@@ -694,13 +611,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./laser-particle-size-analysis.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Laser Particle Size Analysis</span></span>
+      <a href="./mixing-SHMP.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Mixing SHMP</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./mir.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Mid-infrared Spectroscopy (MIR)</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./particle-density-pycnometers.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Particle Density with Pycnometers</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

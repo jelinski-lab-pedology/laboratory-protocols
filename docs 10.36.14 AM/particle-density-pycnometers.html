@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Jelinski Lab Protocols - 12&nbsp; Loss on Ignition</title>
+<title>Jelinski Lab Protocols - 16&nbsp; Particle Density with Pycnometers</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./mir.html" rel="next">
-<link href="./laser-particle-size-analysis.html" rel="prev">
+<link href="./pb-bioaccessibility.html" rel="next">
+<link href="./moisture-content-bulk-density.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./loss-on-ignition.html"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Loss on Ignition</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./particle-density-pycnometers.html"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Particle Density with Pycnometers</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -175,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./loss-on-ignition.html" class="sidebar-item-text sidebar-link active">
+  <a href="./loss-on-ignition.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Loss on Ignition</span></span></a>
   </div>
 </li>
@@ -199,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./particle-density-pycnometers.html" class="sidebar-item-text sidebar-link">
+  <a href="./particle-density-pycnometers.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Particle Density with Pycnometers</span></span></a>
   </div>
 </li>
@@ -249,12 +249,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#materials" id="toc-materials" class="nav-link active" data-scroll-target="#materials"><span class="header-section-number">12.1</span> Materials</a></li>
-  <li><a href="#procedure" id="toc-procedure" class="nav-link" data-scroll-target="#procedure"><span class="header-section-number">12.2</span> Procedure</a></li>
-  <li><a href="#moisture-correction" id="toc-moisture-correction" class="nav-link" data-scroll-target="#moisture-correction"><span class="header-section-number">12.3</span> Moisture Correction</a></li>
-  <li><a href="#calculation" id="toc-calculation" class="nav-link" data-scroll-target="#calculation"><span class="header-section-number">12.4</span> Calculation</a></li>
-  <li><a href="#recharging-anhydrite" id="toc-recharging-anhydrite" class="nav-link" data-scroll-target="#recharging-anhydrite"><span class="header-section-number">12.5</span> Recharging Anhydrite</a></li>
-  <li><a href="#references-and-notes" id="toc-references-and-notes" class="nav-link" data-scroll-target="#references-and-notes"><span class="header-section-number">12.6</span> References and Notes</a></li>
+  <li><a href="#materials" id="toc-materials" class="nav-link active" data-scroll-target="#materials"><span class="header-section-number">16.1</span> Materials</a></li>
+  <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation"><span class="header-section-number">16.2</span> Preparation</a></li>
+  <li><a href="#procedure" id="toc-procedure" class="nav-link" data-scroll-target="#procedure"><span class="header-section-number">16.3</span> Procedure</a></li>
+  <li><a href="#calculation" id="toc-calculation" class="nav-link" data-scroll-target="#calculation"><span class="header-section-number">16.4</span> Calculation</a></li>
+  <li><a href="#references-and-notes" id="toc-references-and-notes" class="nav-link" data-scroll-target="#references-and-notes"><span class="header-section-number">16.5</span> References and Notes</a></li>
   </ul>
 </nav>
     </div>
@@ -263,7 +262,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Loss on Ignition</span></h1>
+<h1 class="title"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Particle Density with Pycnometers</span></h1>
 </div>
 
 
@@ -288,44 +287,38 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Last edited: 01FEB2024 NP</p>
-<p>Loss on ignition (LOI) is used to determine the organic matter (OM) percentage of a soil sample.</p>
-<p><a href="https://docs.google.com/spreadsheets/d/1Z6ijR4D47hjFZBMePrvnEEBT6g56EIJs/edit?usp=sharing&amp;ouid=108934466869932900090&amp;rtpof=true&amp;sd=true">Example data sheet</a></p>
+<p>Last edited: 08NOV2023 NP</p>
 </div>
 </div>
-<section id="materials" class="level2" data-number="12.1">
-<h2 data-number="12.1" class="anchored" data-anchor-id="materials"><span class="header-section-number">12.1</span> Materials</h2>
+<section id="materials" class="level2" data-number="16.1">
+<h2 data-number="16.1" class="anchored" data-anchor-id="materials"><span class="header-section-number">16.1</span> Materials</h2>
 <ul>
-<li>Lab coat</li>
-<li>Safety goggles</li>
-<li>Oven safe gloves</li>
-<li>Tongs to lift and move hot crucibles</li>
-<li>Muffle furnace at 550º Celsius</li>
-<li>4-digit analytical balance</li>
-<li>~5 g air-dried soil of each sample</li>
-<li>Measuring scoop</li>
-<li>Kim wipes</li>
-<li>2-3g air-dried soil sample (to use for moisture correction measurement)</li>
-<li>Desiccator filled with Anhydrite
-<ul>
-<li>Should be blue in color; if it is purple or pink, see directions below</li>
-</ul></li>
-<li>Ceramic crucible (oven-dried and numbered on exterior base)</li>
+<li><p>Lab coat</p></li>
+<li><p>Safety glasses</p></li>
+<li><p>Oven gloves</p></li>
+<li><p>Tongs for hot objects</p></li>
+<li><p>Dessicator filled with Anhydrite</p></li>
+<li><p>10ml Pycnometers</p></li>
+<li><p>~2 g of soil (could be more, but this seemed like a good amount - filling the pycnometer too high risks losing soil while boiling)</p></li>
+<li><p>Measuring scoop</p></li>
+<li><p>Small metal weigh tins (for moisture correction in the oven)</p></li>
+<li><p>Oven set at 105C</p></li>
+<li><p>4-digit analytical balance</p></li>
+<li><p>Hot/Stir Plate</p></li>
+<li><p>DI Water</p></li>
+<li><p>Degassed Water (see instructions below)</p></li>
+<li><p>Need a flask connected to a vacuum via tygon tubing + rubber stopper</p></li>
+<li><p>Small stir rod (for use in pyc. while boiling - I found a straightened paper clip worked well)</p></li>
+<li><p>KimWipes</p></li>
 </ul>
 </section>
-<section id="procedure" class="level2" data-number="12.2">
-<h2 data-number="12.2" class="anchored" data-anchor-id="procedure"><span class="header-section-number">12.2</span> Procedure</h2>
+<section id="preparation" class="level2" data-number="16.2">
+<h2 data-number="16.2" class="anchored" data-anchor-id="preparation"><span class="header-section-number">16.2</span> Preparation</h2>
 <ul>
-<li>Prepare laboratory notebook with the following data columns:
-<ul>
-<li>Sample number, crucible number, oven dry (OD) crucible (g), pre-muffle crucible+soil (g), post-muffle crucible+soil (g)</li>
-</ul></li>
-<li>A few samples will be used for calculating a moisture correction. See below. Data columns:
-<ul>
-<li>Crucible number, OD crucible (g), air dry moisture correction soil +OD crucible (g), OD moisture correction soil + OD crucible</li>
-</ul></li>
-<li>Rinse the crucibles with DI water and place them in drying oven at 105 degrees Celsius overnight (or 6-8 hours).</li>
-<li>Take the crucibles out of the oven and place them into the desiccator where they can cool for a couple minutes. Your cooling time (such as 5 minutes) should become a standard for all samples in your set.</li>
+<li><p>For accurate calculations, the soil (and pycnometers!) should be oven-dried; otherwise a moisture correction will need to be applied to the weight of the soil. I found that it was time efficient to measure out the soil samples at the same time that you are degassing the water.</p></li>
+<li><p>Put a large flask (½ full with DI water) on a hot/stir plate and connect it to the lab bench vacuum with tygon tubing. The size of the flask can vary depending on how many samples you are running. A <strong>XXX</strong> ml flask worked well for me for ~60 samples - you don’t end up using too much of it.</p></li>
+<li><p>Put a stir rod in the flask and turn the stir setting to 5 while also turning the heat setting on 5. Turn the vacuum on and put a rubber stopper over the opening of the flask (this will become pressurized, so don’t put it on too tight).</p></li>
+<li><p>Monitor the bubbles in the water of the flask - the water is degassed when NO bubbles can be seen.</p></li>
 </ul>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -337,14 +330,13 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The 4-digit analytical balance does not like hot items, so the crucibles must cool down before weighing. Cool to the touch is fine. When hot items are placed onto the scale, the air and metals in the scale expand and the scale gets wonky. It ends up reading a negative value when the items are removed from the scale. So, I placed the crucibles from the oven into a desiccator because I felt that the oven dry crucibles gained water weight from the moisture in the air while sitting out in the lab. I wanted to keep them as dry as possible to reduce the chance that such gained moisture weight wouldn’t be inaccurately counted as soil weight.</p>
+<p>Note, the water may not come to a complete boil, and that’s okay. The heat speeds up the process regardless. This process usually takes 2.5-3 hours. Once no bubbles can be seen in the water or on the stir rod, turn off the hot plate and let the flask cool overnight. Turn off the vacuum, but don’t take the tubing or rubber stopper off - this should help to keep air out overnight.</p>
 </div>
 </div>
 <ul>
-<li><p>Weigh each crucible on the 4-digit analytical balance; record the OD weight and the number of the crucible.</p></li>
-<li><p>Do not tear the weight of the crucible. Gently mix the soil around in the bag so that you have a homogenous sample, and add ~5 g soil into the crucible with a small scoop.</p></li>
-<li><p>Document OD crucible + soil weight (g).</p></li>
-<li><p>Place the crucible and soil onto the ceramic plate that will be slid into the muffle furnace.</p></li>
+<li><p>While waiting for the water, you can measure out ~2 g of soil from each sample into a small metal weighing tin. Since there are only 30 pycnometers, it’s only possible to run 30 samples in a day; and I found that 15 at a time is a good number to have on the hot plate.</p></li>
+<li><p>Record the sample ID and weigh tin number (see the blank data sheet folder for a template) for each sample and put them in the oven (at 105C) at least overnight.</p></li>
+<li><p>In summary, the night before you plan on running the samples, degassed water should be cooling to room temp, and you should have all your soil samples AND pycnometers drying in the oven.</p></li>
 </ul>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -356,11 +348,17 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Some folks make a map of which crucibles are on the plate, but I chose to document the number of the crucible and which sample was placed into that numbered crucible in my lab book. I did have to lift the crucible up high to see the number on the bottom when I went to weigh it. Perhaps a combination of both listing the crucible number and using a layout map would be useful for identifying the samples when they are taken out of the furnace to weigh.</p>
+<p><strong>Key Points</strong> - Water should always be de-gassed the same day you are running the samples. Letting it sit for even a few hours adds oxygen back in. - Always double check you are using the correct stopper with the matching pycnometer (they will have the same number on them). The exact weight and volume of each pyc. differs, and the final particle density numbers are super sensitive to these values. -Each time you record the weight of the pycnometer, the stopper should be included.</p>
 </div>
 </div>
+</section>
+<section id="procedure" class="level2" data-number="16.3">
+<h2 data-number="16.3" class="anchored" data-anchor-id="procedure"><span class="header-section-number">16.3</span> Procedure</h2>
 <ul>
-<li>Wipe off the scoop and repeat the weighing procedure. Complete this soil measurement and weighing process for the chosen number of samples you will do.</li>
+<li>Returning to your now-room temp, degassed water, turn the stir setting back on 5 to get rid of any oxygen that has entered the flask overnight. It usually takes ~40 minutes to get rid of all the bubbles again. Do NOT turn the heat back on, you need this water to remain at room temperature. Once the bubbles are gone, remove the flask from the stir plate and pour (carefully, so as to not create more bubbles) into a squeezable water container with a small dispenser.</li>
+<li>While this happens, take your soil samples and pycnometers out of the oven and place in a desiccator til they are cool to the touch (about 10 minutes). Measuring them while too hot will mess with the analytical balance.</li>
+<li>For each sample, weigh the dry pycnometer by itself, and then again with the 2 g of soil. Record both of these weights, along with the pycnometer number (this will be very important later). The metal weigh tins come in handy here, since you can fold them to pour the soil in the pyc. without making too much of a mess.</li>
+<li>Once each pyc has soil in it, use DI water to fill the pyc halfway to its neck. Filling the pyc much higher risks bubbling over while boiling. Stir each sample to make sure all of the soil is saturated.</li>
 </ul>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -372,88 +370,37 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>I recommend 12-18 samples at a time. More of the smaller crucibles can fit into the muffle furnace on the ceramic plate, but the small crucibles are more challenging to pick up (you should use the tongs, trying to grab it with oven mitts on is probably not possible to do). Also, 5 g of an organic sample will not fit into a small crucible. If you fill the ceramic plate that slides into the muffle furnace with too many crucibles, you risk having crucibles sliding/falling off the edge –which means a loss of your sample and its data.</p>
+<p>A note for different textures: coarse textures/sands will pop when heated, put less water in these samples to prevent loss of soil; for organics - 2 g of soil hardly fits in the 10 ml pyc, the most important thing is to not fill the pyc more than ½ way full (regardless if this amounts to &lt;1 g of soil). The organics will also soak up a lot of the water (after mixing - which you will have to do a lot of for these samples) and you may need to add more before placing on the hot plate. Just make sure there is standing water in these samples that is able to boil.</p>
 </div>
 </div>
 <ul>
-<li><p>Note that the temperature of the muffle furnace has warmed to 550º C. Load the ceramic plate and slide it into the muffle furnace. Close and latch the door and let the samples bake for exactly 5 hours.</p></li>
-<li><p>After 5 hours, turn the furnace off and crack the door open to allow some heat to escape for 5-10 minutes.</p></li>
-<li><p>Carefully remove the samples from the muffle furnace. Be careful. Either place them in the drying oven or into the desiccator to cool some before weighing them. Don’t let them sit out at room temperature because they will absorb moisture from the air. If you leave them in the desiccator, be sure to crack the lid or rubber stopper to avoid a pressure inconsistency.</p></li>
+<li>Arrange 15 pyc on the hot plate so that they can be rearranged. Remove all the stoppers. There will probably be a hotter part of the plate that makes some samples boil faster, make sure each sample gets a chance to heat in this spot. Turn the hot plate to heat setting 4.</li>
+<li>Make sure each sample comes to a rolling boil for 1-2 minutes, and continue to rearrange accordingly. Stir frequently to release air bubbles trapped in soil and to reduce some boiling. A straightened paper clip works well for stirring and moving the pycnometers around.</li>
+<li>Total boiling time takes ~20-30 minutes, including 10+ minutes for the first sample to start boiling. After all the samples have boiled, turn off the hot plate and move the pycnometers to the desiccator. Let cool for approximately 40 minutes or until room temp. If possible, try to weigh the samples when the solution is ~26C (this is the temp that the pyc volumes were weighed at).</li>
+<li>Each pycnometer needs to be filled completely with degassed water after cooling. Remove the stopper and slowly fill the pyc to ~¾ of the way up the neck. Then, place the stopper back on and make sure the water reaches the very top of the capillary. Water can spill over the top and come out the space between the pyc and stopper - this nearly unavoidable. Use kimwipes to clean up any water that spilled out (soak up the water at the top of the pyc first, this will draw down the water in the capillary). Make sure the outside of the pycnometer is totally dry before weighing.</li>
+<li>Record the weight of the pycnometer with soil and water, along with the temperature at time of weighing.</li>
 </ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>If you don’t crack the lid, the desiccator will suck in air when you open it and sample will fly everywhere.</p>
-</div>
-</div>
-<ul>
-<li>Taking one sample out of the desiccator at a time, weigh each sample shortly after it has cooled to the touch (5 minutes, or same amount of time afterward as before when you let the crucibles sit after being in the drying oven).</li>
-</ul>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Watch out - the weight of the sample will increase the longer it is exposed to the air as the soil particles are absorbing moisture. Take the first reading you see, that is, when you feel that scale is balanced after the sample is set onto it.</p>
-</div>
-</div>
 </section>
-<section id="moisture-correction" class="level2" data-number="12.3">
-<h2 data-number="12.3" class="anchored" data-anchor-id="moisture-correction"><span class="header-section-number">12.3</span> Moisture Correction</h2>
-<section id="procedure-1" class="level4" data-number="12.3.0.1">
-<h4 data-number="12.3.0.1" class="anchored" data-anchor-id="procedure-1"><span class="header-section-number">12.3.0.1</span> Procedure</h4>
-<ul>
-<li>Use a 2-3g air-dried soil sample, weigh the oven-dried crucible (do not tear the weight after), then add the soil sample.</li>
-<li>Place into the drying oven at 105º C for 24 hours.</li>
-<li>After taking the sample out of the oven, place it into the desiccator for a couple of minutes to cool.</li>
-<li>Weigh it on the 4-digit analytical balance.</li>
-</ul>
-<p>Mineral soil samples will hold different percentages of moisture than organic samples, so you should take a moisture correction for each category of soil sample (i.e.&nbsp;mostly mineral, mineral-organic combination, mostly organic), not one for every sample. Moisture corrections should be run at the same time/day as the LOI procedure. Run a moisture correction at each time you run an LOI set.</p>
-</section>
-</section>
-<section id="calculation" class="level2" data-number="12.4">
-<h2 data-number="12.4" class="anchored" data-anchor-id="calculation"><span class="header-section-number">12.4</span> Calculation</h2>
-<p>Capital M indicates mass.</p>
-<section id="moisture-correction-1" class="level4" data-number="12.4.0.1">
-<h4 data-number="12.4.0.1" class="anchored" data-anchor-id="moisture-correction-1"><span class="header-section-number">12.4.0.1</span> Moisture Correction</h4>
+<section id="calculation" class="level2" data-number="16.4">
+<h2 data-number="16.4" class="anchored" data-anchor-id="calculation"><span class="header-section-number">16.4</span> Calculation</h2>
 <p><span class="math display">\[
-[M(oven\ dry\ moisture\ correction\ soil\ +\ oven\ dry\ crucible) - M(oven\ dry\ crucible)] \over [M(air\ dry\ moisture\ correction\ soil\ +\ oven\ dry\ crucible) - M(oven\ dry\ crucible)]
+PD = (M_{dry\:pyc} - M_{pyc\:+\:soil}) \over [V_{pyc} - (M_{pyc\:+\:soil\:+\:water} - M_{dry\:pyc} - (M_{pyc\:+\:soil} - M_{dry\:pyc}) / D_{water@temp})]
 \]</span></p>
-<p>Alternatively, if the mass of the oven dry crucibles are subtracted from the oven and air dry soil mass (isolating the soil masses), the equation is as follows.</p>
-<p><span class="math display">\[
-M(oven\ dry\ moisture\ correction\ soil) \over M(air\ dry\ moisture\ correction\ soil)
-\]</span></p>
+<p>Where:</p>
+<ul>
+<li><p>D<sub>water@temp</sub> is the is the specific density of water at the recorded temperature (use the chart below)</p></li>
+<li><p>V<sub>pyc</sub> is the volume of each pycnometer that has previously been measured (see values below)</p></li>
+<li><p>M_____ is the respective recorded masses</p></li>
+</ul>
 </section>
-<section id="organic-matter" class="level4" data-number="12.4.0.2">
-<h4 data-number="12.4.0.2" class="anchored" data-anchor-id="organic-matter"><span class="header-section-number">12.4.0.2</span> Organic Matter %</h4>
-<p><span class="math display">\[
-[M(air dry soil + crucible) - M(oven dry crucible) * moisture correction] - [M(oven dry soil + crucible) - M(oven dry crucible)] \over [M(air dry soil + crucible) - M(oven dry crucible) * moisture correction]
-\]</span> <strong>Multiply this value by 100%.</strong></p>
-<p>Alternatively, if the mass of the oven dry crucibles are subtracted from the post-muffle furnace (written in equation as oven dry) and air dry soil masses (isolating the soil masses), the equation is as follows.</p>
-<p><span class="math display">\[
-(M(air\ dry\ soil)\ *\ moisture\ correction) - M(oven\ dry\ soil) \over (M(air\ dry\ soil)\ *\ moisture\ correction)
-\]</span></p>
-<p><strong>Multiply this value by 100%.</strong></p>
-</section>
-</section>
-<section id="recharging-anhydrite" class="level2" data-number="12.5">
-<h2 data-number="12.5" class="anchored" data-anchor-id="recharging-anhydrite"><span class="header-section-number">12.5</span> Recharging Anhydrite</h2>
-<p>Anhydrite should be blue. If it is purple/pink, place the Anhydrite into a metal pan (9x13” cake pan) and oven dry at 105 degrees Celsius until the blue color has come back indicating that the material has lost all moisture. This should take less than 24 hours.</p>
-</section>
-<section id="references-and-notes" class="level2" data-number="12.6">
-<h2 data-number="12.6" class="anchored" data-anchor-id="references-and-notes"><span class="header-section-number">12.6</span> References and Notes</h2>
+<section id="references-and-notes" class="level2" data-number="16.5">
+<h2 data-number="16.5" class="anchored" data-anchor-id="references-and-notes"><span class="header-section-number">16.5</span> References and Notes</h2>
+<div id="fig-waterdensity" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="particledensity1.png" width="409" height="545" class="figure-img"></p>
+<figcaption class="figure-caption">Figure&nbsp;16.1: Density of Water at Different Temperatures</figcaption>
+</figure>
+</div>
 
 
 </section>
@@ -694,13 +641,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./laser-particle-size-analysis.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Laser Particle Size Analysis</span></span>
+      <a href="./moisture-content-bulk-density.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Moisture Content and Bulk Density</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./mir.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Mid-infrared Spectroscopy (MIR)</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./pb-bioaccessibility.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Pb Bio-Accessibility</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
