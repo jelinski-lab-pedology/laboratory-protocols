@@ -35,12 +35,11 @@ book:
       - pipette-texture.qmd
       - pXRF.qmd
       - wet-sieving.qmd
-    - part: "Laboratory Safety"
-      - part: "Radiation Safety"
-        chapters:
-        - pXRF-user-guidelines.qmd
-        - radiation-and-pXRF-safety-training.qmd
-        - pXRF.qmd
+    - part: "Radiation Safety"
+      chapters:
+      - pXRF-user-guidelines.qmd
+      - radiation-and-pXRF-safety-training.qmd
+      - pXRF.qmd
 #    - summary.qmd
 #    - references.qmd
 #  appendices:
