@@ -11,28 +11,36 @@ book:
   
   chapters:
     - index.qmd
-    - amm-ox-copy.qmd
-    - ammonium-oxalate-extraction.qmd
-    - cec-extraction.qmd
-    - chromatography.qmd
-    - cleaning-earthworms.qmd
-    - dithionite-citrate-extraction.qmd
-    - dry-sieving.qmd
-    - ec-soluble-salts.qmd
-    - electrical-conductivity.qmd
-    - hydrometer.qmd
-    - laser-particle-size-analysis.qmd
-    - loss-on-ignition.qmd
-    - mir.qmd
-    - mixing-SHMP.qmd
-    - moisture-content-bulk-density.qmd
-    - particle-density-pycnometers.qmd
-    - pb-bioaccessibility.qmd
-    - permafrost-soil-processing.qmd
-    - pH.qmd
-    - pipette-texture.qmd
-    - pXRF.qmd
-    - wet-sieving.qmd
+    - part: "Protocols"
+      chapters: 
+      - amm-ox-copy.qmd
+      - ammonium-oxalate-extraction.qmd
+      - cec-extraction.qmd
+      - chromatography.qmd
+      - cleaning-earthworms.qmd
+      - dithionite-citrate-extraction.qmd
+      - dry-sieving.qmd
+      - ec-soluble-salts.qmd
+      - electrical-conductivity.qmd
+      - hydrometer.qmd
+      - laser-particle-size-analysis.qmd
+      - loss-on-ignition.qmd
+      - mir.qmd
+      - mixing-SHMP.qmd
+      - moisture-content-bulk-density.qmd
+      - particle-density-pycnometers.qmd
+      - pb-bioaccessibility.qmd
+      - permafrost-soil-processing.qmd
+      - pH.qmd
+      - pipette-texture.qmd
+      - pXRF.qmd
+      - wet-sieving.qmd
+    - part: "Laboratory Safety"
+      - part: "Radiation Safety"
+        chapters:
+        - pXRF-user-guidelines.qmd
+        - radiation-and-pXRF-safety-training.qmd
+        - pXRF.qmd
 #    - summary.qmd
 #    - references.qmd
 #  appendices:

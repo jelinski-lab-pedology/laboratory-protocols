@@ -1,0 +1,17 @@
+# Jelinski Lab pXRF General User Guidelines
+
+Update 2.0 February 2021
+
+1.	In addition to all general laboratory safety modules, all pXRF users must have completed the 1) Radiation Safety Orientation, 2) Xray and Accelerator Operator Training and 3) Radiation Safety for Radioactive Material Users. These modules can be found at: https://hsrm.umn.edu/health-safety-and-risk-management/training/hsrm-training
+
+2.	All pXRF users must have a currently valid dosimeter, requested from and registered by DEHS. Dosimeters are kept in the drawer labeled pXRF supplies.
+
+3.	All pXRF users must wear their dosimeter on a body area closest to the pXRF instrument at all times when handling or utilizing the pXRF.
+
+4.	All other personnel who will be within 6ft of the pXRF unit while in use must also abide by guidelines 1-3. If a person will be within 6ft of the pXRF while in use and has not satisfied guidelines 1-3, pXRF operations must STOP IMMEDIATELY!
+
+5.	All pXRF users must have completed unit specific training by reading 8-10 (Safety portion) of user manual as well as unit specific operation and maintenance training from Dr. Jelinski.
+
+6.	When handling the pXRF, ALWAYS ASSUME IT IS ON! This is called “muzzle awareness”. Never point the pXRF at any person or cross the plane of a persons body, even if you believe the pXRF is off. Instead, point the pXRF at the ground when moving it.
+
+7.	The only safe and verified way to handle the pXRF for maintenance or preventive checks is to REMOVE THE BATTERY and leave the battery portal open so that all personnel can visibly confirm that there is no battery in the unit.
