@@ -5,7 +5,7 @@ Last edited: 27FEB2024 NP
 
 Portable X-ray fluorescence (pXRF) is an estimate of elemental composition. This protocol is written for use with Olympus pXRF. Directions for XRF use in benchtop/base and stand/computer included. Directions for use in field are under development.
 
-If you have not had training with Nic, Kat, or Nora and do not have a dosimeter, then you cannot operate the pXRF.
+If you have not had training with Nic, Kat, or Nora and do not have a dosimeter, then you cannot operate the pXRF. Nic will provide annual pXRF refresher trainings for all pXRF users. 
 :::
 
 ## Materials

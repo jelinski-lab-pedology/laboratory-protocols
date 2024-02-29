@@ -2,42 +2,42 @@
 
 ## Radiation Safety General Training
 
-In addition to General Laboratory safety requirements, all pXRF users must complete the following online courses (provided by the UMN Department of Radiation Safety):
+In addition to General Laboratory safety requirements, all pXRF users must complete the following online courses (provided by UMN Health, Safety, and Risk Management):
 
-1. Radiation Safety Orientation: https://training.umn.edu/courses/10340
+1.  Radiation Safety Orientation: https://training.umn.edu/courses/10340
 
-2. Radiation Safety for Radioactive Material Users: https://training.umn.edu/courses/10341
-
+2.  Radiation Safety for Radioactive Material Users: https://training.umn.edu/courses/10341
 
 ## pXRF Unit-Specific Training
+
 This training should be conducted by either Dr. Jelinski or an trainer who has been verified and approved through Dr. Jelinski to provide this training.
 
 IMPORTANT CONTACTS:
 
-Dr. Jelinski: 612-626-9936, 608-225-5691, jeli0026@umn.edu 
+Dr. Jelinski: 612-626-9936, 608-225-5691, jeli0026\@umn.edu
 
-DEHS RPD: 612-626-6002, dehs@umn.edu
+HSRM Department of Radiation Safety: 612-626-6002, hsrm\@umn.edu
 
-1.	General Safety
-	- Dosimeter wear, reporting procedures
-	- pXRF “muzzle awareness”
-2.	Unit Operation/Unit Safety
-	- pXRF Handling, unit safety
-	- pXRF basic operation
-	- pXRF analysis modes, data collection
-	- Utilizing test stand
-	- Utilziing in hand-held mode
-	- Safety standards for proximity to use when in handheld use /test stand
-3.	Emergency Procedures
-	- Unit software malfunction
-		- Turn unit off, reset, call manufacturer support
-	- Unit continuous emission
-		- Immediately remove battery, call manufacturer support
-	- Suspicion of accidental exposure or overexposure
-		- Stop unit usage and notify Dr. Jelinski immediately  – Dr. Jelinski notifies DEHS Radiation Protection – can read user badge if necessary
-	- Unit overheating or fire danger
-		- If overheating, cool unit with fan or good air flow
-		- Immediately remove battery, cease operation
-		- In event of fire, extinguish with available equipment
-4.	Unit is lost, stolen, or unaccounted for
-	- Notify Dr. Jelinski immediately, notify DEHS Radiation Protection
+1.  General Safety
+    -   Dosimeter wear, reporting procedures
+    -   pXRF “muzzle awareness”
+2.  Unit Operation/Unit Safety
+    -   pXRF Handling, unit safety
+    -   pXRF basic operation
+    -   pXRF analysis modes, data collection
+    -   Utilizing test stand
+    -   Utilziing in hand-held mode
+    -   Safety standards for proximity to use when in handheld use /test stand
+3.  Emergency Procedures
+    -   Unit software malfunction
+        -   Turn unit off, reset, call manufacturer support
+    -   Unit continuous emission
+        -   Immediately remove battery, call manufacturer support
+    -   Suspicion of accidental exposure or overexposure
+        -   Stop unit usage and notify Dr. Jelinski immediately – Dr. Jelinski notifies HSRM Radiation Safety – can read user badge if necessary
+    -   Unit overheating or fire danger
+        -   If overheating, cool unit with fan or good air flow
+        -   Immediately remove battery, cease operation
+        -   In event of fire, extinguish with available equipment
+4.  Unit is lost, stolen, or unaccounted for
+    -   Notify Dr. Jelinski immediately, notify HSRM Radiation Safety
