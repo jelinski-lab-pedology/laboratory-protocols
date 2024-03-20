@@ -39,7 +39,7 @@ The 4-digit analytical balance does not like hot items, so the crucibles must co
 
 -   Weigh each crucible on the 4-digit analytical balance; record the OD weight and the number of the crucible.
 
--   Do not tear the weight of the crucible. Gently mix the soil around in the bag so that you have a homogenous sample, and add \~5 g soil into the crucible with a small scoop.
+-   Do not tare the weight of the crucible. Gently mix the soil around in the bag so that you have a homogenous sample, and add \~5 g soil into the crucible with a small scoop.
 
 -   Document OD crucible + soil weight (g).
 
@@ -75,7 +75,7 @@ Watch out - the weight of the sample will increase the longer it is exposed to t
 
 #### Procedure
 
--   Use a 2-3g air-dried soil sample, weigh the oven-dried crucible (do not tear the weight after), then add the soil sample.
+-   Use a 2-3g air-dried soil sample, weigh the oven-dried crucible (do not tare the weight after), then add the soil sample.
 -   Place into the drying oven at 105º C for 24 hours.
 -   After taking the sample out of the oven, place it into the desiccator for a couple of minutes to cool.
 -   Weigh it on the 4-digit analytical balance.
