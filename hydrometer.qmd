@@ -1,7 +1,7 @@
 # Hydrometer
 
 ::: callout-note
-Last edited: 07FEB2024 NP
+Last edited: 03MAY2024 NP
 
 Complete soil texture analysis-- for total sand, total silt & total clay. The hydrometer method determines the particle size distribution of the fine earth soil particles. The hydrometer measures the specific gravity, which depends on the mass of the solids in suspension. Taking measurements at specific times after suspending all particles in a column allows you to measure the suspended mass of the silt & clay together and the clay alone. Fractions are calculated by finding the difference from the initial mass of the complete sample.
 :::
@@ -13,15 +13,14 @@ Complete soil texture analysis-- for total sand, total silt & total clay. The hy
 -   #4 Sieve, 2mm
 -   Analytical balance (two digit)
 -   250ml wide mouth Nalgene bottles with lids
-    -   Not the narrower neck bottles, as particles get stuck on the longer shoulder of the bottle when tipping it upside down
+    -   Particles get stuck on the longer shoulder of the narrow mouth bottles when tipping them upside down, which is why using the wide mouth bottles is recommended
 -   5% SHMP (Sodium hexametaphosphate)
--   Mixer - set at \~30 RMP
--   Sedimentation columns (1L)
+-   Mixer - set at \~30 RPM
+-   1L sedimentation columns
 -   Blank sedimentation column with 100ml 5% SHMP
     -   Prepared at the same time as samples -- same batch of SHMP
 -   DI water -- room temperature from the carboy, not faucet
 -   Amyl alcohol in a dropper bottle
--   Adding a drop or two of amyl alcohol after mixing will help eliminate foam on the surface in the sedimentation column. The foam makes it difficult to read the liquid level on the hydrometer.
 -   Plunger (stirring rod with rubber disk on one end) for mixing in the columns
 -   Bouyoucos hydrometer (measures g/L)
 -   Thermometer
@@ -73,6 +72,7 @@ One technique to get the last bits out of the bottle is to hold the Nalgene bott
 -   Fill all columns precisely to 1L with DI water.
     -   Room temp DI water should be used from a carboy. I find the building DI water from the faucet is a warmer temp. If DI water is taken from the faucet to fill the columns, provide time to let it acclimate to room temp (a day).
 -   Prepare the blank column with the blank from the Nalgene bottle. Give a rinse to the bottle as well and fill the column to 1L.
+- Add a drop or two of amyl alcohol to the column if foam is preventing you from seeing the 1L marking.
 
 ## Hydrometer Run Procedure
 
@@ -89,6 +89,7 @@ Be sure to document the time that each sample is begun at. Keeping a running sto
     -   Be sure to gently lift and mix the sample all the way to the upper half of the column too; don't just mix in the lower portion of the column. Try to get the sediment in column as homogenized as possible.
 -   At the moment you remove the plunger from the surface of the sample, time begins at 0 seconds. Start a stopwatch and keep a record of the time started. Soon thereafter, gently lower the hydrometer into the sample, and gradually release your grip until you find where bobbing is minimal. At the time of 40 seconds your hydrometer should be floating steady. Take the reading from the top-most level of the liquid where it rises up and onto the hydrometer -- read the liquid level.
     -   Read where the top of the water line rises up on the side of the hydrometer. Read to the nearest whole number or round to a half if need be. Not less than a half number.
+- Add another drop or two of amyl alcohol after inserting the hydrometer to eliminate foam on the surface in the sedimentation column. The foam makes it difficult to read the liquid level on the hydrometer.
 
 ![Reading a Hydrometer](hydrometer1.png){#fig-hydrometer}
 
@@ -109,6 +110,7 @@ Reading at 8 hour = total clay
 Units: grams / grams total sample - as in, grams of given texture class per grams total sample
 
 ## References and Notes
-Grigal, D.F. 1973. Note on the hydrometer method of particle-size analysis. Soil Journal Serial Paper #8438, Univ. of Minnesota Agric. Exp. Stn., St. Paul. 
+
+Grigal, D.F. 1973. Note on the hydrometer method of particle-size analysis. Soil Journal Serial Paper #8438, Univ. of Minnesota Agric. Exp. Stn., St. Paul.
 
 [UMN Digital Conservancy](https://hdl.handle.net/11299/58296)
