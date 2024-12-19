@@ -1,11 +1,11 @@
 # pXRF
 
 ::: callout-note
-Last edited: 27FEB2024 NP
+Last edited: 19DEC2024 NP
 
-Portable X-ray fluorescence (pXRF) is an estimate of elemental composition. This protocol is written for use with Olympus pXRF. Directions for XRF use in benchtop/base and stand/computer included. Directions for use in field are under development.
+Portable X-ray fluorescence (pXRF) is an estimate of elemental composition. This protocol is written for use with an Olympus Delta series pXRF. Directions for XRF use in the base, stand, and field are included.
 
-If you have not had training with Nic, Kat, or Nora and do not have a dosimeter, then you cannot operate the pXRF. Nic will provide annual pXRF refresher trainings for all pXRF users. 
+If you have not had training with Nic, Kat, or Nora and do not have a dosimeter, then you cannot operate the pXRF. Nic will provide annual pXRF refresher trainings for all pXRF users.
 :::
 
 ## Materials
@@ -126,3 +126,9 @@ For a larger sampling effort, it is helpful to have one person work ahead to lay
 -   If you close and latch the stand, but the text box still says, "Test Stand/door is opened," the only solution I've found is to restart the computer. Same as above, I export the data to be safe, but the software saved my data.
 -   "Error measuring spectra" or something along those lines: happened to me when the sample wasn't over the scanning area. It got moved when I shut the stand door. If the scan is still running but the text box displays that error, stop the test, open the door, move the sample, and rerun. Note in your document or spreadsheet that run numbers x and y are the same sample.
     -   When that error comes up, the scan will continue to run but the software recognizes that no data is coming back - it's shooting into the lid of the stand.
+
+#### Replacing the Window Film
+
+A thin plastic film separates the beam from the sample. It tears easily, especially when using the pXRF in the field. To prevent this, consider placing a plastic bag between the unit and the ground, rather than placing the pXRF directly against the ground. Make sure enough twigs, vegetation, and coarse fragments have been cleared away before placing the pXRF on the soil surface - reduce the likelihood that something sharp pokes the window.
+
+If the window tears, there are replacement films in the pXRF case. They are in a labeled clear plastic bag. Make sure to peel just one off the stack; they are stuck together. Use a small Phillips-head screwdriver to unscrew the four screws holding the metal plate over the window. Remove the plate. Remove the torn film. Line the new film up with the window, making sure it completely covers the window so no dirt can get into the pXRF. Attach the metal plate back on. Note: there may be a set of small screwdrivers in a blue case inside the pXRF case. If the screwdrivers are not in there, they are in the Tools drawer in S434.

@@ -176,8 +176,8 @@ Wind the plate down a little before removing the TET tube.
 -   Shake. Add filter if needed. Fill vial. Fill falcon tube. Store \@ 4 deg. C.Remove ET.
 
 ::: callout-note
-
 To wash syringes: Put in a water bath with a small amount of soap. Lightly scrub with a brush. Rinse 2-3 times with DDI. Air dry.
+:::
 
 ## Brain Dump
 
@@ -234,3 +234,4 @@ For the ethanol rinse, first use the ethanol wash bottle to wash any ammonium ac
 Extract at 30 min. rate until 2 mL remains above soil level. Turn off the extractor.
 
 Now, there may be soil sticking to the sides of the ET after this extraction. You may need to remove the RT from the ET and wash down the sides again with ethanol. This means you will put less ethanol in the RT for the next extraction. Just subtract the \# of extra milliliters from 45 to determine how many you will put in the RT.
+:::
