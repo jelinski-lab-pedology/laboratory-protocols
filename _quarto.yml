@@ -28,6 +28,7 @@ book:
       - mir.qmd
       - mixing-SHMP.qmd
       - moisture-content-bulk-density.qmd
+      - TCMA-moisture-content-bulk-density.qmd
       - particle-density-pycnometers.qmd
       - pb-bioaccessibility.qmd
       - permafrost-soil-processing.qmd
