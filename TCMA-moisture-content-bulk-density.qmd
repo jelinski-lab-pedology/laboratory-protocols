@@ -1,0 +1,120 @@
+# Moisture Content and Bulk Density
+
+::: callout-note
+Last edited: 15MAY2026 KMU
+
+Bulk density is the weight of soil in a given volume. Soils with a bulk density higher than 1.6 g/cm3 tend to restrict root growth. Bulk density tends to increase with compaction and tends to increase with depth. Sandy soils are more prone to high bulk density due to low porosity.
+:::
+
+## Field Equipment
+
+-  Sealable plastic sample bags
+-  Sharpie
+-  Soil knife/trowel
+#### Db ring:
+- Bulk density ring(s)
+- Wood Block
+- Rubber Mallet
+#### Db compliant cavity:
+- Spoon
+- Saran Wrap
+- Pins/nails
+- Bag of sieved PGF sand
+
+
+## Field Procedure
+
+1. Determine how many Db samples you will take per horizon (or depth increment). Three replicates per horizon is recommended. 
+2. Label sample bags with sample-id below: 
+	*(sample-id-Db-method#)*
+
+	Ring method example: (26-001-Db-r1)
+	Compliant Cavity method example:  (26-001-Db-cc1), (26-001-Db-cc1S)
+
+3. Determine sampling location. Avoiding areas with large coarse fragments, places compacted from the field crew, or very uneven surfaces. If you are using the compliant cavity method, you will need to sample from above rather than from the side of the profile.
+
+#### Ring method
+4. Place the wooden block over the Db ring. Use the block to help guide the ring into the profile. The block will also keep loose soil from spilling out. 
+
+5. With the mallet, *lightly* hammer the Db ring into the soil profile. Try to keep the ring level and avoid over-compacting the soil in the ring. 
+
+6. Once the ring is flush to the profile, use a soil knife to carve the ring from the profile. Carefully extract the ring. Check if the entire ring is filled.
+	- If the ring is only partially filled, you may need to adjust the height (h) of the ring when calculating for volume in later steps. 
+
+7. Extract **ALL** the soil from the ring into a sample bag.
+
+#### Compliant cavity method
+4. Compliant cavity is easiest when sampling from above and working your way down the profile. Starting at the surface, begin carving a small cavity using a spoon or another utensil. Place **ALL** the soil from the cavity in a sample bag. 
+
+5. Line the empty cavity with saran wrap. Use pins to keep the plastic taught to the original size of the cavity. 
+
+6. Fill the cavity with PGF sand. Try not to compact the sand, and level it to the original height of the cavity. 
+
+7. Lift the saran wrap and ensure that ALL the sand is sampled into a separate sample bag.
+
+
+## Lab Equipment
+- Physical datasheet (found in yellow binder)
+- Scale (g)
+- Weigh boat(s)
+- Graduated cylinder (size will depend on the size/quantity of coarse fragments)
+- Small 2mm sieve
+
+
+## Lab Procedure
+1. As soon as possible, record the field moist weight of each sample. 
+
+2. Place samples in the drying oven at 50॰C for at least 48 hours. Be consistent in dry time for all samples.
+
+3. When the samples are completely dry, record the total oven dried weight of the sample. 
+	- The weight of each sample should be taken immediately after removing it from the oven. The soil will absorb moisture from the air, affecting its weight.
+
+4. Sieve the sample using a small 2mm sieve directly over a weigh boat. Record the weight of the sample <2mm and weight of the coarse fragments >2mm. 
+	- After weighing, return the sieved soil back in the original sample bag. Keep the coarse fragments aside for the next step. 
+  
+5. Measure the volume of the CF using the following water displacement method:
+	- Using a graduated cylinder, fill with about ~20 ml of water. Cylinder size and amount of water will depend on the size of the sieved coarse fragments. Use your best judgement.
+	- Record the exact volume of water before submerging coarse fragments.
+	- Place coarse fragments in the cylinder. Record the exact volume of water after submerging coarse fragments.
+	- The volume of coarse fragments will equal:	
+	$$(volume\:water\:+\:CF) - (volume\:water\:w/out\:CF)$$
+	- Record coarse fragment volume on datasheet.
+
+
+## Calculations
+#### Moisture Content
+(field moist weight w/ sample bag) - (weight of sample bag) = *net field moist weight (g)*
+
+(oven dry weight w/ paper bag) - (weight of paper bag) = *net oven dry soil weight (g)*
+
+
+
+$$
+net\:field\:moist\:weight - net\:oven\:dry\:soil\:weight \over net\:oven\:dry\:soil\:weight
+$$
+
+Multiply this value by 100%.
+
+#### Db
+- Ring volume (cm^3) = 
+$$
+(π)(r)^2\:x\:(h)
+$$
+	- r = ring inner-radius (cm)
+	- h = ring height (cm)
+
+- Cavity volume (cm^3) = 
+$$
+od-wt\: sand\: (g) \over Density\: of\: PGF\: sand\: (cm^3)
+$$
+
+- Final volume (cm^3) = 
+$$
+(ring\: or\: cavity\: volume)\: -\: (CF\: volume)
+$$
+
+- Bulk Density (g/cm^3) = 
+
+$$
+net\:oven\:dry\:soil\:weight\:(g) \over final\:volume\:(cm^3)
+$$
