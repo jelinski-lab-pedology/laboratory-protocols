@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>13&nbsp; Mid-infrared Spectroscopy (MIR) – Jelinski Lab Protocols</title>
+<title>16&nbsp; Moisture Content and Bulk Density – Jelinski Lab Protocols</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,8 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./mixing-SHMP.html" rel="next">
-<link href="./loss-on-ignition.html" rel="prev">
+<link href="./particle-density-pycnometers.html" rel="next">
+<link href="./moisture-content-bulk-density.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -73,6 +73,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -85,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./amm-ox-copy.html">Protocols</a></li><li class="breadcrumb-item"><a href="./mir.html"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Mid-infrared Spectroscopy (MIR)</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./amm-ox-copy.html">Protocols</a></li><li class="breadcrumb-item"><a href="./TCMA-moisture-content-bulk-density.html"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Moisture Content and Bulk Density</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -199,7 +228,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./mir.html" class="sidebar-item-text sidebar-link active">
+  <a href="./mir.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Mid-infrared Spectroscopy (MIR)</span></span></a>
   </div>
 </li>
@@ -217,7 +246,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./TCMA-moisture-content-bulk-density.html" class="sidebar-item-text sidebar-link">
+  <a href="./TCMA-moisture-content-bulk-density.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Moisture Content and Bulk Density</span></span></a>
   </div>
 </li>
@@ -310,19 +339,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#setup" id="toc-setup" class="nav-link active" data-scroll-target="#setup"><span class="header-section-number">13.1</span> Setup</a></li>
-  <li><a href="#packing-and-running-samples" id="toc-packing-and-running-samples" class="nav-link" data-scroll-target="#packing-and-running-samples"><span class="header-section-number">13.2</span> Packing and Running Samples</a></li>
-  <li><a href="#exporting" id="toc-exporting" class="nav-link" data-scroll-target="#exporting"><span class="header-section-number">13.3</span> Exporting</a></li>
-  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting"><span class="header-section-number">13.4</span> Troubleshooting</a></li>
+  <li><a href="#field-equipment" id="toc-field-equipment" class="nav-link active" data-scroll-target="#field-equipment"><span class="header-section-number">16.1</span> Field Equipment</a></li>
+  <li><a href="#field-procedure" id="toc-field-procedure" class="nav-link" data-scroll-target="#field-procedure"><span class="header-section-number">16.2</span> Field Procedure</a></li>
+  <li><a href="#lab-equipment" id="toc-lab-equipment" class="nav-link" data-scroll-target="#lab-equipment"><span class="header-section-number">16.3</span> Lab Equipment</a></li>
+  <li><a href="#lab-procedure" id="toc-lab-procedure" class="nav-link" data-scroll-target="#lab-procedure"><span class="header-section-number">16.4</span> Lab Procedure</a></li>
+  <li><a href="#calculations" id="toc-calculations" class="nav-link" data-scroll-target="#calculations"><span class="header-section-number">16.5</span> Calculations</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./amm-ox-copy.html">Protocols</a></li><li class="breadcrumb-item"><a href="./mir.html"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Mid-infrared Spectroscopy (MIR)</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./amm-ox-copy.html">Protocols</a></li><li class="breadcrumb-item"><a href="./TCMA-moisture-content-bulk-density.html"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Moisture Content and Bulk Density</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Mid-infrared Spectroscopy (MIR)</span></h1>
+<h1 class="title"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Moisture Content and Bulk Density</span></h1>
 </div>
 
 
@@ -349,102 +379,124 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Last edited: 08NOV2023 NP</p>
-<p>This section is not intended to be a standalone protocol, but rather notes to go along with the NRCS MIR Laboratory Instructions - as of May 2023, V6.6 is the current version. That protocol contains instructions for ball milling samples and using the MIR. Samples must be milled prior to being scanned.</p>
-<p>The NRCS MIR protocol can be found in the Jelinski Lab shared drive. If you are not a member, please email Nic Jelinski.</p>
+<p>Last edited: 15MAY2026 KMU</p>
+<p>Bulk density is the weight of soil in a given volume. Soils with a bulk density higher than 1.6 g/cm3 tend to restrict root growth. Bulk density tends to increase with compaction and tends to increase with depth. Sandy soils are more prone to high bulk density due to low porosity.</p>
 </div>
 </div>
-<section id="setup" class="level2" data-number="13.1">
-<h2 data-number="13.1" class="anchored" data-anchor-id="setup"><span class="header-section-number">13.1</span> Setup</h2>
+<section id="field-equipment" class="level2" data-number="16.1">
+<h2 data-number="16.1" class="anchored" data-anchor-id="field-equipment"><span class="header-section-number">16.1</span> Field Equipment</h2>
 <ul>
-<li>MIR machine needs to be plugged into an ethernet cable which goes into a cable that changes the IP address, which goes into the computer. Use the white cable in the third drawer from the right
-<ul>
-<li>Has to be programmed to your computer → Nic coordinate with IT/Drea</li>
-<li>Drea has docs for Alpha installation, instructions for setting up IP address changer → she can send them to IT when this is getting set up</li>
-</ul></li>
-<li>Every time you turn it on, you run a PQ and OQ test</li>
-<li>When you connect the computer and machine, you should see a green circle on bottom right. Computer and MIR are talking</li>
-<li>Measure → optic setup and service → make sure it’s looking for the Alpha II (not the internet)</li>
-<li>Click agree, next, or close on all tests</li>
-<li>Runs PQ test (performance qualification). Measure BG (background) with reference on there (should always be on).
-<ul>
-<li>PQ test will tell you if you need to change the desiccant; you’ll need to change it if the humidity is over 30%</li>
-</ul></li>
-<li>Look at measurement settings. Should be on Region 5 (data from Salina, KS), if not do it through the advanced tab</li>
-<li>Sample description is your sample code and file name.</li>
-<li>In advanced → change path the files save to → save to external drive. Have plugged into the computer the whole time. Make a new folder for each project
-<ul>
-<li>On Drea’s computer/external drive, Adam’s folder is DSP Chippewa AL</li>
-</ul></li>
-<li>At end of PQ test, want to see a green circle in lower right</li>
-<li>Still in advanced: scans are already set up for how we’ll use it (parameters are for Salina, KS). Resulting spectrum is in absorbance.</li>
-<li>Measure → routine measurement. Drea also put it in a shortcut in the top menu. Blue test tube icon. We’ll toggle back and forth between background and sample. After you click background, move mouse to sample so you know where to click next</li>
-<li>In every routine measurement window, you’ll be changing the sample description, nothing else</li>
+<li>Sealable plastic sample bags</li>
+<li>Sharpie</li>
+<li>Soil knife/trowel #### Db ring:</li>
+<li>Bulk density ring(s)</li>
+<li>Wood Block</li>
+<li>Rubber Mallet #### Db compliant cavity:</li>
+<li>Spoon</li>
+<li>Saran Wrap</li>
+<li>Pins/nails</li>
+<li>Bag of sieved PGF sand</li>
 </ul>
 </section>
-<section id="packing-and-running-samples" class="level2" data-number="13.2">
-<h2 data-number="13.2" class="anchored" data-anchor-id="packing-and-running-samples"><span class="header-section-number">13.2</span> Packing and Running Samples</h2>
+<section id="field-procedure" class="level2" data-number="16.2">
+<h2 data-number="16.2" class="anchored" data-anchor-id="field-procedure"><span class="header-section-number">16.2</span> Field Procedure</h2>
+<ol type="1">
+<li><p>Determine how many Db samples you will take per horizon (or depth increment). Three replicates per horizon is recommended.&nbsp;</p></li>
+<li><p>Label sample bags with sample-id below:&nbsp; <em>(sample-id-Db-method#)</em></p>
+<p>Ring method example: (26-001-Db-r1) Compliant Cavity method example:&nbsp; (26-001-Db-cc1), (26-001-Db-cc1S)</p></li>
+<li><p>Determine sampling location. Avoiding areas with large coarse fragments, places compacted from the field crew, or very uneven surfaces. If you are using the compliant cavity method, you will need to sample from above rather than from the side of the profile.</p></li>
+</ol>
+<section id="ring-method" class="level4" data-number="16.2.0.1">
+<h4 data-number="16.2.0.1" class="anchored" data-anchor-id="ring-method"><span class="header-section-number">16.2.0.1</span> Ring method</h4>
+<ol start="4" type="1">
+<li><p>Place the wooden block over the Db ring. Use the block to help guide the ring into the profile. The block will also keep loose soil from spilling out.&nbsp;</p></li>
+<li><p>With the mallet, <em>lightly</em> hammer the Db ring into the soil profile. Try to keep the ring level and avoid over-compacting the soil in the ring.&nbsp;</p></li>
+<li><p>Once the ring is flush to the profile, use a soil knife to carve the ring from the profile. Carefully extract the ring. Check if the entire ring is filled.</p>
 <ul>
-<li>You must wear a mask and gloves while packing and running samples</li>
-<li>4 replicates for each sample: pack each sample in the black sample holders 4 times</li>
-</ul>
-<div id="fig-sampleholders" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-sampleholders-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="mir1.jpg" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sampleholders-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;13.1: Black sample holders
-</figcaption>
-</figure>
-</div>
-<ul>
-<li>Using a long narrow tongue depressor (sample holder), scoop a fingernail sized amount of sample from the scintillation vial into the well in the black sample holder</li>
-</ul>
-<p><img src="mir2.jpg" id="fig-tonguedepressor" class="img-fluid" alt="Narrow tongue depresssor"> <img src="mir3.jpg" id="fig-sampleintoholder" class="img-fluid" alt="Transferring sample into holder"></p>
-<ul>
-<li>Use the sample pusher to firmly press the sample into the well</li>
-</ul>
-<p><img src="mir4.jpg" id="fig-stamping" class="img-fluid" alt="Stamping with sample pusher"> <img src="mir5.jpg" id="fig-samplepusher" class="img-fluid" alt="Sample pusher"></p>
-<ul>
-<li>Tap the sample holder on your discard paper towel</li>
-</ul>
-<p><img src="mir6.jpg" id="fig-packingstation" class="img-fluid" alt="Station after packing"> <img src="mir7.jpg" id="fig-sidewaysholder" class="img-fluid" alt="Holder sitting sideways with packed sample"></p>
-<ul>
-<li>Note that in the top photo (above) the clean black sample holders are placed on silver trays. Keep them on the silver trays while packing. Do not lift the holder up before you’ve packed down the sample or it will all fall out</li>
-<li>Gently place the black holder onto the MIR. It’s attached by a magnet, so you don’t have to worry about it being in the right place. Don’t let it slam onto the MIR or the sample could fall out</li>
-<li>Open routine measurement → add sample name (description)</li>
-<li>Will scan and scan until it gets to 128 accepted scans; you shouldn’t have more than 25 rejected scans
-<ul>
-<li>After the scan is done, the software doesn’t show you how many rejected scans there are. That’s okay.</li>
-<li>If you notice more than 25, consider rerunning the sample. Drea explained it as follows: If you have 26 rejections, that’s okay. The MIR still got 120 acceptable scans! If it’s higher, you can compare the spectra and if they are similar enough, that’s probably okay. If not, rerun the sample and follow the same steps. If the results are the same (ie, the steps are telling you to rerun it again), then that could be how the soil is. Drea mentioned some red Kentucky soils that were not running well.</li>
+<li>If the ring is only partially filled, you may need to adjust the height (h) of the ring when calculating for volume in later steps.&nbsp;</li>
 </ul></li>
-<li>Flip black sample holder down once you’ve scanned the sample</li>
-<li>Run the background reference between each sample, even between the four replicates of your samples</li>
-<li>To show samples: right click, scale all spectra, show everything. BOOM! Can change colors, etc</li>
-<li>Wipe each black sample holder with a kimwipe between each new sample, like when you move from sample #1 to sample #2. That way, there’s no confusion about which sample is in which sample holder. One sample number in all four of the sample holders.
+<li><p>Extract <strong>ALL</strong> the soil from the ring into a sample bag.</p></li>
+</ol>
+</section>
+<section id="compliant-cavity-method" class="level4" data-number="16.2.0.2">
+<h4 data-number="16.2.0.2" class="anchored" data-anchor-id="compliant-cavity-method"><span class="header-section-number">16.2.0.2</span> Compliant cavity method</h4>
+<ol start="4" type="1">
+<li><p>Compliant cavity is easiest when sampling from above and working your way down&nbsp;the profile. Starting at the surface, begin carving a small cavity using a spoon or&nbsp;another utensil. Place <strong>ALL</strong> the soil from the cavity in a sample bag.&nbsp;</p></li>
+<li><p>Line the empty cavity with saran wrap. Use pins to keep the plastic taught to the original size of the cavity.&nbsp;</p></li>
+<li><p>Fill the cavity with PGF sand. Try not to compact the sand, and level it to the original&nbsp;height of the cavity.&nbsp;</p></li>
+<li><p>Lift the saran wrap and ensure that ALL the sand is sampled into a separate&nbsp;sample bag.</p></li>
+</ol>
+</section>
+</section>
+<section id="lab-equipment" class="level2" data-number="16.3">
+<h2 data-number="16.3" class="anchored" data-anchor-id="lab-equipment"><span class="header-section-number">16.3</span> Lab Equipment</h2>
 <ul>
-<li>Use a long Q-tip to get the kimwipe into the well</li>
-<li>Drea rinses the black sample holders once a week</li>
-</ul></li>
-<li>Every couple samples, either shake out or replace your paper towels</li>
+<li>Physical datasheet (found in yellow binder)</li>
+<li>Scale (g)</li>
+<li>Weigh boat(s)</li>
+<li>Graduated cylinder (size will depend on the size/quantity of coarse fragments)</li>
+<li>Small 2mm sieve</li>
 </ul>
 </section>
-<section id="exporting" class="level2" data-number="13.3">
-<h2 data-number="13.3" class="anchored" data-anchor-id="exporting"><span class="header-section-number">13.3</span> Exporting</h2>
+<section id="lab-procedure" class="level2" data-number="16.4">
+<h2 data-number="16.4" class="anchored" data-anchor-id="lab-procedure"><span class="header-section-number">16.4</span> Lab Procedure</h2>
+<ol type="1">
+<li><p>As soon as possible, record the field moist weight of each sample.&nbsp;</p></li>
+<li><p>Place samples in the drying oven at 50॰C for at least 48 hours. Be consistent in dry time for all samples.</p></li>
+<li><p>When the samples are completely dry, record the total oven dried weight of the sample.&nbsp;</p>
 <ul>
-<li>Software automatically saves each file to the external hard drive, so you can email them from there. Zip into a folder.</li>
-<li>Having a difficult time opening the files on mac when they are emailed as is.</li>
-</ul>
+<li>The weight of each sample should be taken immediately after removing it from the oven. The soil will absorb moisture from the air, affecting its weight.</li>
+</ul></li>
+<li><p>Sieve the sample using a small 2mm sieve directly over a weigh boat. Record the weight of the sample &lt;2mm and weight of the coarse fragments &gt;2mm.&nbsp;</p>
+<ul>
+<li>After weighing, return the sieved soil back in the original sample bag. Keep the coarse fragments aside for the next step.&nbsp;</li>
+</ul></li>
+<li><p>Measure the volume of the CF using the following water displacement method:</p>
+<ul>
+<li>Using a graduated cylinder, fill with about ~20 ml of water. Cylinder size and amount of water will depend on the size of the sieved coarse fragments. Use your best judgement.</li>
+<li>Record the exact volume of water before submerging coarse fragments.</li>
+<li>Place coarse fragments in the cylinder. Record the exact volume of water after submerging coarse fragments.</li>
+<li>The volume of coarse fragments will equal:<br>
+<span class="math display">\[(volume\:water\:+\:CF) - (volume\:water\:w/out\:CF)\]</span></li>
+<li>Record coarse fragment volume on datasheet.</li>
+</ul></li>
+</ol>
 </section>
-<section id="troubleshooting" class="level2" data-number="13.4">
-<h2 data-number="13.4" class="anchored" data-anchor-id="troubleshooting"><span class="header-section-number">13.4</span> Troubleshooting</h2>
+<section id="calculations" class="level2" data-number="16.5">
+<h2 data-number="16.5" class="anchored" data-anchor-id="calculations"><span class="header-section-number">16.5</span> Calculations</h2>
+<section id="moisture-content" class="level4" data-number="16.5.0.1">
+<h4 data-number="16.5.0.1" class="anchored" data-anchor-id="moisture-content"><span class="header-section-number">16.5.0.1</span> Moisture Content</h4>
+<p>(field moist weight w/ sample bag) - (weight of sample bag) = <em>net field moist weight (g)</em></p>
+<p>(oven dry weight w/ paper bag) - (weight of paper bag) = <em>net oven dry soil weight (g)</em></p>
+<p><span class="math display">\[
+net\:field\:moist\:weight - net\:oven\:dry\:soil\:weight \over net\:oven\:dry\:soil\:weight
+\]</span></p>
+<p>Multiply this value by 100%.</p>
+</section>
+<section id="db" class="level4" data-number="16.5.0.2">
+<h4 data-number="16.5.0.2" class="anchored" data-anchor-id="db"><span class="header-section-number">16.5.0.2</span> Db</h4>
 <ul>
-<li><p>If the software shows you the wrong display, meaning the menus look different, change the workplace display back to alpha II full access</p></li>
-<li><p>If the software doesn’t have the Salina, KS parameters setup, the scanning lengths etc will be wrong. You can reset them manually - page 10-11 steps 34-36 of the NRCS protocol</p></li>
+<li><p>Ring volume (cm^3) = <span class="math display">\[
+(π)(r)^2\:x\:(h)
+\]</span></p>
+<ul>
+<li>r = ring inner-radius (cm)</li>
+<li>h = ring height (cm)</li>
+</ul></li>
+<li><p>Cavity volume (cm^3) = <span class="math display">\[
+od-wt\: sand\: (g) \over Density\: of\: PGF\: sand\: (cm^3)
+\]</span></p></li>
+<li><p>Final volume (cm^3) = <span class="math display">\[
+(ring\: or\: cavity\: volume)\: -\: (CF\: volume)
+\]</span></p></li>
+<li><p>Bulk Density (g/cm^3) =</p></li>
 </ul>
+<p><span class="math display">\[
+net\:oven\:dry\:soil\:weight\:(g) \over final\:volume\:(cm^3)
+\]</span></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -850,13 +902,13 @@ Figure&nbsp;13.1: Black sample holders
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./loss-on-ignition.html" class="pagination-link" aria-label="Loss on Ignition">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Loss on Ignition</span></span>
+      <a href="./moisture-content-bulk-density.html" class="pagination-link" aria-label="Moisture Content and Bulk Density">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Moisture Content and Bulk Density</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./mixing-SHMP.html" class="pagination-link" aria-label="Mixing SHMP">
-        <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Mixing SHMP</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./particle-density-pycnometers.html" class="pagination-link" aria-label="Particle Density with Pycnometers">
+        <span class="nav-page-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Particle Density with Pycnometers</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

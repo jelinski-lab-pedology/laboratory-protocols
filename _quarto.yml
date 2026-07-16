@@ -34,13 +34,14 @@ book:
       - permafrost-soil-processing.qmd
       - pH.qmd
       - pipette-texture.qmd
-      - pXRF.qmd
+      - pxrf-delta.qmd
+      - pxrf-vanta.qmd
       - wet-sieving.qmd
     - part: "Radiation Safety"
       chapters:
       - pXRF-user-guidelines.qmd
       - radiation-and-pXRF-safety-training.qmd
-      - pXRF.qmd
+      - pxrf-vanta.qmd
 #    - summary.qmd
 #    - references.qmd
 #  appendices:
