@@ -1,7 +1,7 @@
 # pXRF (Olympus Vanta series)
 
 ::: callout-note
-Last edited: 16JUL2026 NBP - photos will be added soon!
+Last edited: 02SEP2026 NBP
 
 Portable X-ray fluorescence (pXRF) is an estimate of elemental composition. This protocol is written for use with an **Olympus Vanta series pXRF**. Operating instructions for XRF use in the stand and in the field are included.
 
@@ -24,47 +24,71 @@ If you have not had training with Nic or Nora and do not have a dosimeter, then 
 - Connect the computer to the University of Minnesota IoT wifi. The password is written on the computer in case users are prompted to re-enter it, but the computer should recall it.
 - Put a battery in the pXRF and turn on the device by pressing the power button on the right side of the face. Do not log in - JUST turn it on. To log out, press the arrow to open the menu and scroll down to logout session.
 
-```{r, echo=FALSE, out.width="50%", fig.align="center", fig.cap="Battery port on Vanta pXRF. Line the pins on the battery up with the pins in the unit prior to inserting. The battery will click in when fully inserted."}
+```{r, echo=FALSE, out.width="50%", fig.align="center", fig.cap="Figure 1. Battery port on Vanta pXRF. Line the pins on the battery up with the pins in the unit prior to inserting. The battery will click in when fully inserted."}
 knitr::include_graphics("vanta-xrf1.JPG")
 ```
 
-- Open Vanta2 software on the computer. Choose the XRF from the list of available devices. The pXRF
-- Open the dropdown menu for the list of registered users. It will say Factory upon opening the software. Change it to Administrator and enter the password to log in. The Vanta series pXRF uses the Olympus Geochem model, a 3-beam configuration.
-
-**Placeholder for two photos for these steps (photos 2 and 3)**
+- Open Vanta2 software on the computer. Choose the pXRF from the list of available devices by double clicking. The device serial number will be displayed in front of the IP address when the computer and device are ready to be connected. The computer will not allow users to choose the pXRF from the list of available devices without the serial number being displayed. See Figure 2.
+- Open the dropdown menu for the list of registered users. It will say Factory upon opening the software. Change it to Administrator and enter the password to log in (0000). See Figure 3.
 
 ::: callout-note
 Username: Administrator Password: 0000
 :::
 
+```{r, echo=FALSE, out.width="50%", fig.align="center", fig.cap="Figure 2. List of available devices on Vanta software. Note that the pXRF serial number (941338) is listed on the second option; double click to open the measurement window."}
+knitr::include_graphics("vanta-xrf2.JPG")
+```
+
+```{r, echo=FALSE, out.width="50%", fig.align="center", fig.cap="Figure 3. List of registered users on Vanta software. Choose Administrator and enter password."}
+knitr::include_graphics("vanta-xrf3.JPG")
+```
+
 - Once signed in to the pXRF on the computer, the pXRF screen should read "Remote Connection - Connected to PC."
 
-```{r, echo=FALSE, out.width="50%", fig.align="center", fig.cap="Battery port on Vanta pXRF. Line the pins on the battery up with the pins in the unit prior to inserting. The battery will click in when fully inserted."}
+```{r, echo=FALSE, out.width="50%", fig.align="center", fig.cap="Figure 4. pXRF screen while controlled by Vanta software."}
 knitr::include_graphics("vanta-xrf4.JPG")
 ```
 
 - Connect the pXRF to the stand. The screen side should be down and the handle should be sticking towards the operator. It must latch into place before the operator lets go. The clips on the back of the stand will make an audible "click" noise when secured.
 
-- Insert the calibration coin (316 alloy) into the stand, making sure that it is centered over the screen. The coin is in the pXRF case. Most people place it blank side down (printed side up). Close the stand lid. On the computer, click the small dropdown arrow at the top of the screen to open the menu. Under the System heading, click Cal Check. This will begin the calibration check. Red lights will blink from the stand and pXRF to indicate that radiation is being produced. When the red light stops, calibration is complete. Place the calibration coin back in the bag.
-
-```{r, echo=FALSE, out.width="50%", fig.align="center", fig.cap="Battery port on Vanta pXRF. Line the pins on the battery up with the pins in the unit prior to inserting. The battery will click in when fully inserted."}
+```{r, echo=FALSE, out.width="50%", fig.align="center", fig.cap="Figure 5. pXRF connected to stand. Note that measurement window is flush with bottom of stand."}
 knitr::include_graphics("vanta-xrf5.JPG")
 ```
 
-```{r, echo=FALSE, out.width="50%", fig.align="center", fig.cap="Battery port on Vanta pXRF. Line the pins on the battery up with the pins in the unit prior to inserting. The battery will click in when fully inserted."}
+
+- The Vanta series pXRF uses the Olympus Geochem model, a 3-beam configuration. To change the scan time, open the dropdown menu and choose test times under the Method heading (Figure 6). Change the numbers for each beam individually by double clicking on the number in the Max column (Figure 7). The Jelinski lab's default is scanning for 10, 10, and 20 seconds under beams 1, 2, and 3 respectively. Users can change these values as they'd like, but the software will save the most recent values used. For that reason, **open the test times menu and double check each beam's test time each time the pXRF is used.** For consistency, samples from the same project should be scanned for the same length of time.
+
+
+```{r, echo=FALSE, out.width="50%", fig.align="center", fig.cap="Figure 6. Vanta software menu, Methods section. Test times icon on far right."}
 knitr::include_graphics("vanta-xrf6.JPG")
 ```
 
-```{r, echo=FALSE, out.width="50%", fig.align="center", fig.cap="Battery port on Vanta pXRF. Line the pins on the battery up with the pins in the unit prior to inserting. The battery will click in when fully inserted."}
+
+```{r, echo=FALSE, out.width="50%", fig.align="center", fig.cap="Figure 7. Test times window."}
 knitr::include_graphics("vanta-xrf7.JPG")
+```
+
+
+- Insert the calibration coin (316 alloy) into the stand, making sure that it is centered over the screen. The coin is in the pXRF case. Most people place it blank side down (printed side up). Close the stand lid. On the computer, click the small dropdown arrow at the top of the screen to open the menu. Under the System heading, click Cal Check. This will begin the calibration check. Red lights will blink from the stand and pXRF to indicate that radiation is being produced. When the red light stops, calibration is complete. Place the calibration coin back in the bag.
+
+```{r, echo=FALSE, out.width="50%", fig.align="center", fig.cap="Figure 8. Calibration check button in Vanta software drop down menu."}
+knitr::include_graphics("vanta-xrf8.JPG")
+```
+
+```{r, echo=FALSE, out.width="50%", fig.align="center", fig.cap="Figure 9. pXRF and stand while running; note red lights (flashing)."}
+knitr::include_graphics("vanta-xrf9.JPG")
+```
+
+```{r, echo=FALSE, out.width="50%", fig.align="center", fig.cap="Figure 10. Vanta software while running calibration check."}
+knitr::include_graphics("vanta-xrf10.JPG")
 ```
 
 - To scan samples, place one at a time in the stand. Shut the stand. Press the green play button on the lower left of the computer screen to scan. Prior to scanning, the computer will prompt the user to enter a sample name. Users will be unable to press the play button (and enter a sample name) with the stand door open, so remember the sample name prior to placing it in the stand.
 
-When scanning, the computer will update the elemental composition of the sample on the right side of the screen. The left side of the screen will display a list of previous samples run; clicking one will show its elemental composition.
+- When scanning, the computer will update the elemental composition of the sample on the right side of the screen. The left side of the screen will display a list of previous samples run; clicking one will highlight it in navy blue and display its elemental composition. Results are displayed in parts per million (ppm). Above 10,000 ppm, the computer displays in percent, but all results are exported as ppm.
 
-```{r, echo=FALSE, out.width="50%", fig.align="center", fig.cap="Battery port on Vanta pXRF. Line the pins on the battery up with the pins in the unit prior to inserting. The battery will click in when fully inserted."}
-knitr::include_graphics("vanta-xrf8.JPG")
+```{r, echo=FALSE, out.width="50%", fig.align="center", fig.cap="Figure 11. Vanta software after scanning soil sample. Results shown on right side of screen; showning sample Jun29-12, which is higlighted in navy blue on left."}
+knitr::include_graphics("vanta-xrf11.JPG")
 ```
 
 #### Exporting from the Stand
