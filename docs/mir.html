@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -41,10 +44,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5ccb035bea26c1e21f80f44cf7c27909.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d3f7f8e73c8d287b30bcf59c2b563615.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -310,10 +313,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#setup" id="toc-setup" class="nav-link active" data-scroll-target="#setup"><span class="header-section-number">13.1</span> Setup</a></li>
-  <li><a href="#packing-and-running-samples" id="toc-packing-and-running-samples" class="nav-link" data-scroll-target="#packing-and-running-samples"><span class="header-section-number">13.2</span> Packing and Running Samples</a></li>
-  <li><a href="#exporting" id="toc-exporting" class="nav-link" data-scroll-target="#exporting"><span class="header-section-number">13.3</span> Exporting</a></li>
-  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting"><span class="header-section-number">13.4</span> Troubleshooting</a></li>
+  <li><a href="#materials" id="toc-materials" class="nav-link active" data-scroll-target="#materials"><span class="header-section-number">13.1</span> Materials</a></li>
+  <li><a href="#data-folders-and-sheets" id="toc-data-folders-and-sheets" class="nav-link" data-scroll-target="#data-folders-and-sheets"><span class="header-section-number">13.2</span> Data Folders and Sheets</a></li>
+  <li><a href="#setup" id="toc-setup" class="nav-link" data-scroll-target="#setup"><span class="header-section-number">13.3</span> Setup</a></li>
+  <li><a href="#packing-and-running-samples" id="toc-packing-and-running-samples" class="nav-link" data-scroll-target="#packing-and-running-samples"><span class="header-section-number">13.4</span> Packing and Running Samples</a></li>
+  <li><a href="#exporting" id="toc-exporting" class="nav-link" data-scroll-target="#exporting"><span class="header-section-number">13.5</span> Exporting</a></li>
+  <li><a href="#humidity-mitigation" id="toc-humidity-mitigation" class="nav-link" data-scroll-target="#humidity-mitigation"><span class="header-section-number">13.6</span> Humidity Mitigation</a></li>
+  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting"><span class="header-section-number">13.7</span> Troubleshooting</a></li>
   </ul>
 </nav>
     </div>
@@ -349,44 +355,61 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Last edited: 08NOV2023 NP</p>
-<p>This section is not intended to be a standalone protocol, but rather notes to go along with the NRCS MIR Laboratory Instructions - as of May 2023, V6.6 is the current version. That protocol contains instructions for ball milling samples and using the MIR. Samples must be milled prior to being scanned.</p>
-<p>The NRCS MIR protocol can be found in the Jelinski Lab shared drive. If you are not a member, please email Nic Jelinski.</p>
+<p>Last edited: 24SEP2026 NBP</p>
+<p>This section is not intended to be a standalone protocol, but rather notes to go along with the NRCS MIR Laboratory Instructions - version 7, as of May 2025. That protocol contains instructions for ball milling samples and using the Bruker Alpha II MIR. Samples must be milled prior to being scanned. The NRCS MIR protocol can be found in the Jelinski Lab shared drive - <a href="https://drive.google.com/drive/folders/1F8cBljSTZ04SoSvJfbvu0if4E3mGpQP3?usp=drive_link">mir-materials-30JUN2025</a>. If you are not a member, please email Nic Jelinski.</p>
+<p>Many thanks to Aidan Brousseau for his time spent running and troubleshooting this machine and for his excellent protocol!</p>
 </div>
 </div>
-<section id="setup" class="level2" data-number="13.1">
-<h2 data-number="13.1" class="anchored" data-anchor-id="setup"><span class="header-section-number">13.1</span> Setup</h2>
+<section id="materials" class="level2" data-number="13.1">
+<h2 data-number="13.1" class="anchored" data-anchor-id="materials"><span class="header-section-number">13.1</span> Materials</h2>
 <ul>
-<li>MIR machine needs to be plugged into an ethernet cable which goes into a cable that changes the IP address, which goes into the computer. Use the white cable in the third drawer from the right
-<ul>
-<li>Has to be programmed to your computer → Nic coordinate with IT/Drea</li>
-<li>Drea has docs for Alpha installation, instructions for setting up IP address changer → she can send them to IT when this is getting set up</li>
-</ul></li>
-<li>Every time you turn it on, you run a PQ and OQ test</li>
-<li>When you connect the computer and machine, you should see a green circle on bottom right. Computer and MIR are talking</li>
-<li>Measure → optic setup and service → make sure it’s looking for the Alpha II (not the internet)</li>
-<li>Click agree, next, or close on all tests</li>
-<li>Runs PQ test (performance qualification). Measure BG (background) with reference on there (should always be on).
-<ul>
-<li>PQ test will tell you if you need to change the desiccant; you’ll need to change it if the humidity is over 30%</li>
-</ul></li>
-<li>Look at measurement settings. Should be on Region 5 (data from Salina, KS), if not do it through the advanced tab</li>
-<li>Sample description is your sample code and file name.</li>
-<li>In advanced → change path the files save to → save to external drive. Have plugged into the computer the whole time. Make a new folder for each project
-<ul>
-<li>On Drea’s computer/external drive, Adam’s folder is DSP Chippewa AL</li>
-</ul></li>
-<li>At end of PQ test, want to see a green circle in lower right</li>
-<li>Still in advanced: scans are already set up for how we’ll use it (parameters are for Salina, KS). Resulting spectrum is in absorbance.</li>
-<li>Measure → routine measurement. Drea also put it in a shortcut in the top menu. Blue test tube icon. We’ll toggle back and forth between background and sample. After you click background, move mouse to sample so you know where to click next</li>
-<li>In every routine measurement window, you’ll be changing the sample description, nothing else</li>
+<li>4 black plastic sample puck holders with magnets</li>
+<li>Small flat aluminum plates</li>
+<li>Small metal plunger</li>
+<li>Larger tray to place prepped samples on</li>
+<li>Wooden stir stick or skinny metal scoop</li>
+<li>Bruker Alpha II FT-IR spectrometer</li>
+<li>Computer with OPUS application installed</li>
+<li>Gold plated mirror reference (should remain on MIR)</li>
+<li>Prepared soil samples</li>
 </ul>
 </section>
-<section id="packing-and-running-samples" class="level2" data-number="13.2">
-<h2 data-number="13.2" class="anchored" data-anchor-id="packing-and-running-samples"><span class="header-section-number">13.2</span> Packing and Running Samples</h2>
+<section id="data-folders-and-sheets" class="level2" data-number="13.2">
+<h2 data-number="13.2" class="anchored" data-anchor-id="data-folders-and-sheets"><span class="header-section-number">13.2</span> Data Folders and Sheets</h2>
 <ul>
-<li>You must wear a mask and gloves while packing and running samples</li>
-<li>4 replicates for each sample: pack each sample in the black sample holders 4 times</li>
+<li>MIR Data Folder - <a href="https://drive.google.com/drive/folders/1C-gboLXdwW_f3k_-qGQlFLGNMEj9ZElO?usp=drive_link" class="uri">https://drive.google.com/drive/folders/1C-gboLXdwW_f3k_-qGQlFLGNMEj9ZElO?usp=drive_link</a></li>
+<li>MIR Final Data Sheet - <a href="https://docs.google.com/spreadsheets/d/1ny4SEYO-J2b6NCI2dJDAP7ohfHQTtgfL8Ht7Wa5-GTk/edit?usp=drive_link" class="uri">https://docs.google.com/spreadsheets/d/1ny4SEYO-J2b6NCI2dJDAP7ohfHQTtgfL8Ht7Wa5-GTk/edit?usp=drive_link</a></li>
+</ul>
+</section>
+<section id="setup" class="level2" data-number="13.3">
+<h2 data-number="13.3" class="anchored" data-anchor-id="setup"><span class="header-section-number">13.3</span> Setup</h2>
+<ul>
+<li>The MIR unit needs to be plugged into an ethernet cable which goes into a cable that changes the IP address, which goes into the computer - it can only be used with a designated computer.</li>
+<li>Let the MIR warm up for 30 minutes prior to turning on the computer.</li>
+<li>When the OPUS software is first opened, it will automatically run an OVP test. This takes 5-7 minutes.</li>
+<li>Pay attention to the indicator light in the bottom right corner of the OPUS software.
+<ul>
+<li>Gray: computer and MIR are not communicating correctly.</li>
+<li>Yellow: computer and MIR are communicating, but a PQ test needs to be run.</li>
+<li>Green: MIR is ready to scan samples.</li>
+</ul></li>
+<li>Runs PQ test (performance qualification). Measure BG (background) with reference on there (should always be on).
+<ul>
+<li>PQ test will tell say if the desiccant needs to be changed; if the humidity is over 30%, replace desiccant.</li>
+</ul></li>
+<li>Look at measurement settings. Should be on Region 5 (data from Salina, KS), if not do it through the advanced tab.</li>
+<li>Sample description is the sample code and file name.</li>
+<li>In the advanced menu, there is some information describing the parameters, but know that scans are already set up for how UMN will use it (parameters are for Salina, KS). Resulting spectrum is in absorbance.</li>
+<li>To run samples, choose measure → setup measurement parameters. See NRCS protocol. Once set up, run samples by choosing measure -&gt; routine measurement, or click the green test tube icon.</li>
+<li>Toggle back and forth between background and sample single channel.</li>
+<li>In every routine measurement window, users change the sample description, nothing else.</li>
+</ul>
+</section>
+<section id="packing-and-running-samples" class="level2" data-number="13.4">
+<h2 data-number="13.4" class="anchored" data-anchor-id="packing-and-running-samples"><span class="header-section-number">13.4</span> Packing and Running Samples</h2>
+<ul>
+<li>You must wear a mask and gloves while packing and running samples.</li>
+<li>4 replicates for each sample: pack each sample in the black sample holders 4 times.</li>
 </ul>
 <div id="fig-sampleholders" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -419,10 +442,10 @@ Figure&nbsp;13.1: Black sample holders
 <li>After the scan is done, the software doesn’t show you how many rejected scans there are. That’s okay.</li>
 <li>If you notice more than 25, consider rerunning the sample. Drea explained it as follows: If you have 26 rejections, that’s okay. The MIR still got 120 acceptable scans! If it’s higher, you can compare the spectra and if they are similar enough, that’s probably okay. If not, rerun the sample and follow the same steps. If the results are the same (ie, the steps are telling you to rerun it again), then that could be how the soil is. Drea mentioned some red Kentucky soils that were not running well.</li>
 </ul></li>
-<li>Flip black sample holder down once you’ve scanned the sample</li>
-<li>Run the background reference between each sample, even between the four replicates of your samples</li>
-<li>To show samples: right click, scale all spectra, show everything. BOOM! Can change colors, etc</li>
-<li>Wipe each black sample holder with a kimwipe between each new sample, like when you move from sample #1 to sample #2. That way, there’s no confusion about which sample is in which sample holder. One sample number in all four of the sample holders.
+<li>Flip black sample holder down once the sample has been scanned</li>
+<li>Run the background reference between each sample, even between the four replicates of your samples. This was written in a 2023 training, but as of 2026, UMN has only been running the reference between unique samples, not the replicates of each.</li>
+<li>To show samples: right click, scale all spectra, show everything.</li>
+<li>Wipe each black sample holder with a kimwipe between each new sample. That way, there’s no confusion about which sample is in which sample holder. One sample number in all four of the sample holders.
 <ul>
 <li>Use a long Q-tip to get the kimwipe into the well</li>
 <li>Drea rinses the black sample holders once a week</li>
@@ -430,18 +453,25 @@ Figure&nbsp;13.1: Black sample holders
 <li>Every couple samples, either shake out or replace your paper towels</li>
 </ul>
 </section>
-<section id="exporting" class="level2" data-number="13.3">
-<h2 data-number="13.3" class="anchored" data-anchor-id="exporting"><span class="header-section-number">13.3</span> Exporting</h2>
+<section id="exporting" class="level2" data-number="13.5">
+<h2 data-number="13.5" class="anchored" data-anchor-id="exporting"><span class="header-section-number">13.5</span> Exporting</h2>
 <ul>
 <li>Software automatically saves each file to the external hard drive, so you can email them from there. Zip into a folder.</li>
 <li>Having a difficult time opening the files on mac when they are emailed as is.</li>
 </ul>
 </section>
-<section id="troubleshooting" class="level2" data-number="13.4">
-<h2 data-number="13.4" class="anchored" data-anchor-id="troubleshooting"><span class="header-section-number">13.4</span> Troubleshooting</h2>
+<section id="humidity-mitigation" class="level2" data-number="13.6">
+<h2 data-number="13.6" class="anchored" data-anchor-id="humidity-mitigation"><span class="header-section-number">13.6</span> Humidity Mitigation</h2>
 <ul>
-<li><p>If the software shows you the wrong display, meaning the menus look different, change the workplace display back to alpha II full access</p></li>
-<li><p>If the software doesn’t have the Salina, KS parameters setup, the scanning lengths etc will be wrong. You can reset them manually - page 10-11 steps 34-36 of the NRCS protocol</p></li>
+<li>Empty the humidifier in Borlaug 198 periodically.</li>
+<li>Begin checking the humidity percent on the MIR after one month has passed since its last replacement. Click round indicator light in bottom right of OPUS software. Choose interferometer to read scanner diagnostics; look for relative humidity IF compartment (%). It needs to be replaced at 30% humidity.</li>
+</ul>
+</section>
+<section id="troubleshooting" class="level2" data-number="13.7">
+<h2 data-number="13.7" class="anchored" data-anchor-id="troubleshooting"><span class="header-section-number">13.7</span> Troubleshooting</h2>
+<ul>
+<li><p>If the software shows the wrong display, meaning the menus look different, change the workplace display back to alpha II full access.</p></li>
+<li><p>If the software doesn’t have the Salina, KS parameters setup, the scanning lengths etc will be wrong. You can reset them manually - page 10-11 steps 34-36 of the NRCS protocol.</p></li>
 </ul>
 
 
