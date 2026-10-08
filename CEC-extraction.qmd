@@ -50,13 +50,13 @@ Don't cover or cap tightly or suction will cause it to pop. If using cap, flip t
 
 - Insert pH probe into solution to monitor pH.
 
-- Pour approximately 10 mL acetic acid or NH4OH in a small beaker (acetic if pH \>7, NH4OH if pH \<7).
+- Pour approximately 10 mL acetic acid or NH4OH in a small beaker (acetic if pH >7, NH4OH if pH <7).
 
 - Use syringe to add either solution, a few drops at a time to the ammonium acetate solution. Wait a little between additions. Do this until solution pH is 7.00 (+/- 0.05 if using the nicer pH meter).
 
 - Add DDI to 1800mL. pH may change a little when you do this. Readjust pH if necessary with additions of NH4OH or acetic acid.
 
-- Pour solution back into 2L volumetric flask and add DDI to 2 L mark.
+- Pour solution back into 2L volumetric flask and add DDI to 2L mark.
 
 - Pour 1 N ammonium acetate solution into 2 -1 L labeled nalgene bottles.
 
@@ -121,11 +121,11 @@ RT: reagent tubes
 
 - Label Extraction Tubes (ET) and Tared Extraction Tubes with letters. Use different colored tape for ETs, TETNH4OAc, and TETKCl tubes.
 
-- Weigh TETNH4OAc tubes AFTER labeling - assemble first. 
+- Weigh TETNH4OAc tubes AFTER labeling - assemble first.
 
 - Rinse ET and TETNH4OAc syringes with NH4OAc.
 
-- Weigh 2.5g of \<2 mm, air dry soil to nearest mg and place on top of filter paper inside a labeled ET. Prepare one quality control check sample, one duplicate, and one blank (no soil) per run. Remember to tare the new weigh boat each time.
+- Weigh 2.5g of <2 mm, air dry soil to nearest mg and place on top of filter paper inside a labeled ET. Prepare one quality control check sample, one duplicate, and one blank (no soil) per run. Remember to tare the new weigh boat each time.
 
 - Put 4 filter papers in each ET (see method). Wet down filter paper with NH4OAc.
 
@@ -133,9 +133,9 @@ RT: reagent tubes
 
 - Use a wash bottle to rinse inside of ET with NH4OAc. All soil should be wetted and no air bubbles. Shaking, swirling, or stirring may be required to wet organic samples. Fill with NH4OAc to 20mL mark.
 
-- Secure RT to top of ET. Let stand for 30 min (pay attention!). Extract \@ 30 min rate until 2mL remains above soil level (8-12 min). Turn the extractor off. Do not let soil dry.
+- Secure RT to top of ET. Let stand for 30 min (pay attention!). Extract @ 30 min rate until 2mL remains above soil level (8-12 min). Turn the extractor off. Do not let soil dry.
 
-- Add 40mL NH4OAc to RT. Extract \@ 12 hr. rate (overnight).
+- Add 40mL NH4OAc to RT. Extract @ 12 hr. rate (overnight).
 
 - Turn off the extractor!!! Remove RT from top of ET and place the RT in a clean container. Carefully remove TETNH4OAc, leaving tubing attached to ET. Weigh each TETNH4OAc containing the NH4OAc extract to the nearest mg.
 
@@ -155,7 +155,7 @@ Wind the plate down a little before removing the TET tube.
 
 - Extract at the 30-min extraction rate until 2 mL of this solution remains above soil level. Use a wash bottle to wash sides of tubes. Turn off the extractor. Do not let soil dry.
 
-- Add 45mL ethanol to RT. Extract the ethanol \@ 45 min rate until 2mL remains above soil level. Turn off the extractor. Do not let soil dry. Crank the plate down a little before removing TETNH4OAc to avoid fumigating yourself and others. Discard ethanol by emptying syringes into a large flask. Cover with a stopper when done.
+- Add 45mL ethanol to RT. Extract the ethanol @ 45 min rate until 2mL remains above soil level. Turn off the extractor. Do not let soil dry. Crank the plate down a little before removing TETNH4OAc to avoid fumigating yourself and others. Discard ethanol by emptying syringes into a large flask. Cover with a stopper when done.
 
 - Re-secure TET(NH4OAc) to ET. Fill RT to 50 mL mark with ethanol. Set extractor to 45 min. Extract for 45 min. Do not let soil dry. Crank down the plate slightly and remove TETNH4OAc. Discard ethanol by emptying syringes into a large flask. Cover with a stopper when done.
 
@@ -171,7 +171,7 @@ Wind the plate down a little before removing the TET tube.
 
 - Crank plates down slightly, remove TETKCl, weigh TETKCl, record!!!
 
-- Shake. Add filter if needed. Fill vial. Fill falcon tube. Store \@ 4 deg. C.Remove ET.
+- Shake. Add filter if needed. Fill vial. Fill falcon tube. Store @ 4 deg. C.Remove ET.
 
 ::: callout-note
 To wash syringes: Put in a water bath with a small amount of soap. Lightly scrub with a brush. Rinse 2-3 times with DDI. Air dry.
@@ -195,7 +195,7 @@ NOTE: Do not cover a tray of samples with saran wrap. There is too much static a
 
 This takes me about 1.5 hours.
 
-Since the analytical balance is in the other room from the extractor, make it easier on yourself and make a tray like in the picture so you can weigh them all at once and then bring them over. 
+Since the analytical balance is in the other room from the extractor, make it easier on yourself and make a tray like in the picture so you can weigh them all at once and then bring them over.
 
 Choose a random letter that will hold your quality control (Q.C.) sample and which one will be your blank run. Don't use the same ones each time.
 
@@ -223,12 +223,12 @@ Attach corresponding TETNH4OAc to each ET with rubber tubing. Make sure the tubi
 
 ![Tared Extraction Tube](cec1.jpeg){#fig-tet}
 
-Use a wash bottle to rinse inside of ET with NH4OAc. All soil should be wetted and no air bubbles. Shaking, swirling, or stirring may be required to wet organic samples. Fill with NH4OAc to 20mL mark. Secure RT to top of ET. Let stand for 30 min. Extract \@ 30 min. rate until 2mL remains above soil level (10-20 min). Turn the extractor off. Do not let soil dry. 
+Use a wash bottle to rinse inside of ET with NH4OAc. All soil should be wetted and no air bubbles. Shaking, swirling, or stirring may be required to wet organic samples. Fill with NH4OAc to 20mL mark. Secure RT to top of ET. Let stand for 30 min. Extract @ 30 min. rate until 2mL remains above soil level (10-20 min). Turn the extractor off. Do not let soil dry. 
 
-Now, there may be soil sticking to the sides of the ET after this extraction. You may need to remove the RT from the ET and wash down the sides again with NH4OAc. This means you will put less NH4OAc in the RT for the next extraction. Just subtract the \# of extra milliliters from 40 to determine how many you will put in the RT. In the picture you see the soil level at approximately 3 mL. You'll want to keep 2 mL NH4OAc above the soil level for all samples, so for this sample you'll want to keep it at about 5 mL. It looks like 6 mL were added while the soil was being washed down from the sides, so you'll only add 34 mL (40-6) to the reservoir tube.
+Now, there may be soil sticking to the sides of the ET after this extraction. You may need to remove the RT from the ET and wash down the sides again with NH4OAc. This means you will put less NH4OAc in the RT for the next extraction. Just subtract the # of extra milliliters from 40 to determine how many you will put in the RT. In the picture you see the soil level at approximately 3 mL. You'll want to keep 2 mL NH4OAc above the soil level for all samples, so for this sample you'll want to keep it at about 5 mL. It looks like 6 mL were added while the soil was being washed down from the sides, so you'll only add 34 mL (40-6) to the reservoir tube.
 
-For the ethanol rinse, first use the ethanol wash bottle to wash any ammonium acetate or soil particles from the sides of the ET. Then use a clean 150mL beaker to fill ET to 20mL mark with ethanol. Place RT on top of ET. Let equilibrate for 30 min. 
+For the ethanol rinse, first use the ethanol wash bottle to wash any ammonium acetate or soil particles from the sides of the ET. Then use a clean 150mL beaker to fill ET to 20mL mark with ethanol. Place RT on top of ET. Let equilibrate for 30 min.
 
 Extract at 30 min. rate until 2 mL remains above soil level. Turn off the extractor.
 
-Now, there may be soil sticking to the sides of the ET after this extraction. You may need to remove the RT from the ET and wash down the sides again with ethanol. This means you will put less ethanol in the RT for the next extraction. Just subtract the \# of extra milliliters from 45 to determine how many you will put in the RT. :::
+Now, there may be soil sticking to the sides of the ET after this extraction. You may need to remove the RT from the ET and wash down the sides again with ethanol. This means you will put less ethanol in the RT for the next extraction. Just subtract the \# of extra milliliters from 45 to determine how many you will put in the RT.

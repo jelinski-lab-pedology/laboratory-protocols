@@ -317,9 +317,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#data-folders-and-sheets" id="toc-data-folders-and-sheets" class="nav-link" data-scroll-target="#data-folders-and-sheets"><span class="header-section-number">13.2</span> Data Folders and Sheets</a></li>
   <li><a href="#setup" id="toc-setup" class="nav-link" data-scroll-target="#setup"><span class="header-section-number">13.3</span> Setup</a></li>
   <li><a href="#packing-and-running-samples" id="toc-packing-and-running-samples" class="nav-link" data-scroll-target="#packing-and-running-samples"><span class="header-section-number">13.4</span> Packing and Running Samples</a></li>
-  <li><a href="#exporting" id="toc-exporting" class="nav-link" data-scroll-target="#exporting"><span class="header-section-number">13.5</span> Exporting</a></li>
-  <li><a href="#humidity-mitigation" id="toc-humidity-mitigation" class="nav-link" data-scroll-target="#humidity-mitigation"><span class="header-section-number">13.6</span> Humidity Mitigation</a></li>
-  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting"><span class="header-section-number">13.7</span> Troubleshooting</a></li>
+  <li><a href="#drift-accessory" id="toc-drift-accessory" class="nav-link" data-scroll-target="#drift-accessory"><span class="header-section-number">13.5</span> Drift Accessory</a></li>
+  <li><a href="#exporting" id="toc-exporting" class="nav-link" data-scroll-target="#exporting"><span class="header-section-number">13.6</span> Exporting</a></li>
+  <li><a href="#humidity-mitigation" id="toc-humidity-mitigation" class="nav-link" data-scroll-target="#humidity-mitigation"><span class="header-section-number">13.7</span> Humidity Mitigation</a></li>
+  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting"><span class="header-section-number">13.8</span> Troubleshooting</a></li>
   </ul>
 </nav>
     </div>
@@ -345,20 +346,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<div class="{callout-note}">
 <p>Last edited: 24SEP2026 NBP</p>
 <p>This section is not intended to be a standalone protocol, but rather notes to go along with the NRCS MIR Laboratory Instructions - version 7, as of May 2025. That protocol contains instructions for ball milling samples and using the Bruker Alpha II MIR. Samples must be milled prior to being scanned. The NRCS MIR protocol can be found in the Jelinski Lab shared drive - <a href="https://drive.google.com/drive/folders/1F8cBljSTZ04SoSvJfbvu0if4E3mGpQP3?usp=drive_link">mir-materials-30JUN2025</a>. If you are not a member, please email Nic Jelinski.</p>
 <p>Many thanks to Aidan Brousseau for his time spent running and troubleshooting this machine and for his excellent protocol!</p>
-</div>
 </div>
 <section id="materials" class="level2" data-number="13.1">
 <h2 data-number="13.1" class="anchored" data-anchor-id="materials"><span class="header-section-number">13.1</span> Materials</h2>
@@ -408,8 +399,11 @@ Note
 <section id="packing-and-running-samples" class="level2" data-number="13.4">
 <h2 data-number="13.4" class="anchored" data-anchor-id="packing-and-running-samples"><span class="header-section-number">13.4</span> Packing and Running Samples</h2>
 <ul>
-<li>You must wear a mask and gloves while packing and running samples.</li>
-<li>4 replicates for each sample: pack each sample in the black sample holders 4 times.</li>
+<li>A mask and gloves must be worn while packing and running samples, especially if using the dift accessory.</li>
+<li>4 replicates should be prepared for each sample: pack a subset of each sample in the four black sample holders.</li>
+<li>Using a long narrow tongue depressor (sample holder), scoop a fingernail sized amount of sample from the scintillation vial into the well in the black sample holder.</li>
+<li>Use the sample pusher to firmly press the sample into the well.</li>
+<li>Tap the sample holder on your discard paper towel.</li>
 </ul>
 <div id="fig-sampleholders" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -421,57 +415,67 @@ Figure&nbsp;13.1: Black sample holders
 </figcaption>
 </figure>
 </div>
-<ul>
-<li>Using a long narrow tongue depressor (sample holder), scoop a fingernail sized amount of sample from the scintillation vial into the well in the black sample holder</li>
-</ul>
 <p><img src="mir2.jpg" id="fig-tonguedepressor" class="img-fluid" alt="Narrow tongue depresssor"> <img src="mir3.jpg" id="fig-sampleintoholder" class="img-fluid" alt="Transferring sample into holder"></p>
-<ul>
-<li>Use the sample pusher to firmly press the sample into the well</li>
-</ul>
 <p><img src="mir4.jpg" id="fig-stamping" class="img-fluid" alt="Stamping with sample pusher"> <img src="mir5.jpg" id="fig-samplepusher" class="img-fluid" alt="Sample pusher"></p>
-<ul>
-<li>Tap the sample holder on your discard paper towel</li>
-</ul>
 <p><img src="mir6.jpg" id="fig-packingstation" class="img-fluid" alt="Station after packing"> <img src="mir7.jpg" id="fig-sidewaysholder" class="img-fluid" alt="Holder sitting sideways with packed sample"></p>
 <ul>
-<li>Note that in the top photo (above) the clean black sample holders are placed on silver trays. Keep them on the silver trays while packing. Do not lift the holder up before you’ve packed down the sample or it will all fall out</li>
-<li>Gently place the black holder onto the MIR. It’s attached by a magnet, so you don’t have to worry about it being in the right place. Don’t let it slam onto the MIR or the sample could fall out</li>
-<li>Open routine measurement → add sample name (description)</li>
-<li>Will scan and scan until it gets to 128 accepted scans; you shouldn’t have more than 25 rejected scans
+<li>Note that in the top photo (above) the clean black sample holders are placed on silver trays. Keep them on the silver trays while packing. Do not lift the holder up before the sample has been packed down or it will all fall out.</li>
+<li>Gently place the black holder onto the MIR. It’s attached by a magnet, so operators should not stress about exact placement. Don’t let it slam onto the MIR or the sample could fall out.</li>
+<li>Open routine measurement → add sample name (description).</li>
+<li>The MIR will scan until it reaches 128 accepted scans; monitor the number of rejections closely, especially in the first 30 seconds. Samples should not have more than 25 rejected scans.
 <ul>
-<li>After the scan is done, the software doesn’t show you how many rejected scans there are. That’s okay.</li>
-<li>If you notice more than 25, consider rerunning the sample. Drea explained it as follows: If you have 26 rejections, that’s okay. The MIR still got 120 acceptable scans! If it’s higher, you can compare the spectra and if they are similar enough, that’s probably okay. If not, rerun the sample and follow the same steps. If the results are the same (ie, the steps are telling you to rerun it again), then that could be how the soil is. Drea mentioned some red Kentucky soils that were not running well.</li>
+<li>After the scan is done, the software doesn’t show users how many rejected scans there are. That’s okay.</li>
+<li>If there are more than 25 rejections, consider rerunning the sample. Drea explained it as follows: If there are 26 rejections, that’s okay. The MIR still got 120 acceptable scans! If it’s higher, users can compare the spectra and if they are similar enough, that’s probably okay. If not, rerun the sample and follow the same steps. If the results are the same (ie, the steps are telling the user to rerun it again), then that could be how the soil is. Drea mentioned some red Kentucky soils that were not running well.</li>
 </ul></li>
-<li>Flip black sample holder down once the sample has been scanned</li>
+<li>Flip black sample holder down once the sample has been scanned to keep track.</li>
 <li>Run the background reference between each sample, even between the four replicates of your samples. This was written in a 2023 training, but as of 2026, UMN has only been running the reference between unique samples, not the replicates of each.</li>
 <li>To show samples: right click, scale all spectra, show everything.</li>
 <li>Wipe each black sample holder with a kimwipe between each new sample. That way, there’s no confusion about which sample is in which sample holder. One sample number in all four of the sample holders.
 <ul>
-<li>Use a long Q-tip to get the kimwipe into the well</li>
-<li>Drea rinses the black sample holders once a week</li>
+<li>Use a long Q-tip to get the kimwipe into the well.</li>
+<li>Drea rinses the black sample holders once a week.</li>
 </ul></li>
-<li>Every couple samples, either shake out or replace your paper towels</li>
+<li>Every couple samples, either shake out or replace the paper towels or Kim wipes on the tray.</li>
 </ul>
 </section>
-<section id="exporting" class="level2" data-number="13.5">
-<h2 data-number="13.5" class="anchored" data-anchor-id="exporting"><span class="header-section-number">13.5</span> Exporting</h2>
+<section id="drift-accessory" class="level2" data-number="13.5">
+<h2 data-number="13.5" class="anchored" data-anchor-id="drift-accessory"><span class="header-section-number">13.5</span> Drift Accessory</h2>
+<p>The drift accessory works the exact same as the normal samples other than the sample prep and region. <strong>However, it is very important to wear gloves while using the drift accessory because your fingers will damage the gold plated mirror.</strong> Below are the steps to use the Drift accessory for the Alpha II MIR:</p>
+<ol type="1">
+<li><p>Wearing gloves remove the normal attachment for the MIR by pushing down on the gray tab at the top of the machine and sliding it towards you carefully. Place that attachment on a piece of clean paper. These are located in the drawer below the MIR.</p></li>
+<li><p>Remove the blue box from the box and place it on the sample prep tray and remove the drift accessory from the box with orange markings sitting against the wall in Borlaug 198. Place this on the machine by aligning the black tabs on the back of the drift into the holes on the MIR and pushing down on the grey tab once again. The light on the MIR will go from red to orange if done correctly.</p></li>
+<li><p>Open the little blue box and inside there is a small gold plated mirror. Align the tab on the bottom on the mirror with the hole on the arm of the drift and place it in. Push the arm all the way back into the machine.</p></li>
+<li><p>Run a PQ test using the same steps listed above.</p></li>
+<li><p>After the PQ test is complete, set the region to “DRIFT130.XPM”</p></li>
+<li><p>To start sample prep, place the two black pieces in the little blue box together and place the small silver cups inside the hole.</p></li>
+<li><p>Fill said silver cup with soil and press it down and scrape the excess off the top with the long silver tool also located in the little blue box. Repeat with the other silver cup.</p></li>
+<li><p>Run a background with the gold plated mirror and after that is completed you can take the gold mirror off and place it back in the little blue box.</p></li>
+<li><p>You can now place the silver cup full of soil into the arm and push the arm back into the machine and run the sample.</p></li>
+<li><p>After the sample is complete dump it back into the scintillation vial and clean the silver cup with the paint brush located in the little blue box.</p></li>
+<li><p>Repeat step 7-10 until 4 replicates are completed.</p></li>
+</ol>
+</section>
+<section id="exporting" class="level2" data-number="13.6">
+<h2 data-number="13.6" class="anchored" data-anchor-id="exporting"><span class="header-section-number">13.6</span> Exporting</h2>
 <ul>
+<li>For ongoing projects in the Jelinski lab, spectra are saved locally on the laptop. Close out of the OPUS software. When prompted, click Save Files in the small window.</li>
 <li>Software automatically saves each file to the external hard drive, so you can email them from there. Zip into a folder.</li>
 <li>Having a difficult time opening the files on mac when they are emailed as is.</li>
 </ul>
 </section>
-<section id="humidity-mitigation" class="level2" data-number="13.6">
-<h2 data-number="13.6" class="anchored" data-anchor-id="humidity-mitigation"><span class="header-section-number">13.6</span> Humidity Mitigation</h2>
+<section id="humidity-mitigation" class="level2" data-number="13.7">
+<h2 data-number="13.7" class="anchored" data-anchor-id="humidity-mitigation"><span class="header-section-number">13.7</span> Humidity Mitigation</h2>
 <ul>
 <li>Empty the humidifier in Borlaug 198 periodically.</li>
-<li>Begin checking the humidity percent on the MIR after one month has passed since its last replacement. Click round indicator light in bottom right of OPUS software. Choose interferometer to read scanner diagnostics; look for relative humidity IF compartment (%). It needs to be replaced at 30% humidity.</li>
+<li>Begin checking the humidity percent on the MIR after one month has passed since the desiccant’s last replacement. Click round indicator light in bottom right of OPUS software. Choose interferometer to read scanner diagnostics; look for relative humidity IF compartment (%). It needs to be replaced at 30% humidity.</li>
+<li>Note the date on which the desiccant was replaced on the paper to the left of the MIR.</li>
 </ul>
 </section>
-<section id="troubleshooting" class="level2" data-number="13.7">
-<h2 data-number="13.7" class="anchored" data-anchor-id="troubleshooting"><span class="header-section-number">13.7</span> Troubleshooting</h2>
+<section id="troubleshooting" class="level2" data-number="13.8">
+<h2 data-number="13.8" class="anchored" data-anchor-id="troubleshooting"><span class="header-section-number">13.8</span> Troubleshooting</h2>
 <ul>
-<li><p>If the software shows the wrong display, meaning the menus look different, change the workplace display back to alpha II full access.</p></li>
-<li><p>If the software doesn’t have the Salina, KS parameters setup, the scanning lengths etc will be wrong. You can reset them manually - page 10-11 steps 34-36 of the NRCS protocol.</p></li>
+<li>If the software shows the wrong display, meaning the menus look different, change the workplace display back to alpha II full access.</li>
+<li>If the software doesn’t have the Salina, KS parameters setup, the scanning lengths, etc. will be wrong. They can be reset them manually - page 10-11 steps 34-36 of the NRCS protocol.</li>
 </ul>
 
 
